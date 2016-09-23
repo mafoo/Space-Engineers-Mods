@@ -1,0 +1,45 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!--Blueprint Groups-->
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <ItemIds>
+        <string>WarHead/LargeMediumWarhead</string>
+        <string>WarHead/LargeSmallWarhead</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <ItemIds>
+        <string>WarHead/SmallLargeWarhead</string>
+        <string>WarHead/SmallMediumWarhead</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+      <Name>WeaponsTools</Name>
+      <ItemIds>
+        <string>WarHead/LargeMediumWarhead</string>
+        <string>WarHead/LargeSmallWarhead</string>
+        <string>WarHead/SmallLargeWarhead</string>
+        <string>WarHead/SmallMediumWarhead</string>
+        <string>WarHead/SmallWarhead</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

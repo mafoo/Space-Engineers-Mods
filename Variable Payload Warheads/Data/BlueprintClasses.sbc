@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Assembler Blueprints -->
+  <BlueprintClassEntries>
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="WarHead/LargeMediumWarhead" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="WarHead/LargeSmallWarhead" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="WarHead/SmallLargeWarhead" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="WarHead/SmallMediumWarhead" />
+
+  </BlueprintClassEntries>
+</Definitions>

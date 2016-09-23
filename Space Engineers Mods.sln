@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripts", "Scripts\Scripts.csproj", "{216A3B13-35C1-478D-B4C6-889258114EE3}"
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Scaffolding Blocks", "Scaffolding Blocks\Scaffolding Blocks.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Variable Payload Warheads", "Variable Payload Warheads\Variable Payload Warheads.pssproj", "{54225E8A-BEE2-43F5-A122-CCED2FBCCD9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{216A3B13-35C1-478D-B4C6-889258114EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216A3B13-35C1-478D-B4C6-889258114EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216A3B13-35C1-478D-B4C6-889258114EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216A3B13-35C1-478D-B4C6-889258114EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54225E8A-BEE2-43F5-A122-CCED2FBCCD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54225E8A-BEE2-43F5-A122-CCED2FBCCD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54225E8A-BEE2-43F5-A122-CCED2FBCCD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54225E8A-BEE2-43F5-A122-CCED2FBCCD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

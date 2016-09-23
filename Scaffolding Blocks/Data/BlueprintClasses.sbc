@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Assembler Blueprints -->
+  <BlueprintClassEntries>
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeLightScaffoldBlock" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeLightScaffoldSlope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeLightScaffoldCorner" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeLightScaffoldCornerInv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldBlock" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldSlope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldCorner" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldCornerInv" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeLightScaffoldRoundedSlope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeLightScaffoldRoundedCorner" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldRoundedSlope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldRoundedCorner" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeLightScaffoldSlope2Base" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeLightScaffoldSlab" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeLightScaffoldSlope2Tip" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeLightScaffoldInvCorner2Base" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeLightScaffoldInvCorner2Tip" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeLightScaffoldCorner2Base" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeLightScaffoldCorner2Tip" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldSlope2Base" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldSlab" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldSlope2Tip" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldInvCorner2Base" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldInvCorner2Tip" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldCorner2Base" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldCorner2Tip" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldBlock" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldSlope" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldCorner" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldCornerInv" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldBlock" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldSlope" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldCorner" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldCornerInv" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldRoundedSlope" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldRoundedCorner" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldRoundedSlope" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldRoundedCorner" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldSlope2Base" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldSlab" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldSlope2Tip" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldInvCorner2Base" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldInvCorner2Tip" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldCorner2Base" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldCorner2Tip" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldSlope2Base" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldSlab" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldSlope2Tip" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldInvCorner2Base" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldInvCorner2Tip" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldCorner2Base" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldCorner2Tip" />
+
+
+  </BlueprintClassEntries>
+</Definitions>

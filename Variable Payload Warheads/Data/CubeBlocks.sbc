@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
+      <Id>
+        <TypeId>Warhead</TypeId>
+        <SubtypeId>LargeWarhead</SubtypeId>
+      </Id>
+      <DisplayName>Large Warhead (22.5M/9 Blocks)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\warhead.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Girder" Count="24" />
+        <Component Subtype="Construction" Count="12" />
+        <Component Subtype="SmallTube" Count="12" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="Explosives" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="Explosives" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.03" StartY="0.25" EndX="0.15" EndY="0.75" />
+        <MountPoint Side="Front" StartX="0.85" StartY="0.25" EndX="0.97" EndY="0.75" />
+        <MountPoint Side="Back" StartX="0.03" StartY="0.25" EndX="0.15" EndY="0.75" />
+        <MountPoint Side="Back" StartX="0.85" StartY="0.25" EndX="0.97" EndY="0.75" />
+        <MountPoint Side="Right" StartX="0.03" StartY="0.25" EndX="0.15" EndY="0.75" />
+        <MountPoint Side="Right" StartX="0.85" StartY="0.25" EndX="0.97" EndY="0.75" />
+        <MountPoint Side="Left" StartX="0.03" StartY="0.25" EndX="0.15" EndY="0.75" />
+        <MountPoint Side="Left" StartX="0.85" StartY="0.25" EndX="0.97" EndY="0.75" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WarheadConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WarheadConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarheadConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeWarhead</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <WarheadExplosionDamage>15000</WarheadExplosionDamage>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Warhead</TypeId>
+          <SubtypeId>LargeMediumWarhead</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Warhead</TypeId>
+          <SubtypeId>LargeSmallWarhead</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <ExplosionRadius>22.45</ExplosionRadius>
+      <WarheadExplosionDamage>15000</WarheadExplosionDamage>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
+      <Id>
+        <TypeId>Warhead</TypeId>
+        <SubtypeId>LargeMediumWarhead</SubtypeId>
+      </Id>
+      <DisplayName>Medium Warhead (15M/6 Blocks)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\warhead.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Girder" Count="24" />
+        <Component Subtype="Construction" Count="12" />
+        <Component Subtype="SmallTube" Count="12" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="Explosives" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="Explosives" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.03" StartY="0.25" EndX="0.15" EndY="0.75" />
+        <MountPoint Side="Front" StartX="0.85" StartY="0.25" EndX="0.97" EndY="0.75" />
+        <MountPoint Side="Back" StartX="0.03" StartY="0.25" EndX="0.15" EndY="0.75" />
+        <MountPoint Side="Back" StartX="0.85" StartY="0.25" EndX="0.97" EndY="0.75" />
+        <MountPoint Side="Right" StartX="0.03" StartY="0.25" EndX="0.15" EndY="0.75" />
+        <MountPoint Side="Right" StartX="0.85" StartY="0.25" EndX="0.97" EndY="0.75" />
+        <MountPoint Side="Left" StartX="0.03" StartY="0.25" EndX="0.15" EndY="0.75" />
+        <MountPoint Side="Left" StartX="0.85" StartY="0.25" EndX="0.97" EndY="0.75" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WarheadConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WarheadConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarheadConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MediumWarhead</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ExplosionRadius>14.95</ExplosionRadius>
+      <WarheadExplosionDamage>15000</WarheadExplosionDamage>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
+      <Id>
+        <TypeId>Warhead</TypeId>
+        <SubtypeId>LargeSmallWarhead</SubtypeId>
+      </Id>
+      <DisplayName>Small Warhead (7.5M/3 Blocks)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\warhead.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Girder" Count="24" />
+        <Component Subtype="Construction" Count="12" />
+        <Component Subtype="SmallTube" Count="12" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="Explosives" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Explosives" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.03" StartY="0.25" EndX="0.15" EndY="0.75" />
+        <MountPoint Side="Front" StartX="0.85" StartY="0.25" EndX="0.97" EndY="0.75" />
+        <MountPoint Side="Back" StartX="0.03" StartY="0.25" EndX="0.15" EndY="0.75" />
+        <MountPoint Side="Back" StartX="0.85" StartY="0.25" EndX="0.97" EndY="0.75" />
+        <MountPoint Side="Right" StartX="0.03" StartY="0.25" EndX="0.15" EndY="0.75" />
+        <MountPoint Side="Right" StartX="0.85" StartY="0.25" EndX="0.97" EndY="0.75" />
+        <MountPoint Side="Left" StartX="0.03" StartY="0.25" EndX="0.15" EndY="0.75" />
+        <MountPoint Side="Left" StartX="0.85" StartY="0.25" EndX="0.97" EndY="0.75" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WarheadConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WarheadConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarheadConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallWarhead</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ExplosionRadius>7.45</ExplosionRadius>
+      <WarheadExplosionDamage>15000</WarheadExplosionDamage>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
+      <Id>
+        <TypeId>Warhead</TypeId>
+        <SubtypeId>SmallLargeWarhead</SubtypeId>
+      </Id>
+      <DisplayName>Large Warhead (14.5M/Blocks)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\warhead.mwm</Model>
+      <Components>
+        <Component Subtype="Girder" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SmallTube" Count="2" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Explosives" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="Explosives" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\WarheadConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarheadConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeWarhead</BlockPairName>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Warhead</TypeId>
+          <SubtypeId>SmallMediumWarhead</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Warhead</TypeId>
+          <SubtypeId>SmallWarhead</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <ExplosionRadius>13.45</ExplosionRadius>
+      <WarheadExplosionDamage>15000</WarheadExplosionDamage>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
+      <Id>
+        <TypeId>Warhead</TypeId>
+        <SubtypeId>SmallMediumWarhead</SubtypeId>
+      </Id>
+      <DisplayName>Medium Warhead (9M/Blocks)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\warhead.mwm</Model>
+      <Components>
+        <Component Subtype="Girder" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SmallTube" Count="2" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Explosives" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="Explosives" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\WarheadConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarheadConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MediumWarhead</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <ExplosionRadius>8.95</ExplosionRadius>
+      <WarheadExplosionDamage>15000</WarheadExplosionDamage>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
+      <Id>
+        <TypeId>Warhead</TypeId>
+        <SubtypeId>SmallWarhead</SubtypeId>
+      </Id>
+      <DisplayName>Small Warhead (4.5M/Blocks)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\warhead.mwm</Model>
+      <Components>
+        <Component Subtype="Girder" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SmallTube" Count="2" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Explosives" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Explosives" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\WarheadConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarheadConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallWarhead</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <ExplosionRadius>4.45</ExplosionRadius>
+      <WarheadExplosionDamage>15000</WarheadExplosionDamage>
+    </Definition>
+  </CubeBlocks>
+  <BlockPositions>
+    <BlockPosition>
+      <Name>LargeWarhead</Name>
+      <Position>
+        <X>6</X>
+        <Y>7</Y>
+      </Position>
+    </BlockPosition>
+  </BlockPositions>
+</Definitions>
+

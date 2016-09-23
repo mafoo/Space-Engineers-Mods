@@ -1,0 +1,154 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!--Blueprint Groups-->
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <ItemIds>
+        <string>CubeBlock/LargeLightScaffoldBlock</string>
+        <string>CubeBlock/LargeLightScaffoldSlope</string>
+        <string>CubeBlock/LargeLightScaffoldCorner</string>
+        <string>CubeBlock/LargeLightScaffoldCornerInv</string>
+        <string>CubeBlock/LargeLightScaffoldRoundedSlope</string>
+        <string>CubeBlock/LargeLightScaffoldRoundedCorner</string>
+
+        <string>CubeBlock/LargeLightScaffoldSlope2Base</string>
+        <string>CubeBlock/LargeLightScaffoldSlab</string>
+        <string>CubeBlock/LargeLightScaffoldSlope2Tip</string>
+        <string>CubeBlock/LargeLightScaffoldInvCorner2Base</string>
+        <string>CubeBlock/LargeLightScaffoldInvCorner2Tip</string>
+        <string>CubeBlock/LargeLightScaffoldCorner2Base</string>
+        <string>CubeBlock/LargeLightScaffoldCorner2Tip</string>
+
+        <string>CubeBlock/LargeHeavyScaffoldBlock</string>
+        <string>CubeBlock/LargeHeavyScaffoldSlope</string>
+        <string>CubeBlock/LargeHeavyScaffoldCorner</string>
+        <string>CubeBlock/LargeHeavyScaffoldCornerInv</string>
+        <string>CubeBlock/LargeHeavyScaffoldRoundedSlope</string>
+        <string>CubeBlock/LargeHeavyScaffoldRoundedCorner</string>
+
+        <string>CubeBlock/LargeHeavyScaffoldSlope2Base</string>
+        <string>CubeBlock/LargeHeavyScaffoldSlab</string>
+        <string>CubeBlock/LargeHeavyScaffoldSlope2Tip</string>
+        <string>CubeBlock/LargeHeavyScaffoldInvCorner2Base</string>
+        <string>CubeBlock/LargeHeavyScaffoldInvCorner2Tip</string>
+        <string>CubeBlock/LargeHeavyScaffoldCorner2Base</string>
+        <string>CubeBlock/LargeHeavyScaffoldCorner2Tip</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <ItemIds>
+        <string>CubeBlock/SmallLightScaffoldBlock</string>
+        <string>CubeBlock/SmallLightScaffoldSlope</string>
+        <string>CubeBlock/SmallLightScaffoldCorner</string>
+        <string>CubeBlock/SmallLightScaffoldCornerInv</string>
+        <string>CubeBlock/SmallLightScaffoldRoundedSlope</string>
+        <string>CubeBlock/SmallLightScaffoldRoundedCorner</string>
+
+        <string>CubeBlock/SmallLightScaffoldSlope2Base</string>
+        <string>CubeBlock/SmallLightScaffoldSlab</string>
+        <string>CubeBlock/SmallLightScaffoldSlope2Tip</string>
+        <string>CubeBlock/SmallLightScaffoldInvCorner2Base</string>
+        <string>CubeBlock/SmallLightScaffoldInvCorner2Tip</string>
+        <string>CubeBlock/SmallLightScaffoldCorner2Base</string>
+        <string>CubeBlock/SmallLightScaffoldCorner2Tip</string>
+
+        <string>CubeBlock/SmallHeavyScaffoldBlock</string>
+        <string>CubeBlock/SmallHeavyScaffoldSlope</string>
+        <string>CubeBlock/SmallHeavyScaffoldCorner</string>
+        <string>CubeBlock/SmallHeavyScaffoldCornerInv</string>
+        <string>CubeBlock/SmallHeavyScaffoldRoundedSlope</string>
+        <string>CubeBlock/SmallHeavyScaffoldRoundedCorner</string>
+
+        <string>CubeBlock/SmallHeavyScaffoldSlope2Base</string>
+        <string>CubeBlock/SmallHeavyScaffoldSlab</string>
+        <string>CubeBlock/SmallHeavyScaffoldSlope2Tip</string>
+        <string>CubeBlock/SmallHeavyScaffoldInvCorner2Base</string>
+        <string>CubeBlock/SmallHeavyScaffoldInvCorner2Tip</string>
+        <string>CubeBlock/SmallHeavyScaffoldCorner2Base</string>
+        <string>CubeBlock/SmallHeavyScaffoldCorner2Tip</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Scaffolding</DisplayName>
+      <Name>Scaffolding</Name>
+      <ItemIds>
+        <string>CubeBlock/LargeLightScaffoldBlock</string>
+        <string>CubeBlock/LargeLightScaffoldSlope</string>
+        <string>CubeBlock/LargeLightScaffoldCorner</string>
+        <string>CubeBlock/LargeLightScaffoldCornerInv</string>
+        <string>CubeBlock/LargeLightScaffoldRoundedSlope</string>
+        <string>CubeBlock/LargeLightScaffoldRoundedCorner</string>
+
+        <string>CubeBlock/LargeLightScaffoldSlope2Base</string>
+        <string>CubeBlock/LargeLightScaffoldSlab</string>
+        <string>CubeBlock/LargeLightScaffoldSlope2Tip</string>
+        <string>CubeBlock/LargeLightScaffoldInvCorner2Base</string>
+        <string>CubeBlock/LargeLightScaffoldInvCorner2Tip</string>
+        <string>CubeBlock/LargeLightScaffoldCorner2Base</string>
+        <string>CubeBlock/LargeLightScaffoldCorner2Tip</string>
+
+        <string>CubeBlock/SmallLightScaffoldBlock</string>
+        <string>CubeBlock/SmallLightScaffoldSlope</string>
+        <string>CubeBlock/SmallLightScaffoldCorner</string>
+        <string>CubeBlock/SmallLightScaffoldCornerInv</string>
+        <string>CubeBlock/SmallLightScaffoldRoundedSlope</string>
+        <string>CubeBlock/SmallLightScaffoldRoundedCorner</string>
+
+        <string>CubeBlock/SmallLightScaffoldSlope2Base</string>
+        <string>CubeBlock/SmallLightScaffoldSlab</string>
+        <string>CubeBlock/SmallLightScaffoldSlope2Tip</string>
+        <string>CubeBlock/SmallLightScaffoldInvCorner2Base</string>
+        <string>CubeBlock/SmallLightScaffoldInvCorner2Tip</string>
+        <string>CubeBlock/SmallLightScaffoldCorner2Base</string>
+        <string>CubeBlock/SmallLightScaffoldCorner2Tip</string>
+
+        <string>CubeBlock/LargeHeavyScaffoldBlock</string>
+        <string>CubeBlock/LargeHeavyScaffoldSlope</string>
+        <string>CubeBlock/LargeHeavyScaffoldCorner</string>
+        <string>CubeBlock/LargeHeavyScaffoldCornerInv</string>
+        <string>CubeBlock/LargeHeavyScaffoldRoundedSlope</string>
+        <string>CubeBlock/LargeHeavyScaffoldRoundedCorner</string>
+
+        <string>CubeBlock/LargeHeavyScaffoldSlope2Base</string>
+        <string>CubeBlock/LargeHeavyScaffoldSlab</string>
+        <string>CubeBlock/LargeHeavyScaffoldSlope2Tip</string>
+        <string>CubeBlock/LargeHeavyScaffoldInvCorner2Base</string>
+        <string>CubeBlock/LargeHeavyScaffoldInvCorner2Tip</string>
+        <string>CubeBlock/LargeHeavyScaffoldCorner2Base</string>
+        <string>CubeBlock/LargeHeavyScaffoldCorner2Tip</string>
+
+        <string>CubeBlock/SmallHeavyScaffoldBlock</string>
+        <string>CubeBlock/SmallHeavyScaffoldSlope</string>
+        <string>CubeBlock/SmallHeavyScaffoldCorner</string>
+        <string>CubeBlock/SmallHeavyScaffoldCornerInv</string>
+        <string>CubeBlock/SmallHeavyScaffoldRoundedSlope</string>
+        <string>CubeBlock/SmallHeavyScaffoldRoundedCorner</string>
+
+        <string>CubeBlock/SmallHeavyScaffoldSlope2Base</string>
+        <string>CubeBlock/SmallHeavyScaffoldSlab</string>
+        <string>CubeBlock/SmallHeavyScaffoldSlope2Tip</string>
+        <string>CubeBlock/SmallHeavyScaffoldInvCorner2Base</string>
+        <string>CubeBlock/SmallHeavyScaffoldInvCorner2Tip</string>
+        <string>CubeBlock/SmallHeavyScaffoldCorner2Base</string>
+        <string>CubeBlock/SmallHeavyScaffoldCorner2Tip</string>
+
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>
