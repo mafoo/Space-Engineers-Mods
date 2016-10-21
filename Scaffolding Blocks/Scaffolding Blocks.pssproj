@@ -31,7 +31,6 @@
     <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CubeBlocks-backup.sbc" />
     <Compile Include="Deploy.ps1" />
     <Compile Include="Generate-icons.ps1" />
     <Compile Include="modinfo.sbmi" />

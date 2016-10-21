@@ -1,5 +1,5 @@
 ﻿$wshell = New-Object -ComObject Wscript.Shell
-$title = "Space Engineers Generate Iconsd"
+$title = "Space Engineers Generate Icons"
 
 
 $imagemagick = Get-ChildItem -Path $env:ProgramW6432 ImageMagick*.*.*

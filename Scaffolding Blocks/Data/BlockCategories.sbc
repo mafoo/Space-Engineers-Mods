@@ -39,6 +39,8 @@
         <string>CubeBlock/LargeHeavyScaffoldInvCorner2Tip</string>
         <string>CubeBlock/LargeHeavyScaffoldCorner2Base</string>
         <string>CubeBlock/LargeHeavyScaffoldCorner2Tip</string>
+
+        <string>CubeBlock/LargeScaffoldCatwalk</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -78,6 +80,8 @@
         <string>CubeBlock/SmallHeavyScaffoldInvCorner2Tip</string>
         <string>CubeBlock/SmallHeavyScaffoldCorner2Base</string>
         <string>CubeBlock/SmallHeavyScaffoldCorner2Tip</string>
+
+        <string>CubeBlock/SmallScaffoldCatwalk</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -147,6 +151,9 @@
         <string>CubeBlock/SmallHeavyScaffoldInvCorner2Tip</string>
         <string>CubeBlock/SmallHeavyScaffoldCorner2Base</string>
         <string>CubeBlock/SmallHeavyScaffoldCorner2Tip</string>
+
+        <string>CubeBlock/LargeScaffoldCatwalk</string>
+        <string>CubeBlock/SmallScaffoldCatwalk</string>
 
       </ItemIds>
     </Category>

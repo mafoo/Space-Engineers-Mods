@@ -33,6 +33,8 @@
     <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldCorner2Base" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeHeavyScaffoldCorner2Tip" />
 
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeScaffoldCatwalk" />
+
     <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldBlock" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldSlope" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallLightScaffoldCorner" />
@@ -63,6 +65,7 @@
     <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldCorner2Base" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallHeavyScaffoldCorner2Tip" />
 
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/SmallScaffoldCatwalk" />
 
   </BlueprintClassEntries>
 </Definitions>
