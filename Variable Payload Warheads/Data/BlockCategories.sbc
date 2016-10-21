@@ -12,6 +12,7 @@
       <ItemIds>
         <string>WarHead/LargeMediumWarhead</string>
         <string>WarHead/LargeSmallWarhead</string>
+        <string>WarHead/LargeHugeWarhead</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -36,6 +37,7 @@
       <ItemIds>
         <string>WarHead/LargeMediumWarhead</string>
         <string>WarHead/LargeSmallWarhead</string>
+        <string>WarHead/LargeHugeWarhead</string>
         <string>WarHead/SmallLargeWarhead</string>
         <string>WarHead/SmallMediumWarhead</string>
         <string>WarHead/SmallWarhead</string>
