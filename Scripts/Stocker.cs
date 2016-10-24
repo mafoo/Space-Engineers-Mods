@@ -148,12 +148,13 @@ namespace Scripts
                         if (c_container != null)
                         {
                             string name = rgx_tim.Replace(c_container.CustomName, "");
+                            name.Trim();
 
                             string[] keys = new string[timPresets.Keys.Count];
                             timPresets.Keys.CopyTo(keys, 0);
                             var preset = timPresets[keys[opt + offset - 1]];
 
-                            string current = rgx_tim.Match(c_container.CustomName).Value;
+                            string current = rgx_tim.Match(c_container.CustomName).Groups[1].Value;
                             writeScreen("Configuring: " + name + "\n");
 
                             string expanded = "";
@@ -182,6 +183,7 @@ namespace Scripts
                             {
                                 var container = g_containers[i];
                                 string name = rgx_tim.Replace(container.CustomName, "");
+                                name.Trim();
                                 string current = rgx_tim.Match(container.CustomName).Groups[1].Value;
                                 writeScreen(green + "Item: " + name + "\n");
 

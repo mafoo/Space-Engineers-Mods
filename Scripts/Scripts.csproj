@@ -48,8 +48,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Stocker.cs" />
+    <Compile Include="JamieWantsBigBoom.cs" />
     <Compile Include="LCDs.cs" />
+    <Compile Include="Stocker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Assembler Blueprints -->
+  <BlueprintClassEntries>
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSteelCatwalk3Sides" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSteelCatwalkInv3Sides" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSteelCatwalkInvCorner" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSteelCatwalkInv2Sides" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSteelCatwalkSide" />
+
+  </BlueprintClassEntries>
+</Definitions>

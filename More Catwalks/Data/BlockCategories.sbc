@@ -1,0 +1,21 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!--Blueprint Groups-->
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <ItemIds>
+        <string>CubeBlock/LargeSteelCatwalk3Sides</string>
+        <string>CubeBlock/LargeSteelCatwalkInv3Sides</string>
+        <string>CubeBlock/LargeSteelCatwalkInvCorner</string>
+        <string>CubeBlock/LargeSteelCatwalkInv2Sides</string>
+        <string>CubeBlock/LargeSteelCatwalkSide</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

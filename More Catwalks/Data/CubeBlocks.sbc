@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
+  <CubeBlocks>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalk</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SteelCatwalk</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\steel_catwalk.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SteelCatwalk.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="20" />
+        <Component Subtype="InteriorPlate" Count="7" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0.1" EndX="0.1" EndY="0.33" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.9" StartY="0.1" EndX="1" EndY="0.33" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.43" />
+        <MountPoint Side="Back" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SteelCatwalkConstruction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalk</BlockPairName>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkInv</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkCorner</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkInvCorner</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalk2Sides</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkInv2Sides</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalk3Sides</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkInv3Sides</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkPlate</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkSide</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkInv</SubtypeId>
+      </Id>
+      <DisplayName>Catwalk Inverted</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkInv.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkInv.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="20" />
+        <Component Subtype="InteriorPlate" Count="7" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
+      </MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkInv_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkInv</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkInv2Sides</SubtypeId>
+      </Id>
+      <DisplayName>Catwalk Inverted 2 Sodes</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkInv2Sides.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkInv2Sides.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="7" />
+        <Component Subtype="SmallTube" Count="25" />
+        <Component Subtype="InteriorPlate" Count="12" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.43" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
+				<MountPoint Side="Right" StartX="0.95" StartY="0.00" EndX="1.00" EndY="0.44" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.44" />
+      </MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkInv2Sides_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkInv2Sides</BlockPairName>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>HalfY</MirroringZ>
+      <MirroringX>MinusHalfY</MirroringX>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkInvCorner</SubtypeId>
+      </Id>
+      <DisplayName>Catwalk Inverted Corner</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkInvCorner.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkInvCorner.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="7" />
+        <Component Subtype="SmallTube" Count="25" />
+        <Component Subtype="InteriorPlate" Count="12" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkInvCorner_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkInvCorner</BlockPairName>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>HalfY</MirroringZ>
+      <MirroringX>MinusHalfY</MirroringX>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalk3Sides</SubtypeId>
+      </Id>
+      <DisplayName>Catwalk 3 Sides</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalk3Sides.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalk3Sides.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25" />
+        <Component Subtype="Construction" Count="9" />
+        <Component Subtype="SmallTube" Count="28" />
+        <Component Subtype="InteriorPlate" Count="13" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
+				<MountPoint Side="Right" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.43" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.43" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
+      </MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalk3Sides_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalk3Sides</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkInv3Sides</SubtypeId>
+      </Id>
+      <DisplayName>Catwalk Inverted 3 Sides</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkInv3Sides.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkInv3Sides.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25" />
+        <Component Subtype="Construction" Count="9" />
+        <Component Subtype="SmallTube" Count="28" />
+        <Component Subtype="InteriorPlate" Count="13" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
+				<MountPoint Side="Right" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.43" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.43" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
+      </MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkInv3Sides_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkInv3Sides</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkSide</SubtypeId>
+      </Id>
+      <DisplayName>Catwalk Side</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkSide.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkSide.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="SmallTube" Count="3" />
+        <Component Subtype="InteriorPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.43" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
+				<MountPoint Side="Left" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.43" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.96" EndX="1.00" EndY="1.00" />
+      </MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkSide_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkSide</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+    </Definition>
+  </CubeBlocks>
+</Definitions>
