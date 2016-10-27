@@ -70,6 +70,14 @@
           <TypeId>CubeBlock</TypeId>
           <SubtypeId>LargeSteelCatwalkSide</SubtypeId>
         </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkDiagonal</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkInvDiagonal</SubtypeId>
+        </BlockVariant>
       </BlockVariants>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -276,10 +284,10 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.43" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Left" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.96" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.43" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
+				<MountPoint Side="Right" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.43" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
       </MountPoints>
       <BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkSide_Constr1.mwm" />
@@ -290,5 +298,72 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
-  </CubeBlocks>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkDiagonal</SubtypeId>
+      </Id>
+      <DisplayName>Catwalk Diagonal</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkDiagonal.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkDiagonal.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="20" />
+        <Component Subtype="InteriorPlate" Count="7" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Left" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.41" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.41" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.96" StartY="0.05" EndX="1.00" EndY="0.41" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.05" EndX="0.04" EndY="0.41" />
+      </MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkDiagonal_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkDiagonal</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkInvDiagonal</SubtypeId>
+      </Id>
+      <DisplayName>Catwalk Inverted Diagonal</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkInvDiagonal.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkInvDiagonal.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="20" />
+        <Component Subtype="InteriorPlate" Count="7" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkInvDiagonal_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkInvDiagonal</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+    </Definition>
+</CubeBlocks>
 </Definitions>
