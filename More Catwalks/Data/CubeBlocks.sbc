@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <CubeBlocks>
+  <!--Flat Catwalks-->
+    <!--Missing Catwalks-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -189,6 +191,10 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
+    <!--END Missing Catwalks-->
+    
+    <!--New Blocks-->
+      <!--3 Sides-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -263,41 +269,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>LargeSteelCatwalkSide</SubtypeId>
-      </Id>
-      <DisplayName>Catwalk Side</DisplayName>
-      <Icon>Textures\Icons\SteelCatwalkSide.dds</Icon>
-      <GuiVisible>false</GuiVisible>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\LargeSteelCatwalkSide.mwm</Model>
-      <Components>
-        <Component Subtype="InteriorPlate" Count="5" />
-        <Component Subtype="Construction" Count="2" />
-        <Component Subtype="SmallTube" Count="3" />
-        <Component Subtype="InteriorPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SmallTube" Index="0" />
-      <MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.43" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Right" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-      </MountPoints>
-      <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkSide_Constr1.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>SteelCatwalkSide</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>10</BuildTimeSeconds>
-    </Definition>
+      <!--END 3 Sides-->
+      <!--Diagonals-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -365,5 +338,194 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
-</CubeBlocks>
+      <!--END Diagonals-->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkSide</SubtypeId>
+      </Id>
+      <DisplayName>Catwalk Side</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkSide.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkSide.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="SmallTube" Count="3" />
+        <Component Subtype="InteriorPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.43" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
+        <MountPoint Side="Right" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.43" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkSide_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkSide</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+    </Definition>
+    <!--END New Blocks-->
+  <!--Stairs\Ramps-->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeStairs</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Stairs</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\stairs.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\Stairs.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="40" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.66" EndY="0.2" />
+        <MountPoint Side="Left" StartX="0.66" StartY="0" EndX="1.33" EndY="0.55" />
+        <MountPoint Side="Left" StartX="1.33" StartY="0" EndX="2" EndY="0.9" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.66" EndY="0.9" />
+        <MountPoint Side="Right" StartX="0.66" StartY="0" EndX="1.33" EndY="0.55" />
+        <MountPoint Side="Right" StartX="1.33" StartY="0" EndX="2" EndY="0.2" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\StairsConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\StairsConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\StairsConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSidedStairs</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeRamp</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSidedRamp</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <BlockPairName>Stairs</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSidedRamp</SubtypeId>
+      </Id>
+      <DisplayName>Sided Ramp</DisplayName>
+      <Icon>Textures\Icons\SidedRamp.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSidedRamp.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="80" />
+        <Component Subtype="Construction" Count="24" />
+        <Component Subtype="SmallTube" Count="12" />
+        <Component Subtype="InteriorPlate" Count="14" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.45" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.45" />
+				<MountPoint Side="Back" StartX="0.96" StartY="1.00" EndX="1.00" EndY="1.45" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.45" />
+				<MountPoint Side="Front" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.45" />
+				<MountPoint Side="Back" StartX="0.00" StartY="1.00" EndX="0.04" EndY="1.45" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+      </MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\LargeSidedRamp_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\LargeSidedRamp_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeSidedRamp_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SidedRamp</BlockPairName>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkInv</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSidedStairs</SubtypeId>
+      </Id>
+      <DisplayName>Sided Ramp</DisplayName>
+      <Icon>Textures\Icons\SidedStairs.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSidedStairs.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="80" />
+        <Component Subtype="Construction" Count="24" />
+        <Component Subtype="SmallTube" Count="12" />
+        <Component Subtype="InteriorPlate" Count="14" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.45" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.45" />
+				<MountPoint Side="Back" StartX="0.96" StartY="1.00" EndX="1.00" EndY="1.45" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.45" />
+				<MountPoint Side="Front" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.45" />
+				<MountPoint Side="Back" StartX="0.00" StartY="1.00" EndX="0.04" EndY="1.45" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+      </MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\LargeSidedStairs_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\LargeSidedStairs_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeSidedStairs_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SidedStairs</BlockPairName>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkInv</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+    </Definition>
+  </CubeBlocks>
 </Definitions>
