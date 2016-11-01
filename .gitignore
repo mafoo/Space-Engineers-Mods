@@ -246,6 +246,9 @@ ModelManifest.xml
 
 # Custom
 /*/Sources/*.png
+/*/Images/*.png
 /*/Textures/*
 /*/Models/*
+/*/thumb.jpg
 *.blend1
+Backup_of_*.cdr

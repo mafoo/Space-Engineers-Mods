@@ -14,7 +14,44 @@
         <string>CubeBlock/LargeSteelCatwalkInv3Sides</string>
         <string>CubeBlock/LargeSteelCatwalkInvCorner</string>
         <string>CubeBlock/LargeSteelCatwalkInv2Sides</string>
-        <string>CubeBlock/LargeSteelCatwalkSide</string>
+
+        <string>CubeBlock/LargeSteelCatwalkOnlySide</string>
+        <string>CubeBlock/LargeSteelCatwalkOnlyCorner</string>
+        <string>CubeBlock/LargeSteelCatwalkOnly2Sides</string>
+        <string>CubeBlock/LargeSteelCatwalkOnly3Sides</string>
+        <string>CubeBlock/LargeSteelCatwalkOnlyDiagonal</string>
+
+        <string>CubeBlock/LargeSteelCatwalkDiagonal</string>
+        <string>CubeBlock/LargeSteelCatwalkInvDiagonal</string>
+
+        <string>CubeBlock/LargeSidedRamp</string>
+        <string>CubeBlock/LargeSidedStairs</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <ItemIds>
+        <string>CubeBlock/MediumSteelCatwalk3Sides</string>
+        <string>CubeBlock/MediumSteelCatwalkInv3Sides</string>
+        <string>CubeBlock/MediumSteelCatwalkInvCorner</string>
+        <string>CubeBlock/MediumSteelCatwalkInv2Sides</string>
+
+        <string>CubeBlock/MediumSteelCatwalkOnlySide</string>
+        <string>CubeBlock/MediumSteelCatwalkOnlyCorner</string>
+        <string>CubeBlock/MediumSteelCatwalkOnly2Sides</string>
+        <string>CubeBlock/MediumSteelCatwalkOnly3Sides</string>
+        <string>CubeBlock/MediumSteelCatwalkOnlyDiagonal</string>
+
+        <string>CubeBlock/MediumSteelCatwalkDiagonal</string>
+        <string>CubeBlock/MediumSteelCatwalkInvDiagonal</string>
+
+        <string>CubeBlock/MediumSidedRamp</string>
+        <string>CubeBlock/MediumSidedStairs</string>
       </ItemIds>
     </Category>
   </CategoryClasses>

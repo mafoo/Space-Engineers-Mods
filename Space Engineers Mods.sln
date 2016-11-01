@@ -9,9 +9,13 @@ Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Scaffolding Blocks", "Scaff
 EndProject
 Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Variable Payload Warheads", "Variable Payload Warheads\Variable Payload Warheads.pssproj", "{54225E8A-BEE2-43F5-A122-CCED2FBCCD9D}"
 EndProject
-Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Lego Bricks", "Lego Bricks\Lego Bricks.pssproj", "{ADA27678-2C1E-43CC-AE74-950630B27727}"
-EndProject
 Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "More Catwalks", "More Catwalks\More Catwalks.pssproj", "{7621A3CB-5F4A-4582-A4EA-4C835B130BF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E4887D66-A21B-4001-8212-4E536B07BB46}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +35,6 @@ Global
 		{54225E8A-BEE2-43F5-A122-CCED2FBCCD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54225E8A-BEE2-43F5-A122-CCED2FBCCD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54225E8A-BEE2-43F5-A122-CCED2FBCCD9D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ADA27678-2C1E-43CC-AE74-950630B27727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADA27678-2C1E-43CC-AE74-950630B27727}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADA27678-2C1E-43CC-AE74-950630B27727}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADA27678-2C1E-43CC-AE74-950630B27727}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7621A3CB-5F4A-4582-A4EA-4C835B130BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7621A3CB-5F4A-4582-A4EA-4C835B130BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7621A3CB-5F4A-4582-A4EA-4C835B130BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU

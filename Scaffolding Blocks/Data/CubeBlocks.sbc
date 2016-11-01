@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions>
   <CubeBlocks>
 
     <!-- Regular Blocks -->
@@ -9,27 +9,16 @@
         <SubtypeId>LargeLightScaffoldBlock</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Block</DisplayName>
-      <Icon>Textures\LightScaffoldBlock.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldBlock.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Armor\SquarePlateConstruction_1.mwm</Model>
+      <Model>Models\LargeLightScaffoldBlock.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\SquarePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
@@ -92,32 +81,18 @@
         <SubtypeId>LargeLightScaffoldCorner</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Corner</DisplayName>
-      <Icon>Textures\LightScaffoldCorner.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldCorner.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Armor\FaceTrianglePlateConstruction_1.mwm</Model>
+      <Model>Models\LargeLightScaffoldCorner.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\FaceTrianglePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>LightScaffoldCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
@@ -173,28 +148,17 @@
         <SubtypeId>LargeHeavyScaffoldBlock</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Block</DisplayName>
-      <Icon>Textures\HeavyScaffoldBlock.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldBlock.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Armor\HeavySquarePlateConstruction_1.mwm</Model>
+      <Model>Models\LargeHeavyScaffoldBlock.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="20" />
         <Component Subtype="MetalGrid" Count="10" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldBlock</BlockPairName>
       <BlockVariants>
         <BlockVariant>
@@ -221,30 +185,19 @@
         <SubtypeId>LargeHeavyScaffoldSlope</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Slope</DisplayName>
-      <Icon>Textures\HeavyScaffoldSlope.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldSlope.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Armor\HeavySlopePlateConstruction_1.mwm</Model>
+      <Model>Models\LargeHeavyScaffoldSlope.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="MetalGrid" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySlopePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -259,33 +212,19 @@
         <SubtypeId>LargeHeavyScaffoldCorner</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Corner</DisplayName>
-      <Icon>Textures\HeavyScaffoldCorner.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldCorner.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Armor\HeavyFacePlateConstruction_1.mwm</Model>
+      <Model>Models\LargeHeavyScaffoldCorner.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="5" />
         <Component Subtype="MetalGrid" Count="3" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyFacePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
@@ -301,36 +240,19 @@
         <SubtypeId>LargeHeavyScaffoldInvCorner</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold InvCorner</DisplayName>
-      <Icon>Textures\HeavyScaffoldInvCorner.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldInvCorner.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Armor\HeavyInvFacePlateConstruction_1.mwm</Model>
+      <Model>Models\LargeHeavyScaffoldInvCorner.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="15" />
         <Component Subtype="MetalGrid" Count="7" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
-        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
-        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
-        <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
-        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
-      </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyInvFacePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldInvCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
@@ -740,29 +662,18 @@
         <SubtypeId>LargeHeavyScaffoldRoundedSlope</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Rounded Slope</DisplayName>
-      <Icon>Textures\HeavyScaffoldRoundedSlope.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldRoundedSlope.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Armor\HeavySlopePlateRoundedConstruction_1.mwm</Model>
+      <Model>Models\LargeHeavyScaffoldRoundedSlope.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="15" />
         <Component Subtype="MetalGrid" Count="7" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySlopePlateRoundedConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldRoundedSlope</BlockPairName>
       <BlockVariants>
         <BlockVariant>
@@ -783,33 +694,19 @@
         <SubtypeId>LargeHeavyScaffoldRoundedCorner</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Rounded Corner</DisplayName>
-      <Icon>Textures\HeavyScaffoldRoundedCorner.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldRoundedCorner.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Armor\HeavyFaceTrianglePlateRoundedConstruction_1.mwm</Model>
+      <Model>Models\LargeHeavyScaffoldRoundedCorner.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="7" />
         <Component Subtype="MetalGrid" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyFaceTrianglePlateRoundedConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldRoundedCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
@@ -1294,29 +1191,17 @@
         <SubtypeId>LargeHeavyScaffoldSlope2Base</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Slope 2x1x1 Base</DisplayName>
-      <Icon>Textures\HeavyScaffoldSlope2Base.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldSlope2Base.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Armor\HeavySlope2BaseConstruction_1.mwm</Model>
+      <Model>Models\LargeHeavyScaffoldSlope2Base.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="15" />
         <Component Subtype="MetalGrid" Count="7" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySlope2BaseConstruction_1.mwm" />
-      </BuildProgressModels>
-      <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
-        <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>HeavyScaffoldSlope2Base</BlockPairName>
       <BlockVariants>
@@ -1341,7 +1226,7 @@
         <SubtypeId>LargeHeavyScaffoldSlab</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Slab</DisplayName>
-      <Icon>Textures\LightScaffoldSlab.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldSlab.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1354,16 +1239,6 @@
         <Component Subtype="MetalGrid" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldSlab.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldSlab</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -1378,30 +1253,19 @@
         <SubtypeId>LargeHeavyScaffoldSlope2Tip</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Slope 2x1x1 Tip</DisplayName>
-      <Icon>Textures\HeavyScaffoldSlope2Tip.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldSlope2Tip.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Armor\HeavySlope2TipConstruction_1.mwm</Model>
+      <Model>Models\LargeHeavyScaffoldSlope2Tip.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="5" />
         <Component Subtype="MetalGrid" Count="3" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.25" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.25" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
-      </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySlope2TipConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldSlope2Tip</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -1416,33 +1280,18 @@
         <SubtypeId>LargeHeavyScaffoldCorner2Base</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Corner 2x1x1 Base</DisplayName>
-      <Icon>Textures\HeavyScaffoldCorner2Base.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldCorner2Base.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Armor\HeavyCorner2BaseConstruction_1.mwm</Model>
+      <Model>Models\LargeHeavyScaffoldCorner2Base.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="5" />
         <Component Subtype="MetalGrid" Count="3" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
-      </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyCorner2BaseConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldCorner2Base</BlockPairName>
       <BlockVariants>
         <BlockVariant>
@@ -1463,30 +1312,19 @@
         <SubtypeId>LargeHeavyScaffoldCorner2Tip</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Corner 2x1x1 Tip</DisplayName>
-      <Icon>Textures\HeavyScaffoldCorner2Tip.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldCorner2Tip.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Armor\HeavyCorner2TipConstruction_1.mwm</Model>
+      <Model>Models\LargeHeavyScaffoldCorner2Tip.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="3" />
         <Component Subtype="MetalGrid" Count="2" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.5" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.5" EndY="0.4" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.4" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.5" />
-      </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyCorner2TipConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
@@ -1502,35 +1340,18 @@
         <SubtypeId>LargeHeavyScaffoldInvCorner2Base</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold InvCorner 2x1x1 Base</DisplayName>
-      <Icon>Textures\HeavyScaffoldInvCorner2Base.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldInvCorner2Base.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Armor\HeavyInvCorner2BaseConstruction_1.mwm</Model>
+      <Model>Models\LargeHeavyScaffoldInvCorner2Base.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="15" />
         <Component Subtype="MetalGrid" Count="7" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-        <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
-        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
-        <MountPoint Side="Front" StartX="0.2" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
-      </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyInvCorner2BaseConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldInvCorner2Base</BlockPairName>
       <BlockVariants>
         <BlockVariant>
@@ -1551,36 +1372,19 @@
         <SubtypeId>LargeHeavyScaffoldInvCorner2Tip</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold InvCorner 2x1x1 Tip</DisplayName>
-      <Icon>Textures\HeavyScaffoldInvCorner2Tip.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldInvCorner2Tip.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Armor\HeavyInvCorner2TipConstruction_1.mwm</Model>
+      <Model>Models\LargeHeavyScaffoldInvCorner2Tip.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="7" />
         <Component Subtype="MetalGrid" Count="3" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
-        <MountPoint Side="Back" StartX="0.8" StartY="0.5" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
-        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
-        <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
-        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0.2" StartY="0.5" EndX="0.5" EndY="1" />
-      </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyInvCorner2TipConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldInvCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
@@ -2347,4 +2151,3 @@
     </BlockPosition>
   </BlockPositions>
 </Definitions>
-
