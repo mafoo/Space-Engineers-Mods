@@ -19,7 +19,7 @@ if(-not $mod_path)
     $wshell.Popup("Could not find the Space Engineers mod directory in:- $mod_path_raw", 0, $title, 0x0)
     exit 1
 }
-New-Item -Path $mod_path -Name $mod_name -ItemType Directory -ErrorAction SilentlyContinue
+$null = New-Item -Path $mod_path -Name $mod_name -ItemType Directory -ErrorAction SilentlyContinue
 $mod_path_raw += "\$mod_name";
 $mod_path = Get-Item -Path $mod_path_raw -ErrorAction SilentlyContinue
 if(-not $mod_path)
@@ -34,26 +34,33 @@ Try{
 		New-Item -Path $mod_path -Name "Data" -ItemType Directory -ErrorAction SilentlyContinue
 		$src = [String]::Concat($src_path, "\Data\*")
 		$dst = [String]::Concat($mod_path, "\Data\")
-	    Copy-item -Exclude "backup" -Path $src -Destination $dst
+	    Copy-item -Path $src -Destination $dst
 	}
     $dir = [String]::Concat($src_path, "\Models")
 	if(Get-Item -Path $dir -ErrorAction SilentlyContinue){
 		New-Item -Path $mod_path -Name "Models" -ItemType Directory -ErrorAction SilentlyContinue
 		$src = [String]::Concat($src_path, "\Models\*.mwm")
 		$dst = [String]::Concat($mod_path, "\Models\")
-		Copy-item -Exclude "backup" -Path $src -Destination $dst
+		Copy-item -Path $src -Destination $dst
 	}
 	$dir = [String]::Concat($src_path, "\Textures")
 		if(Get-Item -Path $dir -ErrorAction SilentlyContinue){
 		New-Item -Path $mod_path -Name "Textures" -ItemType Directory -ErrorAction SilentlyContinue
 		$src = [String]::Concat($src_path, "\Textures\*")
 		$dst = [String]::Concat($mod_path, "\Textures\")
-		Copy-item -Exclude "backup" -Path $src -Destination $dst -Recurse -Force
+		Copy-item -Path $src -Destination $dst -Recurse -Force
 	}
 	$src = [String]::Concat($src_path, "\modinfo.sbmi")
-	Copy-item -Exclude "backup" -Path $src -Destination $mod_path
+	Copy-item -Exclude "Backup" -Path $src -Destination $mod_path
+
 	$src = [String]::Concat($src_path, "\thumb.jpg")
-	Copy-item -Exclude "backup" -Path $src -Destination $mod_path
+	if(Get-Item -Path $src -ErrorAction SilentlyContinue) {
+		Copy-item -Path $src -Destination $mod_path
+	}
+	$src = [String]::Concat($src_path, "\thumb.png")
+	if(Get-Item -Path $src -ErrorAction SilentlyContinue) {
+		Copy-item -Path $src -Destination $mod_path
+	}
 }
 Catch
 {

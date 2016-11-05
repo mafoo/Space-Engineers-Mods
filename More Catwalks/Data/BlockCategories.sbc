@@ -26,6 +26,16 @@
 
         <string>CubeBlock/LargeSidedRamp</string>
         <string>CubeBlock/LargeSidedStairs</string>
+
+        <string>CubeBlock/Large1x1Ramp</string>
+        <string>CubeBlock/Large1x1Stairs</string>
+        <string>CubeBlock/LargeSided1x1Ramp</string>
+        <string>CubeBlock/LargeSided1x1Stairs</string>
+
+        <string>CubeBlock/Large1x1RampSlope</string>
+        <string>CubeBlock/Large1x1StairsSlope</string>
+        <string>CubeBlock/LargeSided1x1RampSlope</string>
+        <string>CubeBlock/LargeSided1x1StairsSlope</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -36,7 +46,99 @@
       <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
       <Name>SmallBlocks</Name>
       <ItemIds>
+        <string>CubeBlock/MediumSteelCatwalk</string>
         <string>CubeBlock/MediumSteelCatwalk3Sides</string>
+        <string>CubeBlock/MediumSteelCatwalkCorner</string>
+        <string>CubeBlock/MediumSteelCatwalk2Sides</string>
+        <string>CubeBlock/MediumSteelCatwalkInv3Sides</string>
+        <string>CubeBlock/MediumSteelCatwalkInvCorner</string>
+        <string>CubeBlock/MediumSteelCatwalkInv2Sides</string>
+
+        <string>CubeBlock/MediumSteelCatwalkOnlySide</string>
+        <string>CubeBlock/MediumSteelCatwalkOnlyCorner</string>
+        <string>CubeBlock/MediumSteelCatwalkOnly2Sides</string>
+        <string>CubeBlock/MediumSteelCatwalkOnly3Sides</string>
+        <string>CubeBlock/MediumSteelCatwalkOnlyDiagonal</string>
+        <string>CubeBlock/MediumSteelCatwalkPlate</string>
+
+        <string>CubeBlock/MediumSteelCatwalkDiagonal</string>
+        <string>CubeBlock/MediumSteelCatwalkInvDiagonal</string>
+
+        <string>CubeBlock/MediumRamp</string>
+        <string>CubeBlock/MediumStairs</string>
+        <string>CubeBlock/MediumSidedRamp</string>
+        <string>CubeBlock/MediumSidedStairs</string>
+
+        <string>CubeBlock/Medium1x1Ramp</string>
+        <string>CubeBlock/Medium1x1Stairs</string>
+        <string>CubeBlock/MediumSided1x1Ramp</string>
+        <string>CubeBlock/MediumSided1x1Stairs</string>
+
+        <string>CubeBlock/Medium1x1RampSlope</string>
+        <string>CubeBlock/Medium1x1StairsSlope</string>
+        <string>CubeBlock/MediumSided1x1RampSlope</string>
+        <string>CubeBlock/MediumSided1x1StairsSlope</string>
+
+        <string>CubeBlock/SmallSteelCatwalk</string>
+        <string>CubeBlock/SmallSteelCatwalk3Sides</string>
+        <string>CubeBlock/SmallSteelCatwalkCorner</string>
+        <string>CubeBlock/SmallSteelCatwalk2Sides</string>
+        <string>CubeBlock/SmallSteelCatwalkInv3Sides</string>
+        <string>CubeBlock/SmallSteelCatwalkInvCorner</string>
+        <string>CubeBlock/SmallSteelCatwalkInv2Sides</string>
+
+        <string>CubeBlock/SmallSteelCatwalkOnlySide</string>
+        <string>CubeBlock/SmallSteelCatwalkOnlyCorner</string>
+        <string>CubeBlock/SmallSteelCatwalkOnly2Sides</string>
+        <string>CubeBlock/SmallSteelCatwalkOnly3Sides</string>
+        <string>CubeBlock/SmallSteelCatwalkOnlyDiagonal</string>
+
+        <string>CubeBlock/SmallSteelCatwalkDiagonal</string>
+        <string>CubeBlock/SmallSteelCatwalkInvDiagonal</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Catwalks</DisplayName>
+      <Name>Catwalks</Name>
+      <ItemIds>
+        <string>CubeBlock/LargeSteelCatwalk</string>
+        <string>CubeBlock/LargeSteelCatwalk3Sides</string>
+        <string>CubeBlock/LargeSteelCatwalkCorner</string>
+        <string>CubeBlock/LargeSteelCatwalk2Sides</string>
+        <string>CubeBlock/LargeSteelCatwalkInv3Sides</string>
+        <string>CubeBlock/LargeSteelCatwalkInvCorner</string>
+        <string>CubeBlock/LargeSteelCatwalkInv2Sides</string>
+
+        <string>CubeBlock/LargeSteelCatwalkOnlySide</string>
+        <string>CubeBlock/LargeSteelCatwalkOnlyCorner</string>
+        <string>CubeBlock/LargeSteelCatwalkOnly2Sides</string>
+        <string>CubeBlock/LargeSteelCatwalkOnly3Sides</string>
+        <string>CubeBlock/LargeSteelCatwalkOnlyDiagonal</string>
+
+        <string>CubeBlock/LargeSteelCatwalkDiagonal</string>
+        <string>CubeBlock/LargeSteelCatwalkInvDiagonal</string>
+
+        <string>CubeBlock/LargeSidedRamp</string>
+        <string>CubeBlock/LargeSidedStairs</string>
+
+        <string>CubeBlock/Large1x1Ramp</string>
+        <string>CubeBlock/Large1x1Stairs</string>
+        <string>CubeBlock/LargeSided1x1Ramp</string>
+        <string>CubeBlock/LargeSided1x1Stairs</string>
+
+        <string>CubeBlock/Large1x1RampSlope</string>
+        <string>CubeBlock/Large1x1StairsSlope</string>
+        <string>CubeBlock/LargeSided1x1RampSlope</string>
+        <string>CubeBlock/LargeSided1x1StairsSlope</string>
+
+        <string>CubeBlock/MediumSteelCatwalk</string>
+        <string>CubeBlock/MediumSteelCatwalk3Sides</string>
+        <string>CubeBlock/MediumSteelCatwalkCorner</string>
+        <string>CubeBlock/MediumSteelCatwalk2Sides</string>
         <string>CubeBlock/MediumSteelCatwalkInv3Sides</string>
         <string>CubeBlock/MediumSteelCatwalkInvCorner</string>
         <string>CubeBlock/MediumSteelCatwalkInv2Sides</string>
@@ -50,8 +152,34 @@
         <string>CubeBlock/MediumSteelCatwalkDiagonal</string>
         <string>CubeBlock/MediumSteelCatwalkInvDiagonal</string>
 
+        <string>CubeBlock/MediumRamp</string>
+        <string>CubeBlock/MediumStairs</string>
         <string>CubeBlock/MediumSidedRamp</string>
         <string>CubeBlock/MediumSidedStairs</string>
+
+        <string>CubeBlock/Medium1x1Ramp</string>
+        <string>CubeBlock/Medium1x1Stairs</string>
+        <string>CubeBlock/MediumSided1x1Ramp</string>
+        <string>CubeBlock/MediumSided1x1Stairs</string>
+
+        <string>CubeBlock/Medium1x1RampSlope</string>
+        <string>CubeBlock/Medium1x1StairsSlope</string>
+        <string>CubeBlock/MediumSided1x1RampSlope</string>
+        <string>CubeBlock/MediumSided1x1StairsSlope</string>
+
+        <string>CubeBlock/SmallSteelCatwalk3Sides</string>
+        <string>CubeBlock/SmallSteelCatwalkInv3Sides</string>
+        <string>CubeBlock/SmallSteelCatwalkInvCorner</string>
+        <string>CubeBlock/SmallSteelCatwalkInv2Sides</string>
+
+        <string>CubeBlock/SmallSteelCatwalkOnlySide</string>
+        <string>CubeBlock/SmallSteelCatwalkOnlyCorner</string>
+        <string>CubeBlock/SmallSteelCatwalkOnly2Sides</string>
+        <string>CubeBlock/SmallSteelCatwalkOnly3Sides</string>
+        <string>CubeBlock/SmallSteelCatwalkOnlyDiagonal</string>
+
+        <string>CubeBlock/SmallSteelCatwalkDiagonal</string>
+        <string>CubeBlock/SmallSteelCatwalkInvDiagonal</string>
       </ItemIds>
     </Category>
   </CategoryClasses>

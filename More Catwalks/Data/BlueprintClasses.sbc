@@ -20,22 +20,43 @@
     <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSidedRamp" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSidedStairs" />
 
-    <Entry Class="MediumBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalk3Sides" />
-    <Entry Class="MediumBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkInv3Sides" />
-    <Entry Class="MediumBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkInvCorner" />
-    <Entry Class="MediumBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkInv2Sides" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/Large1x1Ramp" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/Large1x1Stairs" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSided1x1Ramp" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSided1x1Stairs" />
 
-    <Entry Class="MediumBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkOnlySide" />
-    <Entry Class="MediumBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkOnlyCorner" />
-    <Entry Class="MediumBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkOnly2Sides" />
-    <Entry Class="MediumBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkOnly3Sides" />
-    <Entry Class="MediumBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkOnlyDiagonal" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/Large1x1RampSlope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/Large1x1StairsSlope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSided1x1RampSlope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSided1x1StairsSlope" />
 
-    <Entry Class="MediumBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkDiagonal" />
-    <Entry Class="MediumBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkInvDiagonal" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalk3Sides" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkInv3Sides" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkInvCorner" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkInv2Sides" />
 
-    <Entry Class="MediumBlocks" BlueprintSubtypeId="CubeBlock/MediumSidedRamp" />
-    <Entry Class="MediumBlocks" BlueprintSubtypeId="CubeBlock/MediumSidedStairs" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkOnlySide" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkOnlyCorner" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkOnly2Sides" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkOnly3Sides" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkOnlyDiagonal" />
 
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkDiagonal" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkInvDiagonal" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumRamp" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumStairs" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSidedRamp" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSidedStairs" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/Medium1x1Ramp" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/Medium1x1Stairs" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSided1x1Ramp" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSided1x1Stairs" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/Medium1x1RampSlope" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/Medium1x1StairsSlope" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSided1x1RampSlope" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSided1x1StairsSlope" />
   </BlueprintClassEntries>
 </Definitions>
