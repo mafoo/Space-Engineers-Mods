@@ -1858,16 +1858,16 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.20" EndX="0.15" EndY="2.00" />
+				<MountPoint Side="Right" StartX="4.85" StartY="0.20" EndX="5.00" EndY="2.00" />
       </MountPoints>
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalk_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalk_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalk</BlockPairName>
       <BlockVariants>
@@ -1938,16 +1938,16 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.20" EndX="0.15" EndY="2.00" />
+				<MountPoint Side="Right" StartX="4.85" StartY="0.20" EndX="5.00" EndY="2.00" />
       </MountPoints>
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkInv_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkInv_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkInv</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -1976,18 +1976,18 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
-				<MountPoint Side="Left" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.20" EndX="0.15" EndY="2.00" />
+				<MountPoint Side="Left" StartX="4.85" StartY="0.20" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.20" EndX="0.15" EndY="2.00" />
+				<MountPoint Side="Right" StartX="4.85" StartY="0.20" EndX="5.00" EndY="2.00" />
       </MountPoints>
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalk2Sides_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalk2Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalk2Sides</BlockPairName>
       <MirroringY>ZHalfY</MirroringY>
@@ -2017,18 +2017,18 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
-				<MountPoint Side="Left" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.20" EndX="0.15" EndY="2.00" />
+				<MountPoint Side="Left" StartX="4.85" StartY="0.20" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.20" EndX="0.15" EndY="2.00" />
+				<MountPoint Side="Right" StartX="4.85" StartY="0.20" EndX="5.00" EndY="2.00" />
       </MountPoints>
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkInv2Sides_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkInv2Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkInv2Sides</BlockPairName>
       <MirroringY>ZHalfY</MirroringY>
@@ -2058,16 +2058,16 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkCorner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkCorner_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Back" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.20" EndX="0.15" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Back" StartX="4.85" StartY="0.20" EndX="5.00" EndY="2.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkCorner</BlockPairName>
       <MirroringY>ZHalfY</MirroringY>
@@ -2097,16 +2097,16 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkInvCorner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkInvCorner_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Back" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.20" EndX="0.15" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Back" StartX="4.85" StartY="0.20" EndX="5.00" EndY="2.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkInvCorner</BlockPairName>
       <MirroringY>ZHalfY</MirroringY>
@@ -2136,14 +2136,14 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
       </MountPoints>
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkPlate_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkPlate_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkPlate</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2173,16 +2173,16 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.20" EndX="0.15" EndY="2.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="4.85" StartY="0.20" EndX="5.00" EndY="2.00" />
       </MountPoints>
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalk3Sides_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalk3Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalk3Sides</BlockPairName>
       <MirroringY>X</MirroringY>
@@ -2210,16 +2210,16 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Right" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.20" EndX="0.15" EndY="2.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="4.85" StartY="0.20" EndX="5.00" EndY="2.00" />
       </MountPoints>
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkInv3Sides_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkInv3Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkInv3Sides</BlockPairName>
       <MirroringY>X</MirroringY>
@@ -2248,15 +2248,15 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkHalf_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkHalf_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Back" StartX="0.48" StartY="0.00" EndX="0.52" EndY="0.40" />
-				<MountPoint Side="Front" StartX="0.48" StartY="0.00" EndX="0.52" EndY="0.40" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.52" EndY="1.00" />
-				<MountPoint Side="Front" StartX="0.52" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.48" EndY="0.04" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.80" EndY="5.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.20" />
+				<MountPoint Side="Back" StartX="2.60" StartY="0.00" EndX="2.80" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.60" EndY="0.20" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkHalf</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2285,15 +2285,15 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkInvHalf_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkInvHalf_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Back" StartX="0.48" StartY="0.00" EndX="0.52" EndY="0.40" />
-				<MountPoint Side="Front" StartX="0.48" StartY="0.00" EndX="0.52" EndY="0.40" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.52" EndY="1.00" />
-				<MountPoint Side="Front" StartX="0.52" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.48" EndY="0.04" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.80" EndY="5.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.20" />
+				<MountPoint Side="Back" StartX="2.60" StartY="0.00" EndX="2.80" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.60" EndY="0.20" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkInvHalf</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2323,13 +2323,13 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.43" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Right" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.15" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.15" />
+				<MountPoint Side="Right" StartX="0.80" StartY="0.00" EndX="1.00" EndY="2.15" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
       </MountPoints>
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkOnlySide_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkOnlySide_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkOnlySide</BlockPairName>
       <BlockVariants>
@@ -2388,15 +2388,15 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Right" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.43" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.15" />
+				<MountPoint Side="Right" StartX="4.80" StartY="0.00" EndX="5.00" EndY="2.15" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.15" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.15" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.20" EndY="5.00" />
       </MountPoints>
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkOnlyCorner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkOnlyCorner_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkOnlyCorner</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2425,17 +2425,17 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.43" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Right" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.43" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Left" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.96" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.15" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.15" />
+				<MountPoint Side="Right" StartX="4.80" StartY="0.00" EndX="5.00" EndY="2.15" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.15" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.15" />
+				<MountPoint Side="Left" StartX="4.80" StartY="0.00" EndX="5.00" EndY="2.15" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="4.80" EndX="5.00" EndY="5.00" />
       </MountPoints>
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkOnly2Sides_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkOnly2Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkOnly2Sides</BlockPairName>
       <MirroringY>ZHalfY</MirroringY>
@@ -2466,17 +2466,17 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkOnly3Sides_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkOnly3Sides_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Right" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.43" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.43" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.96" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.15" />
+				<MountPoint Side="Right" StartX="4.80" StartY="0.00" EndX="5.00" EndY="2.15" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.15" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.20" EndY="5.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.15" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.15" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="4.80" EndX="5.00" EndY="5.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnly3Sides</BlockPairName>
       <MirroringY>ZHalfY</MirroringY>
@@ -2507,12 +2507,12 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkOnlyHalf_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkOnlyHalf_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Back" StartX="0.48" StartY="0.00" EndX="0.52" EndY="0.40" />
-				<MountPoint Side="Front" StartX="0.48" StartY="0.00" EndX="0.52" EndY="0.40" />
-				<MountPoint Side="Bottom" StartX="0.48" StartY="0.00" EndX="0.52" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.40" StartY="0.00" EndX="0.60" EndY="2.00" />
+				<MountPoint Side="Front" StartX="0.40" StartY="0.00" EndX="0.60" EndY="2.00" />
+				<MountPoint Side="Bottom" StartX="0.40" StartY="0.00" EndX="0.60" EndY="5.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnlyHalf</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2546,19 +2546,19 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-				<MountPoint Side="Left" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.41" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.41" />
-				<MountPoint Side="Right" StartX="0.96" StartY="0.05" EndX="1.00" EndY="0.41" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.05" EndX="0.04" EndY="0.41" />
-				<MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
-				<MountPoint Side="Bottom" StartX="0.50" StartY="0.25" EndX="1.00" EndY="0.50" />
-				<MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="1.00" EndY="0.75" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="4.80" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.00" />
+				<MountPoint Side="Right" StartX="4.80" StartY="0.25" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.25" EndX="0.20" EndY="2.00" />
+				<MountPoint Side="Bottom" StartX="3.75" StartY="0.00" EndX="5.00" EndY="1.25" />
+				<MountPoint Side="Bottom" StartX="2.50" StartY="1.25" EndX="5.00" EndY="2.50" />
+				<MountPoint Side="Bottom" StartX="1.25" StartY="2.50" EndX="5.00" EndY="3.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="3.75" EndX="5.00" EndY="5.00" />
       </MountPoints>
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkDiagonal_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkDiagonal_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkDiagonal</BlockPairName>
       <BlockVariants>
@@ -2625,19 +2625,19 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkInvDiagonal_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkInvDiagonal_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.41" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.41" />
-				<MountPoint Side="Right" StartX="0.96" StartY="0.05" EndX="1.00" EndY="0.41" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.05" EndX="0.04" EndY="0.41" />
-				<MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
-				<MountPoint Side="Bottom" StartX="0.50" StartY="0.25" EndX="1.00" EndY="0.50" />
-				<MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="1.00" EndY="0.75" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="4.80" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.00" />
+				<MountPoint Side="Right" StartX="4.80" StartY="0.25" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.25" EndX="0.20" EndY="2.00" />
+				<MountPoint Side="Bottom" StartX="3.75" StartY="0.00" EndX="5.00" EndY="1.25" />
+				<MountPoint Side="Bottom" StartX="2.50" StartY="1.25" EndX="5.00" EndY="2.50" />
+				<MountPoint Side="Bottom" StartX="1.25" StartY="2.50" EndX="5.00" EndY="3.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="3.75" EndX="5.00" EndY="5.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkInvDiagonal</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2667,18 +2667,18 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalk2x1DiagonalTip_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalk2x1DiagonalTip_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Front" StartX="0.98" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.08" EndY="0.25" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.25" EndX="0.21" EndY="0.50" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="0.34" EndY="0.75" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="0.46" EndY="1.00" />
-				<MountPoint Side="Back" StartX="0.48" StartY="0.04" EndX="0.52" EndY="0.42" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.52" EndY="0.04" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+				<MountPoint Side="Front" StartX="2.80" StartY="0.00" EndX="3.00" EndY="2.00" />
+				<MountPoint Side="Back" StartX="2.80" StartY="0.20" EndX="3.00" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.40" EndY="1.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="1.25" EndX="1.05" EndY="2.50" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="2.50" EndX="1.70" EndY="3.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="3.75" EndX="2.30" EndY="5.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.20" EndX="0.15" EndY="2.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalk2x1DiagonalTip</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2707,18 +2707,18 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalk2x1DiagonalBase_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalk2x1DiagonalBase_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Back" StartX="0.98" StartY="0.04" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Front" StartX="0.48" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.58" EndY="0.25" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.25" EndX="0.71" EndY="0.50" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="0.84" EndY="0.75" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="0.96" EndY="1.00" />
-				<MountPoint Side="Front" StartX="0.48" StartY="0.04" EndX="0.51" EndY="0.42" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Back" StartX="4.90" StartY="0.20" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Front" StartX="2.40" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.90" EndY="1.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="1.25" EndX="3.55" EndY="2.50" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="2.50" EndX="4.20" EndY="3.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="3.75" EndX="4.80" EndY="5.00" />
+				<MountPoint Side="Front" StartX="2.40" StartY="0.20" EndX="2.55" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
 			</MountPoints>
       <BlockPairName>SteelCatwalk2x1DiagonalBase</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2747,18 +2747,18 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalk2x1InvDiagonalTip_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalk2x1InvDiagonalTip_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Front" StartX="0.98" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.08" EndY="0.25" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.25" EndX="0.21" EndY="0.50" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="0.34" EndY="0.75" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="0.46" EndY="1.00" />
-				<MountPoint Side="Back" StartX="0.48" StartY="0.04" EndX="0.52" EndY="0.42" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.52" EndY="0.04" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+				<MountPoint Side="Front" StartX="2.80" StartY="0.00" EndX="3.00" EndY="2.00" />
+				<MountPoint Side="Back" StartX="2.80" StartY="0.20" EndX="3.00" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.40" EndY="1.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="1.25" EndX="1.05" EndY="2.50" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="2.50" EndX="1.70" EndY="3.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="3.75" EndX="2.30" EndY="5.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.20" EndX="0.15" EndY="2.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalk2x1InvDiagonalTip</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2787,18 +2787,18 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalk2x1InvDiagonalBase_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalk2x1InvDiagonalBase_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Back" StartX="0.98" StartY="0.04" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Front" StartX="0.48" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.58" EndY="0.25" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.25" EndX="0.71" EndY="0.50" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="0.84" EndY="0.75" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="0.96" EndY="1.00" />
-				<MountPoint Side="Front" StartX="0.48" StartY="0.04" EndX="0.51" EndY="0.42" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Back" StartX="4.90" StartY="0.20" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Front" StartX="2.40" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.90" EndY="1.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="1.25" EndX="3.55" EndY="2.50" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="2.50" EndX="4.20" EndY="3.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="3.75" EndX="4.80" EndY="5.00" />
+				<MountPoint Side="Front" StartX="2.40" StartY="0.20" EndX="2.55" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
 			</MountPoints>
       <BlockPairName>SteelCatwalk2x1InvDiagonalBase</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2828,18 +2828,18 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkMirrored2x1DiagonalTip_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkMirrored2x1DiagonalTip_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.02" EndY="0.42" />
-				<MountPoint Side="Front" StartX="0.48" StartY="0.04" EndX="0.52" EndY="0.42" />
-				<MountPoint Side="Front" StartX="0.48" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Left" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="0.08" EndY="1.00" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="0.21" EndY="0.75" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.25" EndX="0.34" EndY="0.50" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.46" EndY="0.25" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.20" EndX="0.20" EndY="2.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.20" />
+				<MountPoint Side="Left" StartX="4.85" StartY="0.20" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="3.75" EndX="0.40" EndY="5.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="2.50" EndX="1.05" EndY="3.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="1.25" EndX="1.70" EndY="2.50" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.30" EndY="1.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkMirrored2x1DiagonalTip</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2868,18 +2868,18 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkMirrored2x1DiagonalBase_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkMirrored2x1DiagonalBase_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.04" EndX="0.02" EndY="0.42" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.52" EndY="0.04" />
-				<MountPoint Side="Back" StartX="0.49" StartY="0.04" EndX="0.52" EndY="0.42" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.25" EndX="0.84" EndY="0.50" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="0.71" EndY="0.75" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="0.58" EndY="1.00" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.96" EndY="0.25" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.20" EndX="0.10" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.60" EndY="0.20" />
+				<MountPoint Side="Back" StartX="2.45" StartY="0.20" EndX="2.60" EndY="2.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="1.25" EndX="4.20" EndY="2.50" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="2.50" EndX="3.55" EndY="3.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="3.75" EndX="2.90" EndY="5.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="4.80" EndY="1.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkMirrored2x1DiagonalBase</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2908,18 +2908,18 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkMirrored2x1InvDiagonalTip_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkMirrored2x1InvDiagonalTip_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.02" EndY="0.42" />
-				<MountPoint Side="Front" StartX="0.48" StartY="0.04" EndX="0.52" EndY="0.42" />
-				<MountPoint Side="Front" StartX="0.48" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Left" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="0.08" EndY="1.00" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="0.21" EndY="0.75" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.25" EndX="0.34" EndY="0.50" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.46" EndY="0.25" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.20" EndX="0.20" EndY="2.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.20" />
+				<MountPoint Side="Left" StartX="4.85" StartY="0.20" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="3.75" EndX="0.40" EndY="5.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="2.50" EndX="1.05" EndY="3.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="1.25" EndX="1.70" EndY="2.50" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.30" EndY="1.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkMirrored2x1InvDiagonalTip</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2948,18 +2948,18 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkMirrored2x1InvDiagonalBase_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkMirrored2x1InvDiagonalBase_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.04" EndX="0.02" EndY="0.42" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.52" EndY="0.04" />
-				<MountPoint Side="Back" StartX="0.49" StartY="0.04" EndX="0.52" EndY="0.42" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.25" EndX="0.84" EndY="0.50" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="0.71" EndY="0.75" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="0.58" EndY="1.00" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.96" EndY="0.25" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.20" EndX="0.10" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.60" EndY="0.20" />
+				<MountPoint Side="Back" StartX="2.45" StartY="0.20" EndX="2.60" EndY="2.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="1.25" EndX="4.20" EndY="2.50" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="2.50" EndX="3.55" EndY="3.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="3.75" EndX="2.90" EndY="5.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="4.80" EndY="1.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkMirrored2x1InvDiagonalBase</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2990,17 +2990,17 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkOnlyDiagonal_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkOnlyDiagonal_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Right" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.41" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.41" />
-				<MountPoint Side="Left" StartX="0.96" StartY="0.00" EndX="1.00" EndY="0.41" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.04" EndY="0.41" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
-				<MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
-				<MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="0.50" EndY="0.75" />
-				<MountPoint Side="Top" StartX="0.50" StartY="0.50" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Right" StartX="4.80" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.00" />
+				<MountPoint Side="Left" StartX="4.80" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="3.75" EndX="1.25" EndY="5.00" />
+				<MountPoint Side="Bottom" StartX="1.25" StartY="2.50" EndX="2.50" EndY="3.75" />
+				<MountPoint Side="Bottom" StartX="2.50" StartY="1.25" EndX="3.75" EndY="2.50" />
+				<MountPoint Side="Bottom" StartX="3.75" StartY="0.00" EndX="5.00" EndY="1.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnlyDiagonal</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -3029,16 +3029,16 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkOnly2x1Diagonal_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkOnly2x1Diagonal_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.03" EndY="0.42" />
-				<MountPoint Side="Back" StartX="0.98" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Front" StartX="0.48" StartY="0.00" EndX="0.51" EndY="0.42" />
-				<MountPoint Side="Bottom" StartX="0.91" StartY="0.75" EndX="0.96" EndY="1.00" />
-				<MountPoint Side="Top" StartX="0.79" StartY="0.25" EndX="0.84" EndY="0.50" />
-				<MountPoint Side="Top" StartX="0.66" StartY="0.50" EndX="0.71" EndY="0.75" />
-				<MountPoint Side="Bottom" StartX="0.54" StartY="0.00" EndX="0.58" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.15" EndY="2.00" />
+				<MountPoint Side="Back" StartX="2.80" StartY="0.00" EndX="3.00" EndY="2.00" />
+				<MountPoint Side="Front" StartX="3.00" StartY="0.00" EndX="2.80" EndY="2.00" />
+				<MountPoint Side="Bottom" StartX="2.60" StartY="3.75" EndX="2.80" EndY="5.00" />
+				<MountPoint Side="Bottom" StartX="2.00" StartY="2.50" EndX="2.20" EndY="3.75" />
+				<MountPoint Side="Bottom" StartX="1.40" StartY="1.25" EndX="1.60" EndY="2.50" />
+				<MountPoint Side="Bottom" StartX="0.80" StartY="0.00" EndX="1.00" EndY="1.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnly2x1Diagonal</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -3067,16 +3067,16 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkOnlyMirrored2x1Diagonal_Constr1.mwm" />
+				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkOnlyMirrored2x1Diagonal_Constr1.mwm" />
       </BuildProgressModels>
 			<MountPoints>
-				<MountPoint Side="Right" StartX="0.97" StartY="0.00" EndX="1.00" EndY="0.42" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.02" EndY="0.42" />
-				<MountPoint Side="Back" StartX="0.49" StartY="0.00" EndX="0.52" EndY="0.42" />
-				<MountPoint Side="Bottom" StartX="0.91" StartY="0.00" EndX="0.96" EndY="0.25" />
-				<MountPoint Side="Top" StartX="0.79" StartY="0.50" EndX="0.84" EndY="0.75" />
-				<MountPoint Side="Top" StartX="0.66" StartY="0.25" EndX="0.71" EndY="0.50" />
-				<MountPoint Side="Bottom" StartX="0.54" StartY="0.75" EndX="0.58" EndY="1.00" />
+				<MountPoint Side="Right" StartX="4.85" StartY="0.00" EndX="5.00" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.20" EndY="2.00" />
+				<MountPoint Side="Bottom" StartX="2.60" StartY="0.00" EndX="2.80" EndY="1.25" />
+				<MountPoint Side="Bottom" StartX="2.00" StartY="1.25" EndX="2.20" EndY="2.50" />
+				<MountPoint Side="Bottom" StartX="1.40" StartY="2.50" EndX="1.60" EndY="3.75" />
+				<MountPoint Side="Bottom" StartX="0.80" StartY="3.75" EndX="1.00" EndY="5.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnlyMirrored2x1Diagonal</BlockPairName>
       <MirroringY>Z</MirroringY>
