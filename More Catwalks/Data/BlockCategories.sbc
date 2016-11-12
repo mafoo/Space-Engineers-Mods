@@ -36,6 +36,12 @@
         <string>CubeBlock/Large1x1StairsSlope</string>
         <string>CubeBlock/LargeSided1x1RampSlope</string>
         <string>CubeBlock/LargeSided1x1StairsSlope</string>
+
+        <string>CubeBlock/LargeSteelCatwalkSuspended</string>
+        <string>CubeBlock/LargeSteelCatwalkSuspendedInv</string>
+        <string>CubeBlock/LargeSteelCatwalkSuspendedLong</string>
+        <string>CubeBlock/LargeSteelCatwalkSuspendedInvLong</string>
+        
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -134,6 +140,11 @@
         <string>CubeBlock/Large1x1StairsSlope</string>
         <string>CubeBlock/LargeSided1x1RampSlope</string>
         <string>CubeBlock/LargeSided1x1StairsSlope</string>
+
+        <string>CubeBlock/LargeSteelCatwalkSuspended</string>
+        <string>CubeBlock/LargeSteelCatwalkSuspendedInv</string>
+        <string>CubeBlock/LargeSteelCatwalkSuspendedLong</string>
+        <string>CubeBlock/LargeSteelCatwalkSuspendedInvLong</string>
 
         <string>CubeBlock/MediumSteelCatwalk</string>
         <string>CubeBlock/MediumSteelCatwalk3Sides</string>

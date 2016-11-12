@@ -32,8 +32,8 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkSide_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkSide</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -117,8 +117,8 @@
           <SubtypeId>LargeSteelCatwalkPlate</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -155,8 +155,8 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkInv_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkInv</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -195,9 +195,9 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalk2Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalk2Sides</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -236,9 +236,9 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkInv2Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkInv2Sides</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -275,9 +275,9 @@
 				<MountPoint Side="Back" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkCorner</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -314,9 +314,9 @@
 				<MountPoint Side="Back" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkInvCorner</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -351,8 +351,8 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkPlate_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkPlate</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -390,7 +390,7 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalk3Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalk3Sides</BlockPairName>
-      <MirroringY>X</MirroringY>
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -427,7 +427,7 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkInv3Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkInv3Sides</BlockPairName>
-      <MirroringY>X</MirroringY>
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -464,8 +464,8 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.48" EndY="0.04" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkHalf</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -501,8 +501,8 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.48" EndY="0.04" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkInvHalf</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -567,8 +567,8 @@
           <SubtypeId>LargeSteelCatwalkOnlyHalf</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -604,8 +604,8 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkOnlyCorner_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkOnlyCorner</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -643,9 +643,9 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkOnly2Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkOnly2Sides</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -684,9 +684,9 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.96" EndX="1.00" EndY="1.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnly3Sides</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -720,8 +720,8 @@
 				<MountPoint Side="Bottom" StartX="0.48" StartY="0.00" EndX="0.52" EndY="1.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnlyHalf</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -804,8 +804,8 @@
           <SubtypeId>LargeSteelCatwalkMirrored2x1InvDiagonalBase</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -845,8 +845,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkInvDiagonal</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -886,8 +886,8 @@
 				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
 			</MountPoints>
       <BlockPairName>SteelCatwalk2x1DiagonalTip</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -926,8 +926,8 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
 			</MountPoints>
       <BlockPairName>SteelCatwalk2x1DiagonalBase</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -966,8 +966,8 @@
 				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
 			</MountPoints>
       <BlockPairName>SteelCatwalk2x1InvDiagonalTip</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -1006,8 +1006,8 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
 			</MountPoints>
       <BlockPairName>SteelCatwalk2x1InvDiagonalBase</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -1047,8 +1047,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.46" EndY="0.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkMirrored2x1DiagonalTip</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -1087,8 +1087,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.96" EndY="0.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkMirrored2x1DiagonalBase</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -1127,8 +1127,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.46" EndY="0.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkMirrored2x1InvDiagonalTip</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -1167,8 +1167,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.96" EndY="0.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkMirrored2x1InvDiagonalBase</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -1208,8 +1208,8 @@
 				<MountPoint Side="Top" StartX="0.50" StartY="0.50" EndX="0.75" EndY="0.75" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnlyDiagonal</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -1246,8 +1246,8 @@
 				<MountPoint Side="Bottom" StartX="0.54" StartY="0.00" EndX="0.58" EndY="0.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnly2x1Diagonal</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -1284,8 +1284,8 @@
 				<MountPoint Side="Bottom" StartX="0.54" StartY="0.75" EndX="0.58" EndY="1.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnlyMirrored2x1Diagonal</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -1341,8 +1341,8 @@
         </BlockVariant>
       </BlockVariants>
       <BlockPairName>Stairs</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
     </Definition>
@@ -1388,8 +1388,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
 			</MountPoints>
       <BlockPairName>SidedRamp</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
     </Definition>
@@ -1435,8 +1435,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
 			</MountPoints>
       <BlockPairName>SidedStairs</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
     </Definition>
@@ -1494,8 +1494,8 @@
         </BlockVariant>
       </BlockVariants>
       <BlockPairName>1x1Stairs</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
     </Definition>
@@ -1536,8 +1536,8 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\Large1x1Ramp_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>1x1Ramp</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
     </Definition>
@@ -1583,8 +1583,8 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeSided1x1Ramp_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>Sided1x1Ramp</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
     </Definition>
@@ -1630,8 +1630,8 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeSided1x1Stairs_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>Sided1x1Stairs</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
     </Definition>
@@ -1689,8 +1689,8 @@
         </BlockVariant>
       </BlockVariants>
       <BlockPairName>1x1StairsSlope</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
     </Definition>
@@ -1731,8 +1731,8 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\Large1x1RampSlope_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>1x1RampSlope</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
     </Definition>
@@ -1778,8 +1778,8 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeSided1x1RampSlope_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>Sided1x1RampSlope</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
     </Definition>
@@ -1825,8 +1825,8 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeSided1x1StairsSlope_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>Sided1x1StairsSlope</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
     </Definition>
@@ -1912,8 +1912,8 @@
           <SubtypeId>MediumSteelCatwalkPlate</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -1950,8 +1950,8 @@
 				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkInv_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkInv</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -1990,9 +1990,9 @@
 				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalk2Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalk2Sides</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2031,9 +2031,9 @@
 				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkInv2Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkInv2Sides</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2070,9 +2070,9 @@
 				<MountPoint Side="Back" StartX="4.85" StartY="0.20" EndX="5.00" EndY="2.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkCorner</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2109,9 +2109,9 @@
 				<MountPoint Side="Back" StartX="4.85" StartY="0.20" EndX="5.00" EndY="2.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkInvCorner</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2146,8 +2146,8 @@
 				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkPlate_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkPlate</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2185,7 +2185,7 @@
 				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalk3Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalk3Sides</BlockPairName>
-      <MirroringY>X</MirroringY>
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2222,7 +2222,7 @@
 				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkInv3Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkInv3Sides</BlockPairName>
-      <MirroringY>X</MirroringY>
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2259,8 +2259,8 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.60" EndY="0.20" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkHalf</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2296,8 +2296,8 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.60" EndY="0.20" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkInvHalf</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2362,8 +2362,8 @@
           <SubtypeId>MediumSteelCatwalkOnlyHalf</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2399,8 +2399,8 @@
 				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkOnlyCorner_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkOnlyCorner</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2438,9 +2438,9 @@
 				<Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkOnly2Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkOnly2Sides</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2479,9 +2479,9 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="4.80" EndX="5.00" EndY="5.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnly3Sides</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2515,8 +2515,8 @@
 				<MountPoint Side="Bottom" StartX="0.40" StartY="0.00" EndX="0.60" EndY="5.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnlyHalf</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2599,8 +2599,8 @@
           <SubtypeId>MediumSteelCatwalkMirrored2x1InvDiagonalBase</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2640,8 +2640,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="3.75" EndX="5.00" EndY="5.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkInvDiagonal</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2681,8 +2681,8 @@
 				<MountPoint Side="Left" StartX="0.00" StartY="0.20" EndX="0.15" EndY="2.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalk2x1DiagonalTip</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2721,8 +2721,8 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
 			</MountPoints>
       <BlockPairName>SteelCatwalk2x1DiagonalBase</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2761,8 +2761,8 @@
 				<MountPoint Side="Left" StartX="0.00" StartY="0.20" EndX="0.15" EndY="2.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalk2x1InvDiagonalTip</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2801,8 +2801,8 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.20" />
 			</MountPoints>
       <BlockPairName>SteelCatwalk2x1InvDiagonalBase</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2842,8 +2842,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.30" EndY="1.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkMirrored2x1DiagonalTip</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2882,8 +2882,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="4.80" EndY="1.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkMirrored2x1DiagonalBase</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2922,8 +2922,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.30" EndY="1.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkMirrored2x1InvDiagonalTip</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -2962,8 +2962,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="4.80" EndY="1.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkMirrored2x1InvDiagonalBase</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -3003,8 +3003,8 @@
 				<MountPoint Side="Bottom" StartX="3.75" StartY="0.00" EndX="5.00" EndY="1.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnlyDiagonal</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -3041,8 +3041,8 @@
 				<MountPoint Side="Bottom" StartX="0.80" StartY="0.00" EndX="1.00" EndY="1.25" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnly2x1Diagonal</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -3079,8 +3079,8 @@
 				<MountPoint Side="Bottom" StartX="0.80" StartY="3.75" EndX="1.00" EndY="5.00" />
 			</MountPoints>
       <BlockPairName>SteelCatwalkOnlyMirrored2x1Diagonal</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -3136,8 +3136,8 @@
         </BlockVariant>
       </BlockVariants>
       <BlockPairName>Stairs</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
     </Definition>
@@ -3183,8 +3183,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\LargeSidedRamp_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>SidedRamp</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
     </Definition>
@@ -3223,8 +3223,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RampConstruction_3.mwm" />
       </BuildProgressModels>
       <BlockPairName>Ramp</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
     </Definition>
@@ -3270,8 +3270,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\LargeSidedStairs_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>SidedStairs</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
     </Definition>
@@ -3329,8 +3329,8 @@
         </BlockVariant>
       </BlockVariants>
       <BlockPairName>1x1Stairs</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
     </Definition>
@@ -3371,8 +3371,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Large1x1Ramp_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>1x1Ramp</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
     </Definition>
@@ -3418,8 +3418,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\LargeSided1x1Ramp_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>Sided1x1Ramp</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
     </Definition>
@@ -3465,8 +3465,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\LargeSided1x1Stairs_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>Sided1x1Stairs</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
     </Definition>
@@ -3524,8 +3524,8 @@
         </BlockVariant>
       </BlockVariants>
       <BlockPairName>1x1StairsSlope</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
     </Definition>
@@ -3566,8 +3566,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Large1x1RampSlope_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>1x1RampSlope</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
     </Definition>
@@ -3613,8 +3613,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\LargeSided1x1RampSlope_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>Sided1x1RampSlope</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
     </Definition>
@@ -3660,8 +3660,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\LargeSided1x1StairsSlope_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>Sided1x1StairsSlope</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
     </Definition>
@@ -3747,8 +3747,8 @@
           <SubtypeId>SmallSteelCatwalkPlate</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -3785,8 +3785,8 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\SmallSteelCatwalkInv_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SmallSteelCatwalkInv</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -3825,9 +3825,9 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\SmallSteelCatwalk2Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SmallSteelCatwalk2Sides</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -3866,9 +3866,9 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\SmallSteelCatwalkInv2Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SmallSteelCatwalkInv2Sides</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -3905,9 +3905,9 @@
 				<MountPoint Side="Back" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
       </MountPoints>
       <BlockPairName>SmallSteelCatwalkCorner</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -3944,9 +3944,9 @@
 				<MountPoint Side="Back" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalkInvCorner</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -3981,8 +3981,8 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\SmallSteelCatwalkPlate_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SmallSteelCatwalkPlate</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4020,7 +4020,7 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\SmallSteelCatwalk3Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SmallSteelCatwalk3Sides</BlockPairName>
-      <MirroringY>X</MirroringY>
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4057,7 +4057,7 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\SmallSteelCatwalkInv3Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SmallSteelCatwalkInv3Sides</BlockPairName>
-      <MirroringY>X</MirroringY>
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4094,8 +4094,8 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.48" EndY="0.04" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalkHalf</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4131,8 +4131,8 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.48" EndY="0.04" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalkInvHalf</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4197,8 +4197,8 @@
           <SubtypeId>SmallSteelCatwalkOnlyHalf</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4234,8 +4234,8 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\SmallSteelCatwalkOnlyCorner_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SmallSteelCatwalkOnlyCorner</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4273,9 +4273,9 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\SmallSteelCatwalkOnly2Sides_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SmallSteelCatwalkOnly2Sides</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4314,9 +4314,9 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.96" EndX="1.00" EndY="1.00" />
       </MountPoints>
       <BlockPairName>SmallSteelCatwalkOnly3Sides</BlockPairName>
-      <MirroringY>ZHalfY</MirroringY>
-      <MirroringZ>HalfY</MirroringZ>
-      <MirroringX>MinusHalfY</MirroringX>
+
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4350,8 +4350,8 @@
 				<MountPoint Side="Bottom" StartX="0.48" StartY="0.00" EndX="0.52" EndY="1.00" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalkOnlyHalf</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4434,8 +4434,8 @@
           <SubtypeId>SmallSteelCatwalkMirrored2x1InvDiagonalBase</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4475,8 +4475,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalkInvDiagonal</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4516,8 +4516,8 @@
 				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalk2x1DiagonalTip</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4556,8 +4556,8 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalk2x1DiagonalBase</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4596,8 +4596,8 @@
 				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalk2x1InvDiagonalTip</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4636,8 +4636,8 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalk2x1InvDiagonalBase</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4677,8 +4677,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.46" EndY="0.25" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalkMirrored2x1DiagonalTip</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4717,8 +4717,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.96" EndY="0.25" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalkMirrored2x1DiagonalBase</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4757,8 +4757,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.46" EndY="0.25" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalkMirrored2x1InvDiagonalTip</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4797,8 +4797,8 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.96" EndY="0.25" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalkMirrored2x1InvDiagonalBase</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4838,8 +4838,8 @@
 				<MountPoint Side="Top" StartX="0.50" StartY="0.50" EndX="0.75" EndY="0.75" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalkOnlyDiagonal</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4876,8 +4876,8 @@
 				<MountPoint Side="Bottom" StartX="0.54" StartY="0.00" EndX="0.58" EndY="0.25" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalkOnly2x1Diagonal</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4914,8 +4914,8 @@
 				<MountPoint Side="Bottom" StartX="0.54" StartY="0.75" EndX="0.58" EndY="1.00" />
 			</MountPoints>
       <BlockPairName>SmallSteelCatwalkOnlyMirrored2x1Diagonal</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+
+
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
     </Definition>
@@ -4924,5 +4924,185 @@
 
     <!--END Blocks-->
 
+    <!--New Catwalks -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkSuspended</SubtypeId>
+      </Id>
+      <DisplayName>Suspended Catwalk</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkSuspended.dds</Icon>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkSuspended.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25" />
+        <Component Subtype="Construction" Count="11" />
+        <Component Subtype="SmallTube" Count="23" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Back" StartX="0.10" StartY="0.97" EndX="0.20" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.80" StartY="0.97" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.00" EndX="0.20" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+				<MountPoint Side="Left" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+				<MountPoint Side="Right" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Back" StartX="0.80" StartY="0.97" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.10" StartY="0.97" EndX="0.20" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.80" StartY="0.00" EndX="0.90" EndY="1.00" />
+      </MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkSuspended_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkSuspended</BlockPairName>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkSuspendedInv</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkSuspendedLong</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkSuspendedInvLong</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkSuspendedInv</SubtypeId>
+      </Id>
+      <DisplayName>Suspended Catwalk</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkSuspendedInv.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkSuspendedInv.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25" />
+        <Component Subtype="Construction" Count="11" />
+        <Component Subtype="SmallTube" Count="23" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Back" StartX="0.10" StartY="0.97" EndX="0.20" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.80" StartY="0.97" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.00" EndX="0.20" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+				<MountPoint Side="Left" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+				<MountPoint Side="Right" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Back" StartX="0.80" StartY="0.97" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.10" StartY="0.97" EndX="0.20" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.80" StartY="0.00" EndX="0.90" EndY="1.00" />
+      </MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkSuspendedInv_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkSuspendedInv</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkSuspendedLong</SubtypeId>
+      </Id>
+      <DisplayName>Long Suspended Catwalk</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkSuspendedLong.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkSuspendedLong.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25" />
+        <Component Subtype="Construction" Count="11" />
+        <Component Subtype="SmallTube" Count="23" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+				<MountPoint Side="Left" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+				<MountPoint Side="Right" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+      </MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkSuspendedLong_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkSuspendedLong</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkSuspendedInvLong</SubtypeId>
+      </Id>
+      <DisplayName>Long Suspended Catwalk</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkSuspendedInvLong.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkSuspendedInvLong.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25" />
+        <Component Subtype="Construction" Count="11" />
+        <Component Subtype="SmallTube" Count="23" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+				<MountPoint Side="Left" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+				<MountPoint Side="Right" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+      </MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkSuspendedInvLong_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkSuspendedInvLong</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+    </Definition>
+    <!--END New Catwalks -->
   </CubeBlocks>
 </Definitions>

@@ -30,6 +30,11 @@
     <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSided1x1RampSlope" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSided1x1StairsSlope" />
 
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSteelCatwalkSuspended" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSteelCatwalkSuspendedInv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSteelCatwalkSuspendedLong" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/LargeSteelCatwalkSuspendedInvLong" />
+
     <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalk3Sides" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkInv3Sides" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/MediumSteelCatwalkInvCorner" />

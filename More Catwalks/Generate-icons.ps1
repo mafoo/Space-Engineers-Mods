@@ -87,7 +87,7 @@ Try{
 					& $im_composite.FullName $regular_overlay.FullName $icon.FullName $dst_file
 				}
 			}
-			if($small_overlay -and $icon.BaseName -like "SteelCatwalk*"){
+			if($small_overlay -and $icon.BaseName -like "SteelCatwalk*" -and $icon.BaseName -notlike "*Suspended*"){
 				$dst_small_overlay_file = $tmp_dir.FullName + "\small_" + ($icon.BaseName -replace "(.*)\d+",'$1') + ".png"
 				& $im_composite.FullName $small_overlay.FullName $dst_file $dst_small_overlay_file
 			}
