@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
 
     <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
@@ -56,6 +56,10 @@
         <BlockVariant>
           <TypeId>Warhead</TypeId>
           <SubtypeId>LargeHugeWarhead</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Warhead</TypeId>
+          <SubtypeId>LargeWarheadFission</SubtypeId>
         </BlockVariant>
       </BlockVariants>
       <ExplosionRadius>22.45</ExplosionRadius>
@@ -156,7 +160,7 @@
         <TypeId>Warhead</TypeId>
         <SubtypeId>LargeHugeWarhead</SubtypeId>
       </Id>
-      <DisplayName>Huge Warhead (50M/20 Blocks)</DisplayName>
+      <DisplayName>Huge Warhead (30M/12 Blocks)</DisplayName><!-- 50M/20 Blocks -->
       <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -170,7 +174,7 @@
         <Component Subtype="Construction" Count="12" />
         <Component Subtype="SmallTube" Count="12" />
         <Component Subtype="Computer" Count="2" />
-        <Component Subtype="Explosives" Count="30" />
+        <Component Subtype="Explosives" Count="15" /><!-- 30 -->
       </Components>
       <CriticalComponent Subtype="Explosives" Index="0" />
       <MountPoints>
@@ -193,8 +197,59 @@
       <BlockPairName>HugeWarhead</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
-      <ExplosionRadius>49.95</ExplosionRadius>
+      <ExplosionRadius>30</ExplosionRadius>
       <WarheadExplosionDamage>15000</WarheadExplosionDamage>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
+      <Id>
+        <TypeId>Warhead</TypeId>
+        <SubtypeId>LargeWarheadFission</SubtypeId>
+      </Id>
+      <DisplayName>Fission Warhead (30M/12 Blocks)</DisplayName>
+      <Icon>Textures\Icons\WarheadFission.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeWarheadFission.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="Girder" Count="48" />
+        <Component Subtype="Construction" Count="24" />
+        <Component Subtype="SmallTube" Count="24" />
+        <Component Subtype="Computer" Count="4" />
+        <Component Subtype="Reactor" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="Reactor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\LargeWarheadFission_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\LargeWarheadFission_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeWarheadFission_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.10" StartY="1.60" EndX="0.40" EndY="1.90" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.10" EndX="0.40" EndY="0.40" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.47" EndX="0.30" EndY="1.52" />
+				<MountPoint Side="Left" StartX="1.70" StartY="0.47" EndX="2.00" EndY="1.52" />
+				<MountPoint Side="Bottom" StartX="1.60" StartY="1.60" EndX="1.90" EndY="1.90" />
+				<MountPoint Side="Top" StartX="1.60" StartY="0.10" EndX="1.90" EndY="0.40" />
+				<MountPoint Side="Back" StartX="1.70" StartY="0.47" EndX="2.00" EndY="1.52" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.47" EndX="0.30" EndY="1.52" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.10" EndX="0.40" EndY="0.40" />
+				<MountPoint Side="Top" StartX="0.10" StartY="1.60" EndX="0.40" EndY="1.90" />
+				<MountPoint Side="Front" StartX="1.70" StartY="0.47" EndX="2.00" EndY="1.52" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.47" EndX="0.30" EndY="1.52" />
+				<MountPoint Side="Bottom" StartX="1.60" StartY="0.10" EndX="1.90" EndY="0.40" />
+				<MountPoint Side="Top" StartX="1.60" StartY="1.60" EndX="1.90" EndY="1.90" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.47" EndX="0.30" EndY="1.52" />
+				<MountPoint Side="Right" StartX="1.70" StartY="0.47" EndX="2.00" EndY="1.52" />
+			</MountPoints>
+      <BlockPairName>WarheadFission</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ExplosionRadius>30</ExplosionRadius>
+      <WarheadExplosionDamage>15000000</WarheadExplosionDamage>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
@@ -310,4 +365,3 @@
     </BlockPosition>
   </BlockPositions>
 </Definitions>
-

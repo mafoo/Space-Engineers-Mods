@@ -27,9 +27,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Data\CubeBlocks.sbc" />
     <Compile Include="Deploy.ps1" />
+    <Compile Include="Generate-icons.ps1" />
     <Compile Include="modinfo.sbmi" />
-    <Compile Include="thumb.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
@@ -37,7 +38,6 @@
   <ItemGroup>
     <Content Include="Data\BlockCategories.sbc" />
     <Content Include="Data\BlueprintClasses.sbc" />
-    <Content Include="Data\CubeBlocks.sbc" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />

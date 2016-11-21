@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Medical Facilities", "Medical Facilities\Medical Facilities.pssproj", "{D6BE7C9E-EFB0-4917-8B7D-8A450A25DD12}"
 EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "More LCDs", "More LCDs\More LCDs.pssproj", "{C1D7575C-AFB5-4877-AC7B-B46B60171EED}"
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Utility Panels", "Utility Panels\Utility Panels.pssproj", "{0DDFD41A-A0E5-447F-AAFB-C43C518D5EE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +50,14 @@ Global
 		{D6BE7C9E-EFB0-4917-8B7D-8A450A25DD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6BE7C9E-EFB0-4917-8B7D-8A450A25DD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6BE7C9E-EFB0-4917-8B7D-8A450A25DD12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D7575C-AFB5-4877-AC7B-B46B60171EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D7575C-AFB5-4877-AC7B-B46B60171EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D7575C-AFB5-4877-AC7B-B46B60171EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D7575C-AFB5-4877-AC7B-B46B60171EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DDFD41A-A0E5-447F-AAFB-C43C518D5EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDFD41A-A0E5-447F-AAFB-C43C518D5EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDFD41A-A0E5-447F-AAFB-C43C518D5EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDFD41A-A0E5-447F-AAFB-C43C518D5EE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

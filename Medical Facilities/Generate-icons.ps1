@@ -1,23 +1,11 @@
 ﻿$wshell = New-Object -ComObject Wscript.Shell
 $title = "Space Engineers Generate Icons v1.3"
 
-
 $imagemagick = Get-ChildItem -Path $env:ProgramW6432 ImageMagick*.*.*
 $im_convert = Get-ChildItem -Path $imagemagick.FullName convert.exe
 
-if(-not $im_convert)
-{
-    $wshell.Popup("Could not find the imagemagick convert.exe", 0, $title, 0x0)
-    exit 1
-}
-
 $im_composite = Get-ChildItem -Path $imagemagick.FullName composite.exe
 
-if(-not $im_composite)
-{
-    $wshell.Popup("Could not find the imagemagick composite.exe", 0, $title, 0x0)
-    exit 1
-}
 
 $texconv_raw = "C:\users\mafoo\bin\texconv.exe"
 $texconv = Get-Item -Path $texconv_raw
@@ -62,6 +50,16 @@ $inverted_overlay = $src_path.FullName + "\inverted_overlay.png"
 $inverted_overlay = Get-Item -Path $inverted_overlay -ErrorAction SilentlyContinue
 
 if($regular_overlay -and $inverted_overlay){
+	if(-not $im_convert)
+	{
+		$wshell.Popup("Could not find the imagemagick convert.exe", 0, $title, 0x0)
+		exit 1
+	}
+	if(-not $im_composite)
+	{
+		$wshell.Popup("Could not find the imagemagick composite.exe", 0, $title, 0x0)
+		exit 1
+	}
 	Write-Output "Using extra overlays"
 	$use_extra_overlays = $true
 }
