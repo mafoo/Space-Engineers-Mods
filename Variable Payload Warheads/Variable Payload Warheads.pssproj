@@ -30,7 +30,6 @@
     <Compile Include="Data\CubeBlocks.sbc" />
     <Compile Include="Deploy.ps1" />
     <Compile Include="Generate-icons.ps1" />
-    <Compile Include="modinfo.sbmi" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />

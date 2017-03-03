@@ -194,7 +194,6 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WarheadConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarheadConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HugeWarhead</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ExplosionRadius>30</ExplosionRadius>
@@ -245,7 +244,6 @@
 				<MountPoint Side="Front" StartX="0.00" StartY="0.47" EndX="0.30" EndY="1.52" />
 				<MountPoint Side="Right" StartX="1.70" StartY="0.47" EndX="2.00" EndY="1.52" />
 			</MountPoints>
-      <BlockPairName>WarheadFission</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ExplosionRadius>30</ExplosionRadius>

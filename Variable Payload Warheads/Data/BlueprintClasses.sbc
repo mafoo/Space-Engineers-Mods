@@ -6,6 +6,7 @@
     <Entry Class="LargeBlocks" BlueprintSubtypeId="WarHead/LargeMediumWarhead" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="WarHead/LargeSmallWarhead" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="WarHead/LargeHugeWarhead" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="WarHead/LargeWarheadFission" />
 
     <Entry Class="SmallBlocks" BlueprintSubtypeId="WarHead/SmallLargeWarhead" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="WarHead/SmallMediumWarhead" />
