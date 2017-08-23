@@ -1,11 +1,23 @@
 ﻿$wshell = New-Object -ComObject Wscript.Shell
 $title = "Space Engineers Generate Icons v1.3"
 
+
 $imagemagick = Get-ChildItem -Path $env:ProgramW6432 ImageMagick*.*.*
 $im_convert = Get-ChildItem -Path $imagemagick.FullName convert.exe
 
+if(-not $im_convert)
+{
+    $wshell.Popup("Could not find the imagemagick convert.exe", 0, $title, 0x0)
+    exit 1
+}
+
 $im_composite = Get-ChildItem -Path $imagemagick.FullName composite.exe
 
+if(-not $im_composite)
+{
+    $wshell.Popup("Could not find the imagemagick composite.exe", 0, $title, 0x0)
+    exit 1
+}
 
 $texconv_raw = "C:\users\mafoo\bin\texconv.exe"
 $texconv = Get-Item -Path $texconv_raw
@@ -43,27 +55,6 @@ $dst_dir = Get-Item -Path $dst_dir_raw
 $small_overlay = $src_path.FullName + "\small_overlay.png"
 $small_overlay = Get-Item -Path $small_overlay -ErrorAction SilentlyContinue
 
-$regular_overlay = $src_path.FullName + "\regular_overlay.png"
-$regular_overlay = Get-Item -Path $regular_overlay -ErrorAction SilentlyContinue
-
-$inverted_overlay = $src_path.FullName + "\inverted_overlay.png"
-$inverted_overlay = Get-Item -Path $inverted_overlay -ErrorAction SilentlyContinue
-
-if($regular_overlay -and $inverted_overlay){
-	if(-not $im_convert)
-	{
-		$wshell.Popup("Could not find the imagemagick convert.exe", 0, $title, 0x0)
-		exit 1
-	}
-	if(-not $im_composite)
-	{
-		$wshell.Popup("Could not find the imagemagick composite.exe", 0, $title, 0x0)
-		exit 1
-	}
-	Write-Output "Using extra overlays"
-	$use_extra_overlays = $true
-}
-
 $errorAction = "Stop"
 
 Try{
@@ -78,16 +69,9 @@ Try{
 			$dst_file = $tmp_dir.FullName + "\" + ($dst_file -replace "(.*)\d+",'$1') + ".png"
 			Copy-Item -Path $icon.FullName -Destination $dst_file
 
-			if($use_extra_overlays -and $icon.BaseName -like "SteelCatwalk*" -and $icon.BaseName -notlike "*Only*"){
-				if($icon.BaseName -like "*Inv*"){
-					& $im_composite.FullName $inverted_overlay.FullName $icon.FullName $dst_file
-				}else{
-					& $im_composite.FullName $regular_overlay.FullName $icon.FullName $dst_file
-				}
-			}
-			if($small_overlay -and $icon.BaseName -like "SteelCatwalk*" -and $icon.BaseName -notlike "*Suspended*"){
+			if($small_overlay){
 				$dst_small_overlay_file = $tmp_dir.FullName + "\small_" + ($icon.BaseName -replace "(.*)\d+",'$1') + ".png"
-				& $im_composite.FullName $small_overlay.FullName $dst_file $dst_small_overlay_file
+				& $im_composite.FullName $overlay.FullName $icon.FullName $dst_small_overlay_file
 			}
 		}
 	}

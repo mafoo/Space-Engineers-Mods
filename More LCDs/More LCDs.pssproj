@@ -34,6 +34,9 @@
     <Compile Include="Deploy.ps1" />
     <Compile Include="Generate-icons.ps1" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\BlockCategories.sbc" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
 </Project>
