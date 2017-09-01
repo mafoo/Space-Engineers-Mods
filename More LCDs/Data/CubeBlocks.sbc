@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
+    <!--LCD Button Panel-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -43,7 +44,7 @@
 			<MirroringY>None</MirroringY>
 			<MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.0001</RequiredPowerInput>
       <TextureResolution>1024</TextureResolution>
@@ -58,6 +59,7 @@
       </Id>
       <DisplayName>LCD Button Panel Hanging</DisplayName>
       <Icon>Textures\Icons\LCDButtonPanelHanging.dds</Icon>
+      <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -84,11 +86,183 @@
       </MountPoints>
       <BlockPairName>LCDButtonPanelHanging</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.0001</RequiredPowerInput>
       <TextureResolution>1024</TextureResolution>
       <TextureAspectRadio>1</TextureAspectRadio>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+    </Definition>
+    <!--Thin LCDs-->
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>LargeThinLCDStraight</SubtypeId>
+      </Id>
+      <DisplayName>Thin Straight LCD </DisplayName>
+      <Icon>Textures\Icons\ThinLCDStraight.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeThinLCDStraight.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeThinLCDStraight_Constr1.mwm" />
+			</BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>TextPanel</TypeId>
+          <SubtypeId>LargeThinLCDCurvedInside</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>TextPanel</TypeId>
+          <SubtypeId>LargeThinLCDCurvedOutside</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>TextPanel</TypeId>
+          <SubtypeId>LargeThinLCDCurvedOutsideHanging</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <MountPoints>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.78" EndX="1.00" EndY="0.82" />
+				<MountPoint Side="Front" StartX="0.96" StartY="0.69" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.69" EndX="0.06" EndY="0.90" />
+      </MountPoints>
+      <BlockPairName>ThinLCDStraight</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <TextureResolution>1024</TextureResolution>
+      <TextureAspectRadio>1</TextureAspectRadio>
+      <GuiVisible>true</GuiVisible>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>LargeThinLCDCurvedInside</SubtypeId>
+      </Id>
+      <DisplayName>Thin Curved LCD Inside</DisplayName>
+      <Icon>Textures\Icons\ThinLCDCurvedInside.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeThinLCDCurvedInside.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeThinLCDCurvedInside_Constr1.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.69" EndX="0.06" EndY="0.90" />
+				<MountPoint Side="Front" StartX="0.96" StartY="0.69" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.78" EndX="1.00" EndY="0.82" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.78" EndX="0.10" EndY="0.82" />
+      </MountPoints>
+      <BlockPairName>ThinLCDCurvedInside</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <TextureResolution>1024</TextureResolution>
+      <TextureAspectRadio>1</TextureAspectRadio>
+      <GuiVisible>false</GuiVisible>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>LargeThinLCDCurvedOutside</SubtypeId>
+      </Id>
+      <DisplayName>Thin Curved LCD Outside</DisplayName>
+      <Icon>Textures\Icons\ThinLCDCurvedOutside.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeThinLCDCurvedOutside.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeThinLCDCurvedOutside_Constr1.mwm" />
+			</BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Top" StartX="0.46" StartY="0.46" EndX="0.54" EndY="0.54" />
+				<MountPoint Side="Left" StartX="0.96" StartY="0.69" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="1.00" StartY="0.69" EndX="1.06" EndY="0.90" />
+      </MountPoints>
+      <BlockPairName>ThinLCDCurvedOutside</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <TextureResolution>1024</TextureResolution>
+      <TextureAspectRadio>1</TextureAspectRadio>
+      <GuiVisible>false</GuiVisible>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>LargeThinLCDCurvedOutsideHanging</SubtypeId>
+      </Id>
+      <DisplayName>Thin Curved LCD Hanging</DisplayName>
+      <Icon>Textures\Icons\ThinLCDCurvedOutsideHanging.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeThinLCDCurvedOutsideHanging.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeThinLCDCurvedOutsideHanging_Constr1.mwm" />
+			</BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Top" StartX="0.46" StartY="0.46" EndX="0.54" EndY="0.54" />
+				<MountPoint Side="Left" StartX="0.96" StartY="0.69" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="1.00" StartY="0.69" EndX="1.06" EndY="0.90" />
+      </MountPoints>
+      <BlockPairName>ThinLCDCurvedOutsideHanging</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <TextureResolution>1024</TextureResolution>
+      <TextureAspectRadio>1</TextureAspectRadio>
+      <GuiVisible>false</GuiVisible>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
     </Definition>

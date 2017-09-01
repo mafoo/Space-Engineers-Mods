@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
+  <CubeBlocks>
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>ConveyorTube</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorTube</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorTube.dds</Icon>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\ConveyorTube.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SmallTube" Count="12" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="InteriorPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorTubeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorTubeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>ConveyorConnector</TypeId>
+          <SubtypeId>LargeConveyorTubeLong</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>ConveyorConnector</TypeId>
+          <SubtypeId>ConveyorTubeCurved</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>ConveyorConnector</TypeId>
+          <SubtypeId>LargeConveyorTubeHanging</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>ConveyorConnector</TypeId>
+          <SubtypeId>LargeConveyorTubeLongHanging</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>LargeConveyor3WayTee</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>LargeConveyor3WayCorner</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>LargeBlockConveyor</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <BlockPairName>ConveyorTube</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+      </MountPoints>
+      <AutorotateMode>OppositeDirections</AutorotateMode>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>LargeConveyorTubeLong</SubtypeId>
+      </Id>
+      <DisplayName>Long Conveyor Tube</DisplayName>
+      <Icon>Textures\Icons\ConveyorTubeLong.dds</Icon>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="10" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeConveyorTubeLong.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="100" />
+        <Component Subtype="Construction" Count="200" />
+        <Component Subtype="SmallTube" Count="120" />
+        <Component Subtype="Motor" Count="60" />
+        <Component Subtype="InteriorPlate" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeConveyorTubeLong_Constr1.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+				<MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+			</MountPoints>
+      <BlockPairName>ConveyorTubeLong</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <AutorotateMode>OppositeDirections</AutorotateMode>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>LargeConveyor3WayTee</SubtypeId>
+      </Id>
+      <DisplayName>Conveyor 3 Way Tee</DisplayName>
+      <Icon>Textures\Icons\Conveyor3WayTee.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeConveyor3WayTee.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="15" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="SmallTube" Count="18" />
+        <Component Subtype="Motor" Count="9" />
+        <Component Subtype="InteriorPlate" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeConveyor3WayTee_Constr1.mwm" />
+			</BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+				<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+				<MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+      </MountPoints>
+      <BlockPairName>Conveyor3WayTee</BlockPairName>
+      <MirroringX>None</MirroringX>
+      <MirroringY>None</MirroringY>
+      <MirroringZ>None</MirroringZ>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>LargeConveyor3WayCorner</SubtypeId>
+      </Id>
+      <DisplayName>Conveyor 3 Way Corner</DisplayName>
+      <Icon>Textures\Icons\Conveyor3WayCorner.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeConveyor3WayCorner.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="15" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="SmallTube" Count="18" />
+        <Component Subtype="Motor" Count="9" />
+        <Component Subtype="InteriorPlate" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeConveyor3WayCorner_Constr1.mwm" />
+			</BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+				<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+				<MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+      </MountPoints>
+      <BlockPairName>Conveyor3WayCorner</BlockPairName>
+      <MirroringX>None</MirroringX>
+      <MirroringY>None</MirroringY>
+      <MirroringZ>None</MirroringZ>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>LargeConveyorTubeHanging</SubtypeId>
+      </Id>
+      <DisplayName>Conveyor Tube Hanging</DisplayName>
+      <Icon>Textures\Icons\ConveyorTubeHanging.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeConveyorTubeHanging.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SmallTube" Count="20" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="InteriorPlate" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeConveyorTubeHanging_Constr1.mwm" />
+			</BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+				<MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.80" EndX="0.90" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.10" EndX="0.90" EndY="0.20" />
+      </MountPoints>
+      <BlockPairName>ConveyorTubeHanging</BlockPairName>
+      <MirroringX>None</MirroringX>
+      <MirroringY>None</MirroringY>
+      <MirroringZ>None</MirroringZ>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>LargeConveyorTubeLongHanging</SubtypeId>
+      </Id>
+      <DisplayName>Conveyor Tube Long Hanging</DisplayName>
+      <Icon>Textures\Icons\ConveyorTubeLongHanging.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeConveyorTubeLongHanging.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SmallTube" Count="28" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="InteriorPlate" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeConveyorTubeLongHanging_Constr1.mwm" />
+			</BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+				<MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+      </MountPoints>
+      <BlockPairName>ConveyorTubeLongHanging</BlockPairName>
+      <MirroringX>None</MirroringX>
+      <MirroringY>None</MirroringY>
+      <MirroringZ>None</MirroringZ>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

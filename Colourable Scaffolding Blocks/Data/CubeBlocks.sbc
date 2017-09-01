@@ -478,7 +478,7 @@
         <SubtypeId>SmallLightScaffoldBlock</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Block</DisplayName>
-      <Icon>Textures\LightScaffoldBlock.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldBlock.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -525,7 +525,7 @@
         <SubtypeId>SmallLightScaffoldSlope</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Slope</DisplayName>
-      <Icon>Textures\LightScaffoldSlope.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldSlope.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -559,7 +559,7 @@
         <SubtypeId>SmallLightScaffoldCorner</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Corner</DisplayName>
-      <Icon>Textures\LightScaffoldCorner.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldCorner.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -593,7 +593,7 @@
         <SubtypeId>SmallLightScaffoldInvCorner</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Inv Corner</DisplayName>
-      <Icon>Textures\LightScaffoldInvCorner.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldInvCorner.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -631,7 +631,7 @@
         <SubtypeId>SmallHeavyScaffoldBlock</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Block</DisplayName>
-      <Icon>Textures\HeavyScaffoldBlock.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldBlock.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -679,7 +679,7 @@
         <SubtypeId>SmallHeavyScaffoldSlope</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Slope</DisplayName>
-      <Icon>Textures\HeavyScaffoldSlope.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldSlope.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -714,7 +714,7 @@
         <SubtypeId>SmallHeavyScaffoldCorner</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Corner</DisplayName>
-      <Icon>Textures\HeavyScaffoldCorner.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldCorner.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -749,7 +749,7 @@
         <SubtypeId>SmallHeavyScaffoldInvCorner</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold InvCorner</DisplayName>
-      <Icon>Textures\HeavyScaffoldInvCorner.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldInvCorner.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -1115,7 +1115,7 @@
         <SubtypeId>SmallLightScaffoldRoundedSlope</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Slope</DisplayName>
-      <Icon>Textures\LightScaffoldRoundedSlope.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldRoundedSlope.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -1157,7 +1157,7 @@
         <SubtypeId>SmallScaffoldRoundedCorner</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Corner</DisplayName>
-      <Icon>Textures\LightScaffoldRoundedCorner.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldRoundedCorner.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1199,7 +1199,7 @@
         <SubtypeId>SmallHeavyScaffoldRoundedSlope</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Rounded Slope</DisplayName>
-      <Icon>Textures\HeavyScaffoldRoundedSlope.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldRoundedSlope.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -1242,7 +1242,7 @@
         <SubtypeId>SmallHeavyScaffoldRoundedCorner</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Rounded Corner</DisplayName>
-      <Icon>Textures\HeavyScaffoldRoundedCorner.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldRoundedCorner.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1871,7 +1871,7 @@
         <SubtypeId>SmallScaffoldSlope2Base</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Slope 2x1x1 Base</DisplayName>
-      <Icon>Textures\LightScaffoldSlope2Base.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldSlope2Base.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -1917,7 +1917,7 @@
         <SubtypeId>SmallLightScaffoldSlab</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Slab</DisplayName>
-      <Icon>Textures\LightScaffoldSlab.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldSlab.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1952,7 +1952,7 @@
         <SubtypeId>SmallScaffoldSlope2Tip</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Slope 2x1x1 Tip</DisplayName>
-      <Icon>Textures\LightScaffoldSlope2Tip.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldSlope2Tip.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1989,7 +1989,7 @@
         <SubtypeId>SmallScaffoldCorner2Base</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Corner 2x1x1 Base</DisplayName>
-      <Icon>Textures\LightScaffoldCorner2Base.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldCorner2Base.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -2026,7 +2026,7 @@
         <SubtypeId>SmallScaffoldCorner2Tip</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Corner 2x1x1 Tip</DisplayName>
-      <Icon>Textures\LightScaffoldCorner2Tip.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldCorner2Tip.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2061,7 +2061,7 @@
         <SubtypeId>SmallScaffoldInvCorner2Base</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold InvCorner 2x1x1 Base</DisplayName>
-      <Icon>Textures\LightScaffoldInvCorner2Base.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldInvCorner2Base.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -2114,7 +2114,7 @@
         <SubtypeId>SmallScaffoldInvCorner2Tip</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold InvCorner 2x1x1 Tip</DisplayName>
-      <Icon>Textures\LightScaffoldInvCorner2Tip.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldInvCorner2Tip.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2157,7 +2157,7 @@
         <SubtypeId>SmallHeavyScaffoldSlope2Base</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Slope 2x1x1 Base</DisplayName>
-      <Icon>Textures\HeavyScaffoldSlope2Base.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldSlope2Base.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -2204,7 +2204,7 @@
         <SubtypeId>SmallHeavyScaffoldSlab</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Slab</DisplayName>
-      <Icon>Textures\LightScaffoldSlab.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldSlab.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2287,7 +2287,7 @@
         <SubtypeId>SmallHeavyScaffoldCorner2Base</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Corner 2x1x1 Base</DisplayName>
-      <Icon>Textures\HeavyScaffoldCorner2Base.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldCorner2Base.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -2325,7 +2325,7 @@
         <SubtypeId>SmallHeavyScaffoldCorner2Tip</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Corner 2x1x1 Tip</DisplayName>
-      <Icon>Textures\HeavyScaffoldCorner2Tip.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldCorner2Tip.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2361,7 +2361,7 @@
         <SubtypeId>SmallHeavyScaffoldInvCorner2Base</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold InvCorner 2x1x1 Base</DisplayName>
-      <Icon>Textures\HeavyScaffoldInvCorner2Base.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldInvCorner2Base.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -2418,7 +2418,7 @@
         <SubtypeId>SmallHeavyScaffoldInvCorner2Tip</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold InvCorner 2x1x1 Tip</DisplayName>
-      <Icon>Textures\HeavyScaffoldInvCorner2Tip.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldInvCorner2Tip.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2464,7 +2464,7 @@
         <SubtypeId>LargeScaffoldCatwalk</SubtypeId>
       </Id>
       <DisplayName>Scaffold Catwalk</DisplayName>
-      <Icon>Textures\ScaffoldCatwalk.dds</Icon>
+      <Icon>Textures\Icons\ScaffoldCatwalk.dds</Icon>
       <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2499,7 +2499,7 @@
         <SubtypeId>SmallScaffoldCatwalk</SubtypeId>
       </Id>
       <DisplayName>Scaffold Catwalk</DisplayName>
-      <Icon>Textures\ScaffoldCatwalk.dds</Icon>
+      <Icon>Textures\Icons\ScaffoldCatwalk.dds</Icon>
       <GuiVisible>true</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

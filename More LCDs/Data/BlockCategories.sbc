@@ -11,6 +11,7 @@
       <Name>LargeBlocks</Name>
       <ItemIds>
         <string>TextPanel/LargeLCDButtonPanelStanding</string>
+        <string>TextPanel/LargeLCDButton1x2</string>
       </ItemIds>
     </Category>
   </CategoryClasses>
