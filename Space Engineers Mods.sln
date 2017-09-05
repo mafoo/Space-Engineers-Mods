@@ -32,6 +32,8 @@ Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Colourable Scaffolding Bloc
 EndProject
 Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "More Conveyors", "More Conveyors\More Conveyors.pssproj", "{642CD6C5-9EBE-41E7-8208-216365ABA9E9}"
 EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Showroom", "Showroom\Showroom.pssproj", "{1C2BF5A7-D61A-4098-8256-0E5F673317EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,6 +84,10 @@ Global
 		{642CD6C5-9EBE-41E7-8208-216365ABA9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{642CD6C5-9EBE-41E7-8208-216365ABA9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{642CD6C5-9EBE-41E7-8208-216365ABA9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2BF5A7-D61A-4098-8256-0E5F673317EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2BF5A7-D61A-4098-8256-0E5F673317EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2BF5A7-D61A-4098-8256-0E5F673317EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2BF5A7-D61A-4098-8256-0E5F673317EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

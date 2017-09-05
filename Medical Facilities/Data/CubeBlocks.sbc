@@ -254,6 +254,7 @@
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\CryoPod.mwm</Model>
+      <InteriorModel>Models\Cubes\Large\CryoPodInterior.mwm</InteriorModel>
       <CharacterAnimation>Idle</CharacterAnimation>
       <Components>
         <Component Subtype="InteriorPlate" Count="30" />
@@ -316,6 +317,7 @@
       <EdgeType>Light</EdgeType>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
       <Id>
@@ -323,13 +325,14 @@
         <SubtypeId>LargeCryoPodTypeB</SubtypeId>
       </Id>
       <DisplayName>Cryo Chamber Type B</DisplayName>
-      <Icon>Textures\Icons\CryoPodTypeB.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\CryoPod.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\LargeCryoPodTypeB.mwm</Model>
+      <InteriorModel>Models\Cubes\Large\CryoPodInterior.mwm</InteriorModel>
       <CharacterAnimation>Idle</CharacterAnimation>
       <Components>
         <Component Subtype="InteriorPlate" Count="30" />
@@ -379,6 +382,7 @@
       <EdgeType>Light</EdgeType>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
       <Id>
@@ -393,6 +397,7 @@
       <Size x="2" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\LargeCryoPodTypeC.mwm</Model>
+      <InteriorModel>Models\LargeCryoPodTypeCInterior.mwm</InteriorModel>
       <CharacterAnimation>Idle</CharacterAnimation>
       <Components>
         <Component Subtype="InteriorPlate" Count="30" />

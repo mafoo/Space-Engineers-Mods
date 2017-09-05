@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>LargeTurntableTop</SubtypeId>
+      </Id>
+      <DisplayName>Turntable</DisplayName>
+      <Icon>Textures\Icons\TurntableTop.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeTurntableTop.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DisassembleRatio>10</DisassembleRatio>
+      <BlockPairName>TurntableTop</BlockPairName>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <LightRadius Min="2" Max="10" Default="5" />
+      <LightReflectorRadius Min="10" Max="160" Default="120" />
+      <LightFalloff Min="1" Max="3" Default="1.5" />
+      <LightIntensity Min="0.5" Max="5" Default="1" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.001</RequiredPowerInput>
+      <!--<Flare>SpotlightLarge</Flare>-->
+      <ReflectorTexture>Textures\Lights\reflector_Small.dds</ReflectorTexture>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>SmallTurntableTop</SubtypeId>
+      </Id>
+      <DisplayName>Turntable</DisplayName>
+      <Icon>Textures\Icons\TurntableTop.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="25" y="5" z="25" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeTurntableTop.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DisassembleRatio>10</DisassembleRatio>
+      <BlockPairName>TurntableTop</BlockPairName>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <LightRadius Min="2" Max="10" Default="5" />
+      <LightReflectorRadius Min="10" Max="160" Default="120" />
+      <LightFalloff Min="1" Max="3" Default="1.5" />
+      <LightIntensity Min="0.5" Max="5" Default="1" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.001</RequiredPowerInput>
+      <!--<Flare>SpotlightSmall</Flare>-->
+      <ReflectorTexture>Textures\Lights\reflector_Small.dds</ReflectorTexture>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+    </Definition>
+  </CubeBlocks>
+</Definitions>
