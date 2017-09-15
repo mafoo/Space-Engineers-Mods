@@ -34,6 +34,10 @@ Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "More Conveyors", "More Conv
 EndProject
 Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Showroom", "Showroom\Showroom.pssproj", "{1C2BF5A7-D61A-4098-8256-0E5F673317EF}"
 EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Tool Turrets", "Tool Turrets\Tool Turrets.pssproj", "{B5735F3E-F1F4-4A51-9736-DDC232E51D24}"
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Yet Another Stone Grinder", "Yet Another Stone Grinder\Yet Another Stone Grinder.pssproj", "{45B51CB4-A7F4-4BAD-A0A3-0F5FAF58EBFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,6 +92,14 @@ Global
 		{1C2BF5A7-D61A-4098-8256-0E5F673317EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C2BF5A7-D61A-4098-8256-0E5F673317EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C2BF5A7-D61A-4098-8256-0E5F673317EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5735F3E-F1F4-4A51-9736-DDC232E51D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5735F3E-F1F4-4A51-9736-DDC232E51D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5735F3E-F1F4-4A51-9736-DDC232E51D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5735F3E-F1F4-4A51-9736-DDC232E51D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B51CB4-A7F4-4BAD-A0A3-0F5FAF58EBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B51CB4-A7F4-4BAD-A0A3-0F5FAF58EBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B51CB4-A7F4-4BAD-A0A3-0F5FAF58EBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B51CB4-A7F4-4BAD-A0A3-0F5FAF58EBFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -57,6 +57,14 @@
         </BlockVariant>
         <BlockVariant>
           <TypeId>Conveyor</TypeId>
+          <SubtypeId>LargeConveyor4Way</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>LargeConveyor4WayTee</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Conveyor</TypeId>
           <SubtypeId>LargeBlockConveyor</SubtypeId>
         </BlockVariant>
       </BlockVariants>
@@ -76,6 +84,8 @@
       <AutorotateMode>OppositeDirections</AutorotateMode>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
     </Definition>
+
+    <!-- Long Tubes -->
     <Definition>
       <Id>
         <TypeId>ConveyorConnector</TypeId>
@@ -144,6 +154,8 @@
       <AutorotateMode>OppositeDirections</AutorotateMode>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
     </Definition>
+
+    <!-- 3 Way Tubes -->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -216,6 +228,84 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
     </Definition>
+
+    <!-- 4 Way Tubes -->
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>LargeConveyor4Way</SubtypeId>
+      </Id>
+      <DisplayName>Conveyor 4 Way</DisplayName>
+      <Icon>Textures\Icons\Conveyor4Way.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeConveyor4Way.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="SmallTube" Count="24" />
+        <Component Subtype="Motor" Count="12" />
+        <Component Subtype="InteriorPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeConveyor4Way_Constr1.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+				<MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+				<MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+				<MountPoint Side="Right" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+      </MountPoints>
+      <BlockPairName>Conveyor4Way</BlockPairName>
+      <MirroringX>None</MirroringX>
+      <MirroringY>None</MirroringY>
+      <MirroringZ>None</MirroringZ>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>LargeConveyor4WayTee</SubtypeId>
+      </Id>
+      <DisplayName>Conveyor 4 Way Tee</DisplayName>
+      <Icon>Textures\Icons\Conveyor4WayTee.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeConveyor4WayTee.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="SmallTube" Count="24" />
+        <Component Subtype="Motor" Count="12" />
+        <Component Subtype="InteriorPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeConveyor4WayTee_Constr1.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+				<MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+				<MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+				<MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+      </MountPoints>
+      <BlockPairName>Conveyor4WayTee</BlockPairName>
+      <MirroringX>None</MirroringX>
+      <MirroringY>None</MirroringY>
+      <MirroringZ>None</MirroringZ>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+    </Definition>
+
+    <!-- Hanging Tubes -->
     <Definition>
       <Id>
         <TypeId>ConveyorConnector</TypeId>
@@ -287,6 +377,96 @@
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
+    </Definition>
+    
+    <!-- Conveyor Adaptors -->
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>SmallConveyorAdaptorTypeA</SubtypeId>
+      </Id>
+      <DisplayName>Conveyor Adaptor Type A</DisplayName>
+      <Icon>Textures\Icons\ConveyorAdaptorTypeA.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <!--<Center x="1" y="1" z="1" />-->
+      <Model>Models\SmallConveyorAdaptorTypeA.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="15" />
+        <Component Subtype="Construction" Count="55" />
+        <Component Subtype="SmallTube" Count="25" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallConveyorAdaptorTypeA_Constr1.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+      </MountPoints>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>SmallConveyorAdaptorTypeB</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <BlockPairName>ConveyorAdaptorTypeA</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>SmallConveyorAdaptorTypeB</SubtypeId>
+      </Id>
+      <DisplayName>Conveyor Adaptor Type B</DisplayName>
+      <Icon>Textures\Icons\ConveyorAdaptorTypeB.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <!--<Center x="1" y="1" z="1" />-->
+      <Model>Models\SmallConveyorAdaptorTypeB.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="15" />
+        <Component Subtype="Construction" Count="55" />
+        <Component Subtype="SmallTube" Count="25" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallConveyorAdaptorTypeB_Constr1.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+      </MountPoints>
+      <BlockPairName>ConveyorAdaptorTypeB</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
     </Definition>
   </CubeBlocks>
 </Definitions>

@@ -246,9 +246,12 @@ ModelManifest.xml
 
 # Custom
 /*/Sources/*.png
+/*/Sources/*.gif
 /*/Images/*.png
+/*/Images/*.gif
 /*/Textures/*
 /*/Models/*
 /*/thumb.jpg
+/*/thumb.png
 *.blend1
 Backup_of_*.cdr

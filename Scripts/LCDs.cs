@@ -111,6 +111,13 @@ namespace Scripts
             string f_averagePower = "None";
             if (totalPower > 0)
                 f_averagePower = FormatNumber(totalPower / cycles * Math.Pow(1000, 2)) + "W";
+
+            MMLCDMgr.AddRightLn(MM.FormatLargeNumber(usedPower) + "W / " + MM.FormatLargeNumber(totalPower) + "W", LCD_LINE_WIDTH);
+            MMLCDMgr.AddBar(percentPower, FULL_PROGRESS_CHARS, PERCENT_TEXT_SIZE);
+            MMLCDMgr.AddRightLn(' ' + percentPower.ToString("0.0") + "%", LCD_LINE_WIDTH);
+
+
+
             s.WritePublicText("Peak Power:\n" + f_peakPower + "\n");
             s.WritePublicText("Min Power:\n" + f_minPower + "\n", true);
             s.WritePublicText("Average Power:\n" + f_averagePower + "\n", true);

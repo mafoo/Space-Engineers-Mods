@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configurable Automatic LCDs.cs" />
+    <Compile Include="LCDs.cs" />
     <Compile Include="Power Diagnostics.cs" />
     <Compile Include="Stocker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

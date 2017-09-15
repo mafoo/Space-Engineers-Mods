@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>StoneDust</SubtypeId>
+      </Id>
+      <DisplayName>Stone Dust</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+  <BlueprintClassEntries>
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/LargeStoneGrinder" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Refinery/SmallStoneGrinder" />
+    <Entry Class="StoneDust" BlueprintSubtypeId="StoneOreToIngot" />
+  </BlueprintClassEntries>
+</Definitions>

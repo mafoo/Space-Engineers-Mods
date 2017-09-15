@@ -47,7 +47,7 @@ namespace Scripts
             if (s == null)
                 s = GridTerminalSystem.GetBlockWithName(lcd) as IMyTextPanel;
             if (s == null)
-                throw new System.Exception("Could not find the lcd with the tag " + lcd);
+                throw new System.Exception("Could not find the lcd with the tag '" + lcd + "'");
             GridTerminalSystem.GetBlocksOfType<IMyTerminalBlock>(blocks);
 
 

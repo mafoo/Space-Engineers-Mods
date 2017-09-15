@@ -10,9 +10,24 @@
       <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
       <Name>LargeBlocks</Name>
       <ItemIds>
+        <string>Conveyor/LargeConveyor3WayCorner</string>
         <string>Conveyor/LargeConveyor3WayTee</string>
+        <string>ConveyorConnector/LargeConveyorTubeLong</string>
+        <string>ConveyorConnector/LargeConveyorTubeMedium</string>
         <string>ConveyorConnector/LargeConveyorTubeHanging</string>
         <string>ConveyorConnector/LargeConveyorTubeLongHanging</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <ItemIds>
+        <string>Conveyor/SmallConveyorAdaptorTypeA</string>
+        <string>Conveyor/SmallConveyorAdaptorTypeB</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -23,9 +38,14 @@
       <DisplayName>DisplayName_Category_ConveyorBlocks</DisplayName>
       <Name>Conveyors</Name>
       <ItemIds>
+        <string>Conveyor/LargeConveyor3WayCorner</string>
         <string>Conveyor/LargeConveyor3WayTee</string>
+        <string>ConveyorConnector/LargeConveyorTubeLong</string>
+        <string>ConveyorConnector/LargeConveyorTubeMedium</string>
         <string>ConveyorConnector/LargeConveyorTubeHanging</string>
         <string>ConveyorConnector/LargeConveyorTubeLongHanging</string>
+        <string>Conveyor/SmallConveyorAdaptorTypeA</string>
+        <string>Conveyor/SmallConveyorAdaptorTypeB</string>
       </ItemIds>
     </Category>
   </CategoryClasses>
