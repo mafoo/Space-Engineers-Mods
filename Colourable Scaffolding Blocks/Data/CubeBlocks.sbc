@@ -19,6 +19,9 @@
         <Component Subtype="SteelPlate" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeLightScaffoldBlock_Constr1.mwm" />
+			</BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
@@ -100,34 +103,38 @@
         <Component Subtype="SteelPlate" Count="3" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeLightScaffoldSlope_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>LightScaffoldSlope</BlockPairName>
-      <MirroringX>Y</MirroringX>
-      <MirroringY>X</MirroringY>
+      <MirroringX>HalfZ</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -149,25 +156,28 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeLightScaffoldCorner_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="1.00" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.50" StartY="0.25" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <BlockPairName>LightScaffoldCorner</BlockPairName>
-      <MirroringX>YHalfX</MirroringX>
-      <MirroringY>XHalfY</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -189,46 +199,49 @@
         <Component Subtype="SteelPlate" Count="4" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeLightScaffoldInvCorner_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
-        <MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Left" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
-        <MountPoint Side="Top" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Top" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Left" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Top" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Top" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <BlockPairName>LightScaffoldInvCorner</BlockPairName>
-      <MirroringX>ZHalfX</MirroringX>
-      <MirroringY>XHalfY</MirroringY>
-      <MirroringZ>YHalfZ</MirroringZ>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -251,6 +264,9 @@
         <Component Subtype="MetalGrid" Count="10" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldBlock_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
@@ -333,34 +349,38 @@
         <Component Subtype="MetalGrid" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldSlope_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
-        <MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
-        <MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
-        <MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <BlockPairName>HeavyScaffoldSlope</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <DeformationRatio>0.4</DeformationRatio>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -384,25 +404,28 @@
         <Component Subtype="MetalGrid" Count="3" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldCorner_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="1.00" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.50" StartY="0.25" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
-        <MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
-        <MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <BlockPairName>HeavyScaffoldCorner</BlockPairName>
-      <MirroringX>ZHalfX</MirroringX>
-      <MirroringY>XHalfY</MirroringY>
-      <MirroringZ>YHalfY</MirroringZ>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
       <DeformationRatio>0.4</DeformationRatio>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -426,46 +449,49 @@
         <Component Subtype="MetalGrid" Count="7" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldInvCorner_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
-        <MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
-        <MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Left" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
-        <MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Top" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
-        <MountPoint Side="Top" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Left" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Top" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Top" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
       <BlockPairName>HeavyScaffoldInvCorner</BlockPairName>
-      <MirroringX>ZHalfX</MirroringX>
-      <MirroringY>XHalfY</MirroringY>
-      <MirroringZ>YHalfZ</MirroringZ>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
       <DeformationRatio>0.4</DeformationRatio>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -483,22 +509,58 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Armor\SquarePlateConstruction_1.mwm</Model>
+      <Model>Models\SmallLightScaffoldBlock.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallLightScaffoldBlock_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Front" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Front" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Front" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Left" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Top" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
       </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\SquarePlateConstruction_1.mwm" RandomOrientation="true" />
-      </BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
@@ -530,24 +592,43 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Armor\SlopePlateConstruction_1.mwm</Model>
+      <Model>Models\SmallLightScaffoldSlope.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallLightScaffoldSlope_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\SlopePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>LightScaffoldSlope</BlockPairName>
-      <MirroringX>Y</MirroringX>
-      <MirroringY>X</MirroringY>
+      <MirroringX>HalfZ</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <DeformationRatio>0.32</DeformationRatio>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -564,24 +645,33 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Armor\FaceTrianglePlateConstruction_1.mwm</Model>
+      <Model>Models\SmallLightScaffoldCorner.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallLightScaffoldCorner_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\FaceTrianglePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>LightScaffoldCorner</BlockPairName>
-      <MirroringX>ZHalfX</MirroringX>
-      <MirroringY>XHalfY</MirroringY>
-      <MirroringZ>YHalfY</MirroringZ>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
       <DeformationRatio>0.32</DeformationRatio>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -598,27 +688,54 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Armor\InvFaceTrianglePlateConstruction_1.mwm</Model>
+      <Model>Models\SmallLightScaffoldInvCorner.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallLightScaffoldInvCorner_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Left" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Top" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Top" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\InvFaceTrianglePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>LightScaffoldInvCorner</BlockPairName>
-      <MirroringX>ZHalfX</MirroringX>
-      <MirroringY>XHalfY</MirroringY>
-      <MirroringZ>YHalfZ</MirroringZ>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
       <DeformationRatio>0.32</DeformationRatio>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -636,23 +753,59 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Armor\HeavySquarePlateConstruction_1.mwm</Model>
+      <Model>Models\SmallHeavyScaffoldBlock.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
         <Component Subtype="MetalGrid" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallHeavyScaffoldBlock_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Front" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Front" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Front" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Left" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Top" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
       </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySquarePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
@@ -684,25 +837,44 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Armor\HeavySlopePlateConstruction_1.mwm</Model>
+      <Model>Models\SmallHeavyScaffoldSlope.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
         <Component Subtype="MetalGrid" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallHeavyScaffoldSlope_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySlopePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldSlope</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <DeformationRatio>0.16</DeformationRatio>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -719,25 +891,34 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Armor\HeavyFacePlateConstruction_1.mwm</Model>
+      <Model>Models\SmallHeavyScaffoldCorner.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
         <Component Subtype="MetalGrid" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallHeavyScaffoldCorner_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyFacePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldCorner</BlockPairName>
-      <MirroringX>ZHalfX</MirroringX>
-      <MirroringY>XHalfY</MirroringY>
-      <MirroringZ>YHalfY</MirroringZ>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
       <DeformationRatio>0.16</DeformationRatio>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -754,28 +935,55 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_1.mwm</Model>
+      <Model>Models\SmallHeavyScaffoldInvCorner.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
         <Component Subtype="MetalGrid" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallHeavyScaffoldInvCorner_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Left" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Top" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Top" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldInvCorner</BlockPairName>
-      <MirroringX>ZHalfX</MirroringX>
-      <MirroringY>XHalfY</MirroringY>
-      <MirroringZ>YHalfZ</MirroringZ>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
       <DeformationRatio>0.16</DeformationRatio>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -799,29 +1007,32 @@
         <Component Subtype="SteelPlate" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeLightScaffoldRoundedSlope_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>LightScaffoldRoundedSlope</BlockPairName>
@@ -836,7 +1047,8 @@
         </BlockVariant>
       </BlockVariants>
       <MirroringX>Y</MirroringX>
-      <MirroringY>X</MirroringY>
+      <MirroringY>MinusHalfZ</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -858,46 +1070,49 @@
         <Component Subtype="SteelPlate" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeLightScaffoldInvRoundedCorner_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Left" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
-        <MountPoint Side="Top" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Top" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Left" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Top" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Top" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
       </MountPoints>
       <BlockPairName>LightScaffoldInvRoundedCorner</BlockPairName>
-      <MirroringX>YHalfX</MirroringX>
-      <MirroringY>XHalfY</MirroringY>
-      <MirroringZ>YHalfY</MirroringZ>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -919,25 +1134,28 @@
         <Component Subtype="SteelPlate" Count="2" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeLightScaffoldRoundedCorner_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="1.00" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.50" StartY="0.25" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <BlockPairName>LightScaffoldRoundedCorner</BlockPairName>
-      <MirroringX>ZHalfX</MirroringX>
-      <MirroringY>XHalfY</MirroringY>
-      <MirroringZ>YHalfY</MirroringZ>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -960,30 +1178,33 @@
         <Component Subtype="MetalGrid" Count="7" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldRoundedSlope_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
-        <MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
-        <MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <BlockPairName>HeavyScaffoldRoundedSlope</BlockPairName>
       <BlockVariants>
@@ -998,6 +1219,7 @@
       </BlockVariants>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <DeformationRatio>0.4</DeformationRatio>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -1021,46 +1243,49 @@
         <Component Subtype="MetalGrid" Count="7" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldInvRoundedCorner_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Left" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
-        <MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Top" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
-        <MountPoint Side="Top" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
-        <MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
-        <MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Left" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Top" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Top" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
       </MountPoints>
       <BlockPairName>HeavyScaffoldInvRoundedCorner</BlockPairName>
-      <MirroringX>YHalfY</MirroringX>
-      <MirroringY>XHalfX</MirroringY>
-      <MirroringZ>YHalfY</MirroringZ>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>XHalfY</MirroringY>
+      <MirroringZ>MinusHalfX</MirroringZ>
       <DeformationRatio>0.4</DeformationRatio>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -1084,25 +1309,28 @@
         <Component Subtype="MetalGrid" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldRoundedCorner_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="1.00" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.50" StartY="0.25" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
-        <MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
-        <MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <BlockPairName>HeavyScaffoldRoundedCorner</BlockPairName>
-      <MirroringX>ZHalfX</MirroringX>
+      <MirroringX>HalfY</MirroringX>
       <MirroringY>XHalfY</MirroringY>
-      <MirroringZ>YHalfY</MirroringZ>
+      <MirroringZ>MinusHalfY</MirroringZ>
       <DeformationRatio>0.4</DeformationRatio>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -1114,39 +1342,60 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>SmallLightScaffoldRoundedSlope</SubtypeId>
       </Id>
-      <DisplayName>Light Scaffold Slope</DisplayName>
+      <DisplayName>Light Scaffold Rounded Slope</DisplayName>
       <Icon>Textures\Icons\LightScaffoldRoundedSlope.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Armor\SlopePlateRoundedConstruction_1.mwm</Model>
+      <Model>Models\SmallLightScaffoldRoundedSlope.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallLightScaffoldRoundedSlope_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\SlopePlateRoundedConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>LightScaffoldRoundedSlope</BlockPairName>
       <BlockVariants>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallScaffoldRoundedCorner</SubtypeId>
+          <SubtypeId>SmallLightScaffoldRoundedCorner</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SmallLightScaffoldInvRoundedCorner</SubtypeId>
         </BlockVariant>
       </BlockVariants>
       <DeformationRatio>0.32</DeformationRatio>
       <MirroringX>Y</MirroringX>
-      <MirroringY>X</MirroringY>
+      <MirroringY>MinusHalfZ</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -1154,40 +1403,108 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallScaffoldRoundedCorner</SubtypeId>
+        <SubtypeId>SmallLightScaffoldRoundedCorner</SubtypeId>
       </Id>
-      <DisplayName>Light Scaffold Corner</DisplayName>
+      <DisplayName>Light Scaffold Rounded Corner</DisplayName>
       <Icon>Textures\Icons\LightScaffoldRoundedCorner.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Armor\FaceTrianglePlateRoundedConstruction_1.mwm</Model>
+      <Model>Models\SmallLightScaffoldRoundedCorner.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallLightScaffoldRoundedCorner_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\FaceTrianglePlateRoundedConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>LightScaffoldRoundedCorner</BlockPairName>
       <DeformationRatio>0.32</DeformationRatio>
-      <MirroringX>ZHalfX</MirroringX>
-      <MirroringY>XHalfY</MirroringY>
-      <MirroringZ>YHalfY</MirroringZ>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>1</BuildTimeSeconds>
+      <BuildTimeSeconds>1</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallLightScaffoldInvRoundedCorner</SubtypeId>
+      </Id>
+      <DisplayName>Light Scaffold Inverted Rounded Corner</DisplayName>
+      <Icon>Textures\Icons\LightScaffoldInvRoundedCorner.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SmallLightScaffoldInvRoundedCorner.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallLightScaffoldInvRoundedCorner_Constr1.mwm" />
+			</BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Left" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Top" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Top" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.25" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.50" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.75" EndX="0.25" EndY="1.00" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BlockPairName>LightScaffoldInvRoundedCorner</BlockPairName>
+      <DeformationRatio>0.32</DeformationRatio>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -1228,6 +1545,10 @@
           <TypeId>CubeBlock</TypeId>
           <SubtypeId>SmallHeavyScaffoldRoundedCorner</SubtypeId>
         </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>SmallHeavyScaffoldInvRoundedCorner</SubtypeId>
+        </BlockVariant>
       </BlockVariants>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
@@ -1248,38 +1569,108 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Armor\HeavyFaceTrianglePlateRoundedConstruction_1.mwm</Model>
+      <Model>Models\SmallHeavyScaffoldRoundedCorner.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
         <Component Subtype="MetalGrid" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallHeavyScaffoldRoundedCorner_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyFaceTrianglePlateRoundedConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldRoundedCorner</BlockPairName>
-      <MirroringX>ZHalfX</MirroringX>
+      <MirroringX>HalfY</MirroringX>
       <MirroringY>XHalfY</MirroringY>
-      <MirroringZ>YHalfY</MirroringZ>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <DeformationRatio>0.16</DeformationRatio>
+      <BuildTimeSeconds>1</BuildTimeSeconds>
+      <BuildTimeSeconds>1</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallHeavyScaffoldInvRoundedCorner</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Scaffold Inverted Rounded Corner</DisplayName>
+      <Icon>Textures\Icons\HeavyScaffoldInvRoundedCorner.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SmallHeavyScaffoldInvRoundedCorner.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="MetalGrid" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallHeavyScaffoldInvRoundedCorner_Constr1.mwm" />
+			</BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Left" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Top" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Top" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BlockPairName>HeavyScaffoldInvRoundedCorner</BlockPairName>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>XHalfY</MirroringY>
+      <MirroringZ>MinusHalfX</MirroringZ>
       <EdgeType>Light</EdgeType>
       <DeformationRatio>0.16</DeformationRatio>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
     </Definition>
 
-    <!-- 2x1 Slopped -->
+    <!--    Large Light    -->
+    <!--    2x1x1 Slopped -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1297,29 +1688,29 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.88" />
-        <MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.62" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.88" />
-        <MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.62" />
-        <MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.88" />
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.62" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.88" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.62" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>LightScaffoldSlope2Base</BlockPairName>
@@ -1335,6 +1726,7 @@
       </BlockVariants>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
@@ -1357,22 +1749,26 @@
         <Component Subtype="SteelPlate" Count="3" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeLightScaffoldSlab_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
       </MountPoints>
       <BlockPairName>LightScaffoldSlab</BlockPairName>
-      <MirroringX>Y</MirroringX>
-      <MirroringY>X</MirroringY>
+      <MirroringX>None</MirroringX>
+      <MirroringY>Z</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
@@ -1394,6 +1790,9 @@
         <Component Subtype="SteelPlate" Count="2" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeLightScaffoldSlope2Tip_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <MountPoints>
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
@@ -1438,6 +1837,9 @@
         <Component Subtype="SteelPlate" Count="2" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeLightScaffoldCorner2Base_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
 				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.88" />
 				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
@@ -1481,13 +1883,20 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeLightScaffoldCorner2Tip_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.5" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.5" EndY="0.4" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.4" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.38" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.12" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.62" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.88" StartY="0.00" EndX="1.00" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>LightScaffoldCorner2Tip</BlockPairName>
@@ -1515,19 +1924,41 @@
         <Component Subtype="SteelPlate" Count="4" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeLightScaffoldInvCorner2Base_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-        <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
-        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
-        <MountPoint Side="Front" StartX="0.2" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.88" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.62" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.12" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.38" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>LightScaffoldInvCorner2Base</BlockPairName>
@@ -1547,7 +1978,7 @@
       </BlockVariants>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
-      <MirroringZ>XMinusHalfZ</MirroringZ>
+      <MirroringZ>YHalfZ</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
@@ -1558,7 +1989,7 @@
         <SubtypeId>LargeLightScaffoldInvCorner2Tip</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold InvCorner 2x1x1 Tip</DisplayName>
-      <Icon>Textures\Icons\LightScaffoldInvCorner2Base.dds</Icon>
+      <Icon>Textures\Icons\LightScaffoldInvCorner2Tip.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1569,25 +2000,44 @@
         <Component Subtype="SteelPlate" Count="3" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeLightScaffoldInvCorner2Tip_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
-        <MountPoint Side="Back" StartX="0.8" StartY="0.5" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
-        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
-        <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
-        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0.2" StartY="0.5" EndX="0.5" EndY="1" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.38" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.12" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.62" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.88" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>LightScaffoldInvCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
-      <MirroringZ>XMinusHalfZ</MirroringZ>
+      <MirroringZ>YHalfZ</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
@@ -1612,31 +2062,34 @@
         <Component Subtype="MetalGrid" Count="7" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldSlope2Base_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
-        <MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
-        <MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.88" />
-        <MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
-        <MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.62" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
-        <MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.88" />
-        <MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.62" />
-        <MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.88" />
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.62" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.88" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.62" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
       <BlockPairName>HeavyScaffoldSlope2Base</BlockPairName>
       <BlockVariants>
@@ -1651,6 +2104,7 @@
       </BlockVariants>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
@@ -1674,22 +2128,26 @@
         <Component Subtype="MetalGrid" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldSlab_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
-        <MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
       </MountPoints>
       <BlockPairName>HeavyScaffoldSlab</BlockPairName>
-      <MirroringX>Y</MirroringX>
+      <MirroringX>None</MirroringX>
       <MirroringY>X</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <EdgeType>Heavy</EdgeType>
       <DeformationRatio>0.4</DeformationRatio>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -1713,6 +2171,9 @@
         <Component Subtype="MetalGrid" Count="3" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldSlope2Tip_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <MountPoints>
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
@@ -1758,11 +2219,30 @@
         <Component Subtype="MetalGrid" Count="3" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldCorner2Base_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
+			<MountPoints>
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.88" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.62" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.12" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.38" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
+			</MountPoints>
       <BlockPairName>HeavyScaffoldCorner2Base</BlockPairName>
-      <MirroringX>YHalfX</MirroringX>
-      <MirroringY>MinusHalfX</MirroringY>
-      <MirroringZ>HalfX</MirroringZ>
+      <MirroringX>HalfZ</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>YHalfZ</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
@@ -1785,7 +2265,22 @@
         <Component Subtype="MetalGrid" Count="2" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldCorner2Tip_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.38" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.12" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.62" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.88" StartY="0.00" EndX="1.00" EndY="0.25" />
+			</MountPoints>
       <BlockPairName>HeavyScaffoldCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
@@ -1812,7 +2307,43 @@
         <Component Subtype="MetalGrid" Count="7" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldInvCorner2Base_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.88" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.62" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.12" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.38" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+			</MountPoints>
       <BlockPairName>HeavyScaffoldInvCorner2Base</BlockPairName>
       <BlockVariants>
         <BlockVariant>
@@ -1853,7 +2384,40 @@
         <Component Subtype="MetalGrid" Count="3" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeHeavyScaffoldInvCorner2Tip_Constr1.mwm" />
+			</BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
+			<MountPoints>
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.38" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.12" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.62" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.88" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
       <BlockPairName>HeavyScaffoldInvCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
@@ -1868,7 +2432,7 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallScaffoldSlope2Base</SubtypeId>
+        <SubtypeId>SmallLightScaffoldSlope2Base</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Slope 2x1x1 Base</DisplayName>
       <Icon>Textures\Icons\LightScaffoldSlope2Base.dds</Icon>
@@ -1876,29 +2440,42 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Armor\Slope2BaseConstruction_1.mwm</Model>
+      <Model>Models\SmallLightScaffoldSlope2Base.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
-        <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.88" />
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.62" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.88" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.62" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\Slope2BaseConstruction_1.mwm" />
-      </BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>LightScaffoldSlope2Base</BlockPairName>
       <BlockVariants>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallScaffoldSlope2Tip</SubtypeId>
+          <SubtypeId>SmallLightScaffoldSlope2Tip</SubtypeId>
         </BlockVariant>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
@@ -1907,6 +2484,7 @@
       </BlockVariants>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
@@ -1929,19 +2507,26 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallLightScaffoldSlab_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
       </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\SmallLightScaffoldSlab.mwm" />
-      </BuildProgressModels>
       <BlockPairName>LightScaffoldSlab</BlockPairName>
-      <MirroringX>Y</MirroringX>
-      <MirroringY>X</MirroringY>
+      <MirroringX>None</MirroringX>
+      <MirroringY>Z</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
@@ -1949,7 +2534,7 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallScaffoldSlope2Tip</SubtypeId>
+        <SubtypeId>SmallLightScaffoldSlope2Tip</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Slope 2x1x1 Tip</DisplayName>
       <Icon>Textures\Icons\LightScaffoldSlope2Tip.dds</Icon>
@@ -1958,26 +2543,37 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Armor\Slope2TipConstruction_1.mwm</Model>
+      <Model>Models\SmallLightScaffoldSlope2Tip.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallLightScaffoldSlope2Tip_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.25" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.25" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.38" />
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.12" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.38" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.12" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.50" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\Slope2TipConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>LightScaffoldSlope2Tip</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
@@ -1986,7 +2582,7 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallScaffoldCorner2Base</SubtypeId>
+        <SubtypeId>SmallLightScaffoldCorner2Base</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Corner 2x1x1 Base</DisplayName>
       <Icon>Textures\Icons\LightScaffoldCorner2Base.dds</Icon>
@@ -1999,23 +2595,30 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallLightScaffoldCorner2Base_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.88" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.62" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.12" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.38" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>LightScaffoldCorner2Base</BlockPairName>
-      <MirroringX>YHalfX</MirroringX>
-      <MirroringY>MinusHalfX</MirroringY>
-      <MirroringZ>HalfX</MirroringZ>
+      <MirroringX>HalfZ</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>YHalfZ</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
@@ -2023,7 +2626,7 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallScaffoldCorner2Tip</SubtypeId>
+        <SubtypeId>SmallLightScaffoldCorner2Tip</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold Corner 2x1x1 Tip</DisplayName>
       <Icon>Textures\Icons\LightScaffoldCorner2Tip.dds</Icon>
@@ -2037,13 +2640,20 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallLightScaffoldCorner2Tip_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.5" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.5" EndY="0.4" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.4" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.38" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.12" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.62" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.88" StartY="0.00" EndX="1.00" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>LightScaffoldCorner2Tip</BlockPairName>
@@ -2058,7 +2668,7 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallScaffoldInvCorner2Base</SubtypeId>
+        <SubtypeId>SmallLightScaffoldInvCorner2Base</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold InvCorner 2x1x1 Base</DisplayName>
       <Icon>Textures\Icons\LightScaffoldInvCorner2Base.dds</Icon>
@@ -2071,19 +2681,41 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallLightScaffoldInvCorner2Base_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-        <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
-        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
-        <MountPoint Side="Front" StartX="0.2" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.88" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.62" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.12" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.38" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>LightScaffoldInvCorner2Base</BlockPairName>
@@ -2103,7 +2735,7 @@
       </BlockVariants>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
-      <MirroringZ>XMinusHalfZ</MirroringZ>
+      <MirroringZ>YHalfZ</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
@@ -2111,7 +2743,7 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>SmallScaffoldInvCorner2Tip</SubtypeId>
+        <SubtypeId>SmallLightScaffoldInvCorner2Tip</SubtypeId>
       </Id>
       <DisplayName>Light Scaffold InvCorner 2x1x1 Tip</DisplayName>
       <Icon>Textures\Icons\LightScaffoldInvCorner2Tip.dds</Icon>
@@ -2120,30 +2752,49 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\SmallHeavyScaffoldCorner2Tip.mwm</Model>
+      <Model>Models\SmallLightScaffoldInvCorner2Tip.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallLightScaffoldInvCorner2Tip_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
-        <MountPoint Side="Back" StartX="0.8" StartY="0.5" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
-        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
-        <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
-        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0.2" StartY="0.5" EndX="0.5" EndY="1" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.38" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.12" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.62" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.88" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>LightScaffoldInvCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
-      <MirroringZ>XMinusHalfZ</MirroringZ>
+      <MirroringZ>YHalfZ</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
@@ -2162,24 +2813,40 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_1.mwm</Model>
+      <Model>Models\SmallHeavyScaffoldSlope2Base.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
         <Component Subtype="MetalGrid" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallHeavyScaffoldSlope2Base_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
-        <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.88" />
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Front" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.62" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.88" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.62" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_1.mwm" />
-      </BuildProgressModels>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>HeavyScaffoldSlope2Base</BlockPairName>
       <BlockVariants>
@@ -2194,6 +2861,7 @@
       </BlockVariants>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
@@ -2204,7 +2872,7 @@
         <SubtypeId>SmallHeavyScaffoldSlab</SubtypeId>
       </Id>
       <DisplayName>Heavy Scaffold Slab</DisplayName>
-      <Icon>Textures\Icons\LightScaffoldSlab.dds</Icon>
+      <Icon>Textures\Icons\HeavyScaffoldSlab.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2217,19 +2885,26 @@
         <Component Subtype="MetalGrid" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallHeavyScaffoldSlab_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
       </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\SmallHeavyScaffoldSlab.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldSlab</BlockPairName>
-      <MirroringX>Y</MirroringX>
+      <MirroringX>None</MirroringX>
       <MirroringY>X</MirroringY>
+			<MirroringZ>None</MirroringZ>
       <EdgeType>Heavy</EdgeType>
       <DeformationRatio>0.16</DeformationRatio>
       <BuildTimeSeconds>1</BuildTimeSeconds>
@@ -2253,6 +2928,9 @@
         <Component Subtype="MetalGrid" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallHeavyScaffoldSlope2Tip_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
@@ -2298,23 +2976,30 @@
         <Component Subtype="MetalGrid" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallHeavyScaffoldCorner2Base_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.88" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.62" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.12" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.38" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>HeavyScaffoldCorner2Base</BlockPairName>
-      <MirroringX>YHalfX</MirroringX>
-      <MirroringY>MinusHalfX</MirroringY>
-      <MirroringZ>HalfX</MirroringZ>
+      <MirroringX>HalfZ</MirroringX>
+      <MirroringY>MinusHalfZ</MirroringY>
+      <MirroringZ>YHalfZ</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
@@ -2337,13 +3022,20 @@
         <Component Subtype="MetalGrid" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallHeavyScaffoldCorner2Tip_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.5" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.5" EndY="0.4" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.4" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.5" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.38" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.12" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.62" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.88" StartY="0.00" EndX="1.00" EndY="0.25" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
       <BlockPairName>HeavyScaffoldCorner2Tip</BlockPairName>
@@ -2372,24 +3064,43 @@
         <Component Subtype="MetalGrid" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallHeavyScaffoldInvCorner2Base_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-        <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
-        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
-        <MountPoint Side="Front" StartX="0.2" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.88" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.62" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.12" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.38" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\SquarePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldInvCorner2Base</BlockPairName>
       <BlockVariants>
         <BlockVariant>
@@ -2424,30 +3135,46 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\SmallLightScaffoldInvCorner2Tip.mwm</Model>
+      <Model>Models\SmallHeavyScaffoldInvCorner2Tip.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
         <Component Subtype="MetalGrid" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallHeavyScaffoldInvCorner2Tip_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
-        <MountPoint Side="Back" StartX="0.8" StartY="0.5" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0.5" EndX="0.8" EndY="1" />
-        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
-        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
-        <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
-        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0.2" StartY="0.5" EndX="0.5" EndY="1" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.38" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.75" StartY="0.00" EndX="1.00" EndY="0.12" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.75" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.62" StartY="0.50" EndX="1.00" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Bottom" StartX="0.88" StartY="0.00" EndX="1.00" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="0.75" EndY="0.75" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.25" />
+				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.25" EndX="0.25" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.25" EndX="0.90" EndY="0.75" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.10" EndX="0.75" EndY="0.25" />
+				<MountPoint Side="Right" StartX="0.25" StartY="0.75" EndX="0.75" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\SquarePlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>HeavyScaffoldInvCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
@@ -2530,70 +3257,4 @@
     </Definition>
 
   </CubeBlocks>
-  <BlockPositions>
-    <BlockPosition>
-      <Name>LightScaffoldBlock</Name>
-      <Position>
-        <X>0</X>
-        <Y>17</Y>
-      </Position>
-    </BlockPosition>
-    <BlockPosition>
-      <Name>LightScaffoldRoundedSlope</Name>
-      <Position>
-        <X>1</X>
-        <Y>17</Y>
-      </Position>
-    </BlockPosition>
-    <BlockPosition>
-      <Name>LightScaffoldSlope2Base</Name>
-      <Position>
-        <X>2</X>
-        <Y>17</Y>
-      </Position>
-    </BlockPosition>
-    <BlockPosition>
-      <Name>LightScaffoldInvCorner2Base</Name>
-      <Position>
-        <X>3</X>
-        <Y>17</Y>
-      </Position>
-    </BlockPosition>
-
-    <BlockPosition>
-      <Name>HeavyScaffoldBlock</Name>
-      <Position>
-        <X>4</X>
-        <Y>17</Y>
-      </Position>
-    </BlockPosition>
-    <BlockPosition>
-      <Name>HeavyScaffoldRoundedSlope</Name>
-      <Position>
-        <X>5</X>
-        <Y>17</Y>
-      </Position>
-    </BlockPosition>
-    <BlockPosition>
-      <Name>HeavyScaffoldSlope2Base</Name>
-      <Position>
-        <X>6</X>
-        <Y>17</Y>
-      </Position>
-    </BlockPosition>
-    <BlockPosition>
-      <Name>HeavyScaffoldInvCorner2Base</Name>
-      <Position>
-        <X>7</X>
-        <Y>17</Y>
-      </Position>
-    </BlockPosition>
-    <BlockPosition>
-      <Name>ScaffoldCatwalk</Name>
-      <Position>
-        <X>8</X>
-        <Y>17</Y>
-      </Position>
-    </BlockPosition>
-  </BlockPositions>
 </Definitions>

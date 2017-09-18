@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
-		Build-Blender-textures.ps1 = Build-Blender-textures.ps1
+		Assets\Build-Blender-textures.ps1 = Assets\Build-Blender-textures.ps1
+		Assets\Deploy.ps1 = Assets\Deploy.ps1
+		Assets\Generate-icons.ps1 = Assets\Generate-icons.ps1
 	EndProjectSection
 EndProject
 Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Medical Facilities", "Medical Facilities\Medical Facilities.pssproj", "{D6BE7C9E-EFB0-4917-8B7D-8A450A25DD12}"
