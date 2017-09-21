@@ -23,9 +23,22 @@
         <Component Subtype="SteelPlate" Count="120" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeStoneGrinder_Constr1.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Right" StartX="0.03" StartY="0.02" EndX="0.98" EndY="0.94" />
+				<MountPoint Side="Left" StartX="0.03" StartY="0.02" EndX="0.98" EndY="0.94" />
+				<MountPoint Side="Top" StartX="0.02" StartY="0.60" EndX="0.98" EndY="0.98" />
+				<MountPoint Side="Front" StartX="0.02" StartY="0.02" EndX="0.98" EndY="1.98" />
+				<MountPoint Side="Back" StartX="0.03" StartY="0.02" EndX="0.98" EndY="0.94" />
+				<MountPoint Side="Bottom" StartX="0.03" StartY="0.03" EndX="0.98" EndY="0.98" />
+				<MountPoint Side="Right" StartX="0.60" StartY="0.94" EndX="0.98" EndY="1.98" />
+				<MountPoint Side="Left" StartX="0.03" StartY="0.94" EndX="0.40" EndY="1.98" />
+			</MountPoints>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
-      <BlockPairName>StoneGrinder</BlockPairName>
+      <BlockPairName>LargeStoneGrinder</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
@@ -69,6 +82,9 @@
         <Component Subtype="SteelPlate" Count="12" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallStoneGrinder_Constr1.mwm" />
+			</BuildProgressModels>
       <MountPoints>
 				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.37" EndY="3.00" />
 				<MountPoint Side="Front" StartX="2.62" StartY="0.00" EndX="3.00" EndY="3.00" />
@@ -98,7 +114,7 @@
       <BlueprintClasses>
         <Class>StoneDust</Class>
       </BlueprintClasses>
-      <BlockPairName>StoneGrinder</BlockPairName>
+      <BlockPairName>SmallStoneGrinder</BlockPairName>
 
       <GenerateSound>ToolShipDrillRock</GenerateSound>
       <IdleSound>ToolShipDrillIdle</IdleSound>

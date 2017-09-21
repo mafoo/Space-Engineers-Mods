@@ -27,10 +27,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Deploy.ps1" />
-    <Compile Include="Generate-icons.ps1" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>

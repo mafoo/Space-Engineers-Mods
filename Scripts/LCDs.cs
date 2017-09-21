@@ -1,15 +1,27 @@
 ﻿using Sandbox.ModAPI.Ingame;
-using SpaceEngineers.Game.ModAPI.Ingame;
-using Sandbox.ModAPI.Interfaces;
-using VRage.Game.ModAPI.Ingame;
-using System.Collections.Generic;
+#if DEBUG
+using System;
 using System.Linq;
+using System.Text;
+using System.Collections;
+using System.Collections.Generic;
 
-namespace Scripts
+using VRageMath;
+using VRage.Game;
+using VRage.Collections;
+using Sandbox.ModAPI.Ingame;
+using VRage.Game.Components;
+using VRage.Game.ModAPI.Ingame;
+using Sandbox.ModAPI.Interfaces;
+using Sandbox.Game.EntityComponents;
+using SpaceEngineers.Game.ModAPI.Ingame;
+using VRage.Game.ObjectBuilders.Definitions;
+
+namespace SpaceEngineers
 {
-    public class LCDs : MyGridProgram
+    public sealed class Program : MyGridProgram
     {
-        #region  
+#endif
         List<IMySolarPanel> solars = new List<IMySolarPanel>();
         IMyTextPanel s;
         float minPower = -1;
@@ -112,12 +124,6 @@ namespace Scripts
             if (totalPower > 0)
                 f_averagePower = FormatNumber(totalPower / cycles * Math.Pow(1000, 2)) + "W";
 
-            MMLCDMgr.AddRightLn(MM.FormatLargeNumber(usedPower) + "W / " + MM.FormatLargeNumber(totalPower) + "W", LCD_LINE_WIDTH);
-            MMLCDMgr.AddBar(percentPower, FULL_PROGRESS_CHARS, PERCENT_TEXT_SIZE);
-            MMLCDMgr.AddRightLn(' ' + percentPower.ToString("0.0") + "%", LCD_LINE_WIDTH);
-
-
-
             s.WritePublicText("Peak Power:\n" + f_peakPower + "\n");
             s.WritePublicText("Min Power:\n" + f_minPower + "\n", true);
             s.WritePublicText("Average Power:\n" + f_averagePower + "\n", true);
@@ -150,6 +156,7 @@ namespace Scripts
 
             return res;
         }
-        #endregion
+#if DEBUG
     }
 }
+#endif

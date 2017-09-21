@@ -1,17 +1,26 @@
-﻿
-using Sandbox.ModAPI.Ingame;
-using SpaceEngineers.Game.ModAPI.Ingame;
-using Sandbox.ModAPI.Interfaces;
-using VRage.Game.ModAPI.Ingame;
-using System.Collections.Generic;
+﻿#if DEBUG
+using System;
 using System.Linq;
-using VRageMath;
+using System.Text;
+using System.Collections;
+using System.Collections.Generic;
 
-namespace Scripts
+using VRageMath;
+using VRage.Game;
+using VRage.Collections;
+using Sandbox.ModAPI.Ingame;
+using VRage.Game.Components;
+using VRage.Game.ModAPI.Ingame;
+using Sandbox.ModAPI.Interfaces;
+using Sandbox.Game.EntityComponents;
+using SpaceEngineers.Game.ModAPI.Ingame;
+using VRage.Game.ObjectBuilders.Definitions;
+
+namespace SpaceEngineers
 {
-    public class Stocker : MyGridProgram
+    public sealed class Stocker : MyGridProgram
     {
-        #region  
+#endif
         IMyTextPanel s;
         Dictionary<string, IMyTextPanel> panels = new Dictionary<string, IMyTextPanel>();
         Dictionary<string, IMyButtonPanel> buttons = new Dictionary<string, IMyButtonPanel>();
@@ -536,6 +545,7 @@ namespace Scripts
             r_text += text;
             return r_text;
         }
-        #endregion  
+#if DEBUG
     }
 }
+#endif

@@ -3197,23 +3197,18 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\SteelCatwalk_PlateConstruction_1.mwm</Model>
+      <Model>Models\LargeScaffoldCatwalk.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0.1" EndX="0.1" EndY="0.33" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.9" StartY="0.1" EndX="1" EndY="0.33" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.43" />
-        <MountPoint Side="Back" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+				<MountPoint Side="Right" StartX="0.00" StartY="-0.01" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Back" StartX="0.00" StartY="-0.01" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Left" StartX="0.00" StartY="-0.01" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Front" StartX="0.00" StartY="-0.01" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SteelCatwalk_PlateConstruction_1.mwm" />
-      </BuildProgressModels>
       <BlockPairName>ScaffoldCatwalk</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
@@ -3238,17 +3233,12 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
-        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0.1" EndX="0.1" EndY="0.33" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
-        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.9" StartY="0.1" EndX="1" EndY="0.33" />
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.43" />
-        <MountPoint Side="Back" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+				<MountPoint Side="Right" StartX="0.00" StartY="-0.01" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Back" StartX="0.00" StartY="-0.01" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Left" StartX="0.00" StartY="-0.01" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Front" StartX="0.00" StartY="-0.01" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\SmallScaffoldCatwalk.mwm" />
-      </BuildProgressModels>
       <BlockPairName>ScaffoldCatwalk</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
