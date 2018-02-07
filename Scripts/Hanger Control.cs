@@ -46,7 +46,7 @@ namespace SpaceEngineers
             try
             {
                 argument = argument.ToLower();
-                //Echo("Called with '" + argument + "'");
+                //Echo("Called with '" + argument + "'"); 
                 if (argument == "open")
                 {
                     if (piston2.CurrentPosition == 0)
@@ -57,9 +57,9 @@ namespace SpaceEngineers
                         timer.StartCountdown();
                         for (int i = 0; i < 7; i++)
                         {
-                            lightsLeft[i].BlinkOffset = i * (1 / 7);
+                            lightsLeft[i].BlinkOffset = i * (100 / 7);
                             lightsLeft[i].Enabled = true;
-                            lightsRight[i].BlinkOffset = i * (1 / 7);
+                            lightsRight[i].BlinkOffset = i * (100 / 7);
                             lightsRight[i].Enabled = true;
                         }
                     }
@@ -78,9 +78,9 @@ namespace SpaceEngineers
                         timer.StartCountdown();
                         for (int i = 0; i < 7; i++)
                         {
-                            lightsLeft[i].BlinkOffset = (7 - i) * (1 / 7);
+                            lightsLeft[i].BlinkOffset = (7 - i) * (100 / 7);
                             lightsLeft[i].Enabled = true;
-                            lightsRight[i].BlinkOffset = (7 - i) * (1 / 7);
+                            lightsRight[i].BlinkOffset = (7 - i) * (100 / 7);
                             lightsRight[i].Enabled = true;
                         }
                     }

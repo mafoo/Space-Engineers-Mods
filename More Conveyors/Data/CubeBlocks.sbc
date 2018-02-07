@@ -93,7 +93,7 @@
       </Id>
       <DisplayName>Long Conveyor Tube</DisplayName>
       <Icon>Textures\Icons\ConveyorTubeLong.dds</Icon>
-      <GuiVisible>true</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="10" />
@@ -127,7 +127,7 @@
       </Id>
       <DisplayName>Medium Conveyor Tube</DisplayName>
       <Icon>Textures\Icons\ConveyorTubeMedium.dds</Icon>
-      <GuiVisible>true</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="5" />

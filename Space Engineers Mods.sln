@@ -40,6 +40,19 @@ Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Tool Turrets", "Tool Turret
 EndProject
 Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Yet Another Stone Grinder", "Yet Another Stone Grinder\Yet Another Stone Grinder.pssproj", "{45B51CB4-A7F4-4BAD-A0A3-0F5FAF58EBFB}"
 EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "No CryoPod", "No CryoPod\No CryoPod.pssproj", "{04B6D91A-747F-4251-A0F6-B89C722E6024}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{7B093485-0A76-49E0-A775-5D80A2B56FB5}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\Games\Steam\steamapps\common\SpaceEngineers\Content\Data\BlockCategories.sbc = ..\..\..\..\..\..\Games\Steam\steamapps\common\SpaceEngineers\Content\Data\BlockCategories.sbc
+		E:\Games\Steam\steamapps\common\SpaceEngineers\Content\Data\CubeBlocks.sbc = E:\Games\Steam\steamapps\common\SpaceEngineers\Content\Data\CubeBlocks.sbc
+		E:\Games\Steam\steamapps\common\SpaceEngineersModSDK\OriginalContent\Materials\Materials.xml = E:\Games\Steam\steamapps\common\SpaceEngineersModSDK\OriginalContent\Materials\Materials.xml
+	EndProjectSection
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Rebels - Models", "Rebels - Models\Rebels - Models.pssproj", "{256F3D87-6D04-4AD4-8036-BAF7ACCD2D62}"
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Rebels-Games - Test Mod", "Rebels-Games - Test Mod\Rebels-Games - Test Mod.pssproj", "{A79F6477-A779-4CC1-BB94-166EDFC5839A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,8 +115,23 @@ Global
 		{45B51CB4-A7F4-4BAD-A0A3-0F5FAF58EBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45B51CB4-A7F4-4BAD-A0A3-0F5FAF58EBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45B51CB4-A7F4-4BAD-A0A3-0F5FAF58EBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B6D91A-747F-4251-A0F6-B89C722E6024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B6D91A-747F-4251-A0F6-B89C722E6024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B6D91A-747F-4251-A0F6-B89C722E6024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B6D91A-747F-4251-A0F6-B89C722E6024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256F3D87-6D04-4AD4-8036-BAF7ACCD2D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256F3D87-6D04-4AD4-8036-BAF7ACCD2D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256F3D87-6D04-4AD4-8036-BAF7ACCD2D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256F3D87-6D04-4AD4-8036-BAF7ACCD2D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79F6477-A779-4CC1-BB94-166EDFC5839A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79F6477-A779-4CC1-BB94-166EDFC5839A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79F6477-A779-4CC1-BB94-166EDFC5839A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79F6477-A779-4CC1-BB94-166EDFC5839A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B093485-0A76-49E0-A775-5D80A2B56FB5} = {E4887D66-A21B-4001-8212-4E536B07BB46}
 	EndGlobalSection
 EndGlobal

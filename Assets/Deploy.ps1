@@ -37,14 +37,14 @@ Try{
 		New-Item -Path $mod_path -Name "Data" -ItemType Directory -ErrorAction SilentlyContinue
 		$src = [String]::Concat($project_path, "\Data\*")
 		$dst = [String]::Concat($mod_path, "\Data\")
-	    Copy-item -Path $src -Destination $dst
+	    Copy-item -Path $src -Destination $dst -Recurse -Force
 	}
     $dir = [String]::Concat($project_path, "\Models")
 	if(Get-Item -Path $dir -ErrorAction SilentlyContinue){
 		New-Item -Path $mod_path -Name "Models" -ItemType Directory -ErrorAction SilentlyContinue
 		$src = [String]::Concat($project_path, "\Models\*.mwm")
 		$dst = [String]::Concat($mod_path, "\Models\")
-		Copy-item -Path $src -Destination $dst
+		Copy-item -Path $src -Destination $dst -Recurse -Force
 	}
 	$dir = [String]::Concat($project_path, "\Textures")
 		if(Get-Item -Path $dir -ErrorAction SilentlyContinue){
