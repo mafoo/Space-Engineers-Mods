@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
     <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
@@ -28,13 +29,13 @@
       </Components>
       <CriticalComponent Subtype="Medical" Index="0" />
       <MountPoints>
-				<MountPoint Side="Bottom" StartX="1.20" StartY="0.20" EndX="1.80" EndY="0.80" />
-				<MountPoint Side="Top" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
+        <MountPoint Side="Bottom" StartX="1.20" StartY="0.20" EndX="1.80" EndY="0.80" />
+        <MountPoint Side="Top" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
       </MountPoints>
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\LargeMedicalRoom_Constr1.mwm" />
-				<Model BuildPercentUpperBound="0.67" File="Models\LargeMedicalRoom_Constr2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeMedicalRoom_Constr3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\LargeMedicalRoom_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.67" File="Models\LargeMedicalRoom_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeMedicalRoom_Constr3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -69,6 +70,7 @@
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>30</PCU>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
       <Id>
@@ -98,14 +100,14 @@
       </Components>
       <CriticalComponent Subtype="Medical" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\LargeMedicalRoomInv_Constr1.mwm" />
-				<Model BuildPercentUpperBound="0.67" File="Models\LargeMedicalRoomInv_Constr2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeMedicalRoomInv_Constr3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\LargeMedicalRoomInv_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.67" File="Models\LargeMedicalRoomInv_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeMedicalRoomInv_Constr3.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="1.20" StartY="0.20" EndX="1.80" EndY="0.80" />
-				<MountPoint Side="Top" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="1.20" StartY="0.20" EndX="1.80" EndY="0.80" />
+        <MountPoint Side="Top" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
+      </MountPoints>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -125,6 +127,7 @@
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>30</PCU>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
@@ -154,16 +157,16 @@
         <Component Subtype="InteriorPlate" Count="20" />
       </Components>
       <CriticalComponent Subtype="Medical" Index="0" />
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\LargeMedicalRoomTypeB_Constr1.mwm" />
-				<Model BuildPercentUpperBound="0.67" File="Models\LargeMedicalRoomTypeB_Constr2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeMedicalRoomTypeB_Constr3.mwm" />
-			</BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Right" StartX="1.20" StartY="0.20" EndX="1.80" EndY="0.80" />
-				<MountPoint Side="Bottom" StartX="0.20" StartY="0.00" EndX="0.80" EndY="3.00" />
-				<MountPoint Side="Top" StartX="0.20" StartY="1.20" EndX="0.80" EndY="1.80" />
-			</MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\LargeMedicalRoomTypeB_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.67" File="Models\LargeMedicalRoomTypeB_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeMedicalRoomTypeB_Constr3.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Right" StartX="1.20" StartY="0.20" EndX="1.80" EndY="0.80" />
+        <MountPoint Side="Bottom" StartX="0.20" StartY="0.00" EndX="0.80" EndY="3.00" />
+        <MountPoint Side="Top" StartX="0.20" StartY="1.20" EndX="0.80" EndY="1.80" />
+      </MountPoints>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -177,12 +180,13 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-			<BlockPairName>MedicalRoomTypeB</BlockPairName>
+      <BlockPairName>MedicalRoomTypeB</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>30</PCU>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
       <Id>
@@ -240,6 +244,7 @@
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>30</PCU>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
@@ -316,6 +321,7 @@
       <EdgeType>Light</EdgeType>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>30</PCU>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
       <Id>
@@ -342,14 +348,14 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-				<MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Top" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Top" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
       </MountPoints>
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\LargeCryoPodTypeB_Constr1.mwm" />
-				<Model BuildPercentUpperBound="0.67" File="Models\LargeCryoPodTypeB_Constr2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeCryoPodTypeB_Constr3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\LargeCryoPodTypeB_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.67" File="Models\LargeCryoPodTypeB_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeCryoPodTypeB_Constr3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
         <StaticMode>
@@ -379,6 +385,7 @@
       <EdgeType>Light</EdgeType>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>30</PCU>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
       <Id>
@@ -404,11 +411,11 @@
         <Component Subtype="BulletproofGlass" Count="10" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\LargeCryoPodTypeC_Constr1.mwm" />
-				<Model BuildPercentUpperBound="0.67" File="Models\LargeCryoPodTypeC_Constr2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeCryoPodTypeC_Constr3.mwm" />
-			</BuildProgressModels>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\LargeCryoPodTypeC_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.67" File="Models\LargeCryoPodTypeC_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeCryoPodTypeC_Constr3.mwm" />
+      </BuildProgressModels>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
@@ -421,11 +428,11 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="1.20" StartY="0.20" EndX="1.80" EndY="0.80" />
-				<MountPoint Side="Right" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Top" StartX="1.20" StartY="0.20" EndX="1.80" EndY="0.80" />
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="1.20" StartY="0.20" EndX="1.80" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Top" StartX="1.20" StartY="0.20" EndX="1.80" EndY="0.80" />
+      </MountPoints>
       <BlockPairName>CryoPodTypeC</BlockPairName>
       <OverlayTexture>Textures\Icons\cryopod_interior_TypeC.dds</OverlayTexture>
       <MirroringZ>Y</MirroringZ>
@@ -442,6 +449,7 @@
       <EdgeType>Light</EdgeType>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>30</PCU>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
@@ -469,9 +477,9 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\SmallCryoPodTypeC_Constr1.mwm" />
-				<Model BuildPercentUpperBound="0.67" File="Models\SmallCryoPodTypeC_Constr2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\SmallCryoPodTypeC_Constr3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\SmallCryoPodTypeC_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.67" File="Models\SmallCryoPodTypeC_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SmallCryoPodTypeC_Constr3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
         <StaticMode>
@@ -486,16 +494,16 @@
         </DynamicMode>
       </VoxelPlacement>
       <MountPoints>
-				<MountPoint Side="Back" StartX="0.05" StartY="1.15" EndX="5.76" EndY="2.54" />
-				<MountPoint Side="Front" StartX="0.24" StartY="1.15" EndX="5.95" EndY="2.54" />
-				<MountPoint Side="Right" StartX="1.17" StartY="2.15" EndX="1.84" EndY="2.86" />
-				<MountPoint Side="Right" StartX="1.17" StartY="0.15" EndX="1.84" EndY="0.86" />
-				<MountPoint Side="Bottom" StartX="5.01" StartY="0.00" EndX="5.59" EndY="3.00" />
-				<MountPoint Side="Bottom" StartX="5.01" StartY="0.00" EndX="5.59" EndY="3.00" />
-				<MountPoint Side="Back" StartX="5.01" StartY="0.00" EndX="5.59" EndY="1.15" />
-				<MountPoint Side="Front" StartX="0.41" StartY="0.00" EndX="0.99" EndY="1.15" />
-				<MountPoint Side="Back" StartX="0.69" StartY="0.50" EndX="1.69" EndY="1.15" />
-				<MountPoint Side="Front" StartX="4.31" StartY="0.50" EndX="5.31" EndY="1.15" />
+        <MountPoint Side="Back" StartX="0.05" StartY="1.15" EndX="5.76" EndY="2.54" />
+        <MountPoint Side="Front" StartX="0.24" StartY="1.15" EndX="5.95" EndY="2.54" />
+        <MountPoint Side="Right" StartX="1.17" StartY="2.15" EndX="1.84" EndY="2.86" />
+        <MountPoint Side="Right" StartX="1.17" StartY="0.15" EndX="1.84" EndY="0.86" />
+        <MountPoint Side="Bottom" StartX="5.01" StartY="0.00" EndX="5.59" EndY="3.00" />
+        <MountPoint Side="Bottom" StartX="5.01" StartY="0.00" EndX="5.59" EndY="3.00" />
+        <MountPoint Side="Back" StartX="5.01" StartY="0.00" EndX="5.59" EndY="1.15" />
+        <MountPoint Side="Front" StartX="0.41" StartY="0.00" EndX="0.99" EndY="1.15" />
+        <MountPoint Side="Back" StartX="0.69" StartY="0.50" EndX="1.69" EndY="1.15" />
+        <MountPoint Side="Front" StartX="4.31" StartY="0.50" EndX="5.31" EndY="1.15" />
       </MountPoints>
       <BlockPairName>CryoPodTypeC</BlockPairName>
       <OverlayTexture>Textures\Icons\cryopod_interior_TypeC.dds</OverlayTexture>
@@ -513,6 +521,7 @@
       <EdgeType>Light</EdgeType>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>30</PCU>
     </Definition>
 
   </CubeBlocks>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <Definitions>
   <CubeBlocks>
     <!--LegacyBlock-->
@@ -36,6 +37,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END LegacyBlock-->
 
@@ -121,6 +123,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -159,6 +162,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -197,9 +201,9 @@
       <BlockPairName>SteelCatwalk2Sides</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -238,9 +242,9 @@
       <BlockPairName>SteelCatwalkInv2Sides</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -277,9 +281,9 @@
       <BlockPairName>SteelCatwalkCorner</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -316,9 +320,9 @@
       <BlockPairName>SteelCatwalkInvCorner</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -355,6 +359,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -393,6 +398,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -430,6 +436,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -468,6 +475,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -505,6 +513,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END With Plate-->
     <!--Without Plate-->
@@ -571,6 +580,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -608,6 +618,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -645,9 +656,9 @@
       <BlockPairName>SteelCatwalkOnly2Sides</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -686,9 +697,9 @@
       <BlockPairName>SteelCatwalkOnly3Sides</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -724,6 +735,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END Without Plate-->
     <!--END Regular Catwalks-->
@@ -808,6 +820,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -849,6 +862,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -890,6 +904,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -930,6 +945,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -970,6 +986,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1010,6 +1027,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -1051,6 +1069,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1091,6 +1110,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1131,6 +1151,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1171,6 +1192,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END With Plate-->
     <!--Without Plate-->
@@ -1210,6 +1232,7 @@
       <BlockPairName>SteelCatwalkOnlyDiagonal</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1248,6 +1271,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1286,6 +1310,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END Without Plate-->
     <!--END Angled Catwalks-->
@@ -1343,6 +1368,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1390,6 +1416,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1437,6 +1464,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END Stairs\Ramps-->
 
@@ -1496,6 +1524,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1538,6 +1567,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1585,6 +1615,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1632,6 +1663,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END 1x1 Stairs\Ramps-->
 
@@ -1691,6 +1723,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1733,6 +1766,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1780,6 +1814,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1827,6 +1862,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--1x1 Stair\Ramp Slopes-->
     <!--END Large Blocks-->
@@ -1914,6 +1950,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1952,6 +1989,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -1990,9 +2028,9 @@
       <BlockPairName>SteelCatwalk2Sides</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2031,9 +2069,9 @@
       <BlockPairName>SteelCatwalkInv2Sides</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2070,9 +2108,9 @@
       <BlockPairName>SteelCatwalkCorner</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2109,9 +2147,9 @@
       <BlockPairName>SteelCatwalkInvCorner</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2148,6 +2186,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -2186,6 +2225,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2223,6 +2263,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -2261,6 +2302,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2298,6 +2340,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END With Plate-->
     <!--Without Plate-->
@@ -2364,6 +2407,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2401,6 +2445,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2438,9 +2483,9 @@
       <BlockPairName>SteelCatwalkOnly2Sides</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -2479,9 +2524,9 @@
       <BlockPairName>SteelCatwalkOnly3Sides</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -2517,6 +2562,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END Without Plate-->
     <!--END Regular Catwalks-->
@@ -2601,6 +2647,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2642,6 +2689,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -2683,6 +2731,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2723,6 +2772,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2763,6 +2813,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2803,6 +2854,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -2844,6 +2896,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2884,6 +2937,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2924,6 +2978,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2964,6 +3019,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END With Plate-->
     <!--Without Plate-->
@@ -3003,6 +3059,7 @@
       <BlockPairName>SteelCatwalkOnlyDiagonal</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3039,6 +3096,7 @@
       <BlockPairName>SteelCatwalkOnly2x1Diagonal</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3075,6 +3133,7 @@
       <BlockPairName>SteelCatwalkOnlyMirrored2x1Diagonal</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END Without Plate-->
     <!--END Angled Catwalks-->
@@ -3132,6 +3191,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3179,6 +3239,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3219,6 +3280,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3266,6 +3328,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END Stairs\Ramps-->
 
@@ -3325,6 +3388,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3367,6 +3431,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3414,6 +3479,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3461,6 +3527,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END 1x1 Stairs\Ramps-->
 
@@ -3520,6 +3587,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3562,6 +3630,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3609,6 +3678,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3656,6 +3726,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END 1x1 Stair\Ramp Slopes-->
 
@@ -3743,6 +3814,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3781,6 +3853,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3819,9 +3892,9 @@
       <BlockPairName>SmallSteelCatwalk2Sides</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3860,9 +3933,9 @@
       <BlockPairName>SmallSteelCatwalkInv2Sides</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3899,9 +3972,9 @@
       <BlockPairName>SmallSteelCatwalkCorner</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3938,9 +4011,9 @@
       <BlockPairName>SmallSteelCatwalkInvCorner</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -3977,6 +4050,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -4015,6 +4089,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -4052,6 +4127,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -4090,6 +4166,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -4127,6 +4204,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END With Plate-->
     <!--Without Plate-->
@@ -4191,6 +4269,7 @@
       </BlockVariants>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -4226,6 +4305,7 @@
       <BlockPairName>SteelCatwalkOnlyCorner</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -4263,6 +4343,7 @@
       <BlockPairName>SmallSteelCatwalkOnly2Sides</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -4301,9 +4382,9 @@
       <BlockPairName>SmallSteelCatwalkOnly3Sides</BlockPairName>
 
 
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -4339,6 +4420,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END Without Plate-->
     <!--END Regular Catwalks-->
@@ -4423,6 +4505,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -4464,6 +4547,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -4505,6 +4589,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -4545,6 +4630,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -4585,6 +4671,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -4625,6 +4712,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
 
     <Definition>
@@ -4666,6 +4754,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -4706,6 +4795,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -4746,6 +4836,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -4786,6 +4877,7 @@
 
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END With Plate-->
     <!--Without Plate-->
@@ -4825,6 +4917,7 @@
       <BlockPairName>SmallSteelCatwalkOnlyDiagonal</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -4861,6 +4954,7 @@
       <BlockPairName>SmallSteelCatwalkOnly2x1Diagonal</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -4897,6 +4991,7 @@
       <BlockPairName>SmallSteelCatwalkOnlyMirrored2x1Diagonal</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END Without Plate-->
     <!--END Angled Catwalks-->
@@ -4961,6 +5056,7 @@
       </BlockVariants>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -5005,6 +5101,7 @@
       <BlockPairName>SteelCatwalkSuspendedInv</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -5043,6 +5140,7 @@
       <BlockPairName>SteelCatwalkSuspendedLong</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -5081,6 +5179,7 @@
       <BlockPairName>SteelCatwalkSuspendedInvLong</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <!--END New Catwalks -->
   </CubeBlocks>

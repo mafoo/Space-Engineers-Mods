@@ -32,6 +32,8 @@
   <ItemGroup>
     <Content Include="Data\BlockCategories.sbc" />
     <Content Include="Data\BlueprintClasses.sbc" />
+    <Content Include="Data\CubeBlocks - Suspended.sbc" />
+    <Content Include="Data\CubeBlocks - Ramps n Stairs.sbc" />
     <Content Include="Data\CubeBlocks.sbc" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <Definitions>
   <CubeBlocks>
     <Definition>
@@ -31,6 +32,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -63,6 +65,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -95,6 +98,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -127,6 +131,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -159,6 +164,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -191,6 +197,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -221,6 +228,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -255,6 +263,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -290,6 +299,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -326,6 +336,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -364,6 +375,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <BuildTimeSeconds>1</BuildTimeSeconds>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -398,6 +410,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
+      <PCU>1</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -432,6 +445,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>1</DisassembleRatio>
+      <PCU>1</PCU>
     </Definition>
 
   </CubeBlocks>

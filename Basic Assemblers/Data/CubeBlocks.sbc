@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>LargeBasicAssembler</SubtypeId>
+      </Id>
+      <DisplayName>Basic Assembler</DisplayName>
+      <Icon>Textures\Icons\BasicAssembler.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeBasicAssembler.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="65" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="Computer" Count="40" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\LargeBasicAssembler_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\LargeBasicAssembler_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\LargeBasicAssembler_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BasicAssembler</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>0.5</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.1</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>BasicComponents</Class>
+        <Class>BasicTools</Class>
+      </BlueprintClasses>
+      <AssemblySpeed>0.1</AssemblySpeed>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <PCU>30</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>SmallBasicAssembler</SubtypeId>
+      </Id>
+      <DisplayName>Basic Assembler</DisplayName>
+      <Icon>Textures\Icons\BasicAssembler.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SmallBasicAssembler.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="65" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="Computer" Count="40" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
+      </MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\SmallBasicAssembler_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\SmallBasicAssembler_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\SmallBasicAssembler_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BasicAssembler</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>0.5</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.1</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>BasicComponents</Class>
+        <Class>BasicTools</Class>
+      </BlueprintClasses>
+      <AssemblySpeed>0.1</AssemblySpeed>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <PCU>30</PCU>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

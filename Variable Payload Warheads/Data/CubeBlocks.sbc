@@ -64,7 +64,8 @@
       </BlockVariants>
       <ExplosionRadius>22.45</ExplosionRadius>
       <WarheadExplosionDamage>15000</WarheadExplosionDamage>
-    </Definition>
+    <PCU>100</PCU>
+</Definition>
     <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
       <Id>
         <TypeId>Warhead</TypeId>
@@ -109,7 +110,8 @@
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ExplosionRadius>14.95</ExplosionRadius>
       <WarheadExplosionDamage>15000</WarheadExplosionDamage>
-    </Definition>
+    <PCU>100</PCU>
+</Definition>
     <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
       <Id>
         <TypeId>Warhead</TypeId>
@@ -154,7 +156,8 @@
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ExplosionRadius>7.45</ExplosionRadius>
       <WarheadExplosionDamage>15000</WarheadExplosionDamage>
-    </Definition>
+    <PCU>100</PCU>
+</Definition>
     <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
       <Id>
         <TypeId>Warhead</TypeId>
@@ -198,7 +201,8 @@
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ExplosionRadius>30</ExplosionRadius>
       <WarheadExplosionDamage>15000</WarheadExplosionDamage>
-    </Definition>
+    <PCU>100</PCU>
+</Definition>
     <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
       <Id>
         <TypeId>Warhead</TypeId>
@@ -248,7 +252,8 @@
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ExplosionRadius>30</ExplosionRadius>
       <WarheadExplosionDamage>15000000</WarheadExplosionDamage>
-    </Definition>
+    <PCU>100</PCU>
+</Definition>
 
     <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
       <Id>
@@ -289,7 +294,8 @@
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <ExplosionRadius>13.45</ExplosionRadius>
       <WarheadExplosionDamage>15000</WarheadExplosionDamage>
-    </Definition>
+    <PCU>100</PCU>
+</Definition>
     <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
       <Id>
         <TypeId>Warhead</TypeId>
@@ -320,7 +326,8 @@
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <ExplosionRadius>8.95</ExplosionRadius>
       <WarheadExplosionDamage>15000</WarheadExplosionDamage>
-    </Definition>
+    <PCU>100</PCU>
+</Definition>
     <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
       <Id>
         <TypeId>Warhead</TypeId>
@@ -351,7 +358,8 @@
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <ExplosionRadius>4.45</ExplosionRadius>
       <WarheadExplosionDamage>15000</WarheadExplosionDamage>
-    </Definition>
+    <PCU>100</PCU>
+</Definition>
   </CubeBlocks>
   <BlockPositions>
     <BlockPosition>

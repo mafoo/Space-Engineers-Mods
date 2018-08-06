@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>BasicTools</SubtypeId>
+      </Id>
+      <DisplayName>Basic Tools</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\tool_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>BasicComponents</SubtypeId>
+      </Id>
+      <DisplayName>Basic Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+  <BlueprintClassEntries>
+    
+    <Entry Class="BasicComponents" BlueprintSubtypeId="ConstructionComponent" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="GirderComponent" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="MetalGrid" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="InteriorPlate" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="SteelPlate" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="SmallTube" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="LargeTube" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="MotorComponent" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="Display" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="BulletproofGlass" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="ComputerComponent" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="Canvas" />
+	
+    <Entry Class="BasicTools" BlueprintSubtypeId="AutomaticRifle" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="Welder" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="HandDrill" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="OxygenBottle" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="HydrogenBottle" />
+
+  </BlueprintClassEntries>
+</Definitions>

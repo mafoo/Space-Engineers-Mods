@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
     <!--LCD Button Panel-->
@@ -29,20 +30,20 @@
         </BlockVariant>
       </BlockVariants>
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\LargeLCDButtonPanelStanding_Constr1.mwm" />
-				<Model BuildPercentUpperBound="0.67" File="Models\LargeLCDButtonPanelStanding_Constr2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeLCDButtonPanelStanding_Constr3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\LargeLCDButtonPanelStanding_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.67" File="Models\LargeLCDButtonPanelStanding_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeLCDButtonPanelStanding_Constr3.mwm" />
       </BuildProgressModels>
       <MountPoints>
-				<MountPoint Side="Right" StartX="0.86" StartY="0.00" EndX="1.00" EndY="0.60" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.14" EndY="0.60" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.60" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.14" />
+        <MountPoint Side="Right" StartX="0.86" StartY="0.00" EndX="1.00" EndY="0.60" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.14" EndY="0.60" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.60" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.14" />
       </MountPoints>
       <BlockPairName>LCDButtonPanelStanding</BlockPairName>
-			<MirroringX>None</MirroringX>
-			<MirroringY>None</MirroringY>
-			<MirroringZ>Y</MirroringZ>
+      <MirroringX>None</MirroringX>
+      <MirroringY>None</MirroringY>
+      <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -51,6 +52,7 @@
       <TextureAspectRadio>1</TextureAspectRadio>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>5</PCU>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
@@ -74,15 +76,15 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\LargeLCDButtonPanelHanging_Constr1.mwm" />
-				<Model BuildPercentUpperBound="0.67" File="Models\LargeLCDButtonPanelHanging_Constr2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeLCDButtonPanelHanging_Constr3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\LargeLCDButtonPanelHanging_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.67" File="Models\LargeLCDButtonPanelHanging_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeLCDButtonPanelHanging_Constr3.mwm" />
       </BuildProgressModels>
       <MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.40" EndX="0.14" EndY="1.00" />
-				<MountPoint Side="Right" StartX="0.86" StartY="0.40" EndX="1.00" EndY="1.00" />
-				<MountPoint Side="Front" StartX="0.00" StartY="0.40" EndX="1.00" EndY="1.00" />
-				<MountPoint Side="Top" StartX="0.00" StartY="0.86" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.40" EndX="0.14" EndY="1.00" />
+        <MountPoint Side="Right" StartX="0.86" StartY="0.40" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.40" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.86" EndX="1.00" EndY="1.00" />
       </MountPoints>
       <BlockPairName>LCDButtonPanelHanging</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -93,6 +95,7 @@
       <TextureAspectRadio>1</TextureAspectRadio>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>5</PCU>
     </Definition>
     <!--Thin LCDs-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
@@ -114,9 +117,9 @@
         <Component Subtype="BulletproofGlass" Count="2" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeThinLCDStraight_Constr1.mwm" />
-			</BuildProgressModels>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeThinLCDStraight_Constr1.mwm" />
+      </BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
           <TypeId>TextPanel</TypeId>
@@ -132,9 +135,9 @@
         </BlockVariant>
       </BlockVariants>
       <MountPoints>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.78" EndX="1.00" EndY="0.82" />
-				<MountPoint Side="Front" StartX="0.96" StartY="0.69" EndX="1.00" EndY="0.90" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.69" EndX="0.06" EndY="0.90" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.78" EndX="1.00" EndY="0.82" />
+        <MountPoint Side="Front" StartX="0.96" StartY="0.69" EndX="1.00" EndY="0.90" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.69" EndX="0.06" EndY="0.90" />
       </MountPoints>
       <BlockPairName>ThinLCDStraight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
@@ -147,6 +150,7 @@
       <GuiVisible>true</GuiVisible>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>5</PCU>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
@@ -168,13 +172,13 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeThinLCDCurvedInside_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeThinLCDCurvedInside_Constr1.mwm" />
       </BuildProgressModels>
       <MountPoints>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.69" EndX="0.06" EndY="0.90" />
-				<MountPoint Side="Front" StartX="0.96" StartY="0.69" EndX="1.00" EndY="0.90" />
-				<MountPoint Side="Back" StartX="0.90" StartY="0.78" EndX="1.00" EndY="0.82" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.78" EndX="0.10" EndY="0.82" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.69" EndX="0.06" EndY="0.90" />
+        <MountPoint Side="Front" StartX="0.96" StartY="0.69" EndX="1.00" EndY="0.90" />
+        <MountPoint Side="Back" StartX="0.90" StartY="0.78" EndX="1.00" EndY="0.82" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.78" EndX="0.10" EndY="0.82" />
       </MountPoints>
       <BlockPairName>ThinLCDCurvedInside</BlockPairName>
       <MirroringZ>Y</MirroringZ>
@@ -187,6 +191,7 @@
       <GuiVisible>false</GuiVisible>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>5</PCU>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
@@ -207,13 +212,13 @@
         <Component Subtype="BulletproofGlass" Count="2" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeThinLCDCurvedOutside_Constr1.mwm" />
-			</BuildProgressModels>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeThinLCDCurvedOutside_Constr1.mwm" />
+      </BuildProgressModels>
       <MountPoints>
-				<MountPoint Side="Top" StartX="0.46" StartY="0.46" EndX="0.54" EndY="0.54" />
-				<MountPoint Side="Left" StartX="0.96" StartY="0.69" EndX="1.00" EndY="0.90" />
-				<MountPoint Side="Back" StartX="1.00" StartY="0.69" EndX="1.06" EndY="0.90" />
+        <MountPoint Side="Top" StartX="0.46" StartY="0.46" EndX="0.54" EndY="0.54" />
+        <MountPoint Side="Left" StartX="0.96" StartY="0.69" EndX="1.00" EndY="0.90" />
+        <MountPoint Side="Back" StartX="1.00" StartY="0.69" EndX="1.06" EndY="0.90" />
       </MountPoints>
       <BlockPairName>ThinLCDCurvedOutside</BlockPairName>
       <MirroringZ>Y</MirroringZ>
@@ -226,6 +231,7 @@
       <GuiVisible>false</GuiVisible>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>5</PCU>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
@@ -265,6 +271,7 @@
       <GuiVisible>false</GuiVisible>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>5</PCU>
     </Definition>
     <!--Large LCDs-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
@@ -288,7 +295,7 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0.1" EndX="0.1" EndY="0.9" />
         <MountPoint Side="Right" StartX="0.9" StartY="0.1" EndX="1" EndY="0.9" />
         <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="1" EndY="1" />
@@ -321,6 +328,7 @@
       <TextureResolution>512</TextureResolution>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>5</PCU>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
@@ -342,13 +350,13 @@
         <Component Subtype="BulletproofGlass" Count="4" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-			<MountPoints>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.12" EndY="2.00" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-				<MountPoint Side="Left" StartX="0.88" StartY="0.00" EndX="1.00" EndY="2.00" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.88" EndX="2.00" EndY="1.00" />
-				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="0.12" />
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.12" EndY="2.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
+        <MountPoint Side="Left" StartX="0.88" StartY="0.00" EndX="1.00" EndY="2.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.88" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="0.12" />
+      </MountPoints>
       <BlockPairName>LCDPanel2x2</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -360,6 +368,7 @@
       <GuiVisible>true</GuiVisible>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>5</PCU>
     </Definition>
   </CubeBlocks>
 </Definitions>

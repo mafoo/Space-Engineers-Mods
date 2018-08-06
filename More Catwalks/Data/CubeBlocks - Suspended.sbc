@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Definitions>
+  <CubeBlocks>
+    <!--New Catwalks -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkSuspended</SubtypeId>
+      </Id>
+      <DisplayName>Suspended Catwalk</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkSuspended.dds</Icon>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkSuspended.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25" />
+        <Component Subtype="Construction" Count="11" />
+        <Component Subtype="SmallTube" Count="23" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.10" StartY="0.97" EndX="0.20" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.80" StartY="0.97" EndX="0.90" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.10" StartY="0.00" EndX="0.20" EndY="1.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+        <MountPoint Side="Left" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+        <MountPoint Side="Right" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+        <MountPoint Side="Back" StartX="0.80" StartY="0.97" EndX="0.90" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.10" StartY="0.97" EndX="0.20" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.80" StartY="0.00" EndX="0.90" EndY="1.00" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkSuspended_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkSuspended</BlockPairName>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkSuspendedInv</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkSuspendedLong</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>LargeSteelCatwalkSuspendedInvLong</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkSuspendedInv</SubtypeId>
+      </Id>
+      <DisplayName>Suspended Catwalk</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkSuspendedInv.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkSuspendedInv.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25" />
+        <Component Subtype="Construction" Count="11" />
+        <Component Subtype="SmallTube" Count="23" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.10" StartY="0.97" EndX="0.20" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.80" StartY="0.97" EndX="0.90" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.10" StartY="0.00" EndX="0.20" EndY="1.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+        <MountPoint Side="Left" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+        <MountPoint Side="Right" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+        <MountPoint Side="Back" StartX="0.80" StartY="0.97" EndX="0.90" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.10" StartY="0.97" EndX="0.20" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.80" StartY="0.00" EndX="0.90" EndY="1.00" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkSuspendedInv_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkSuspendedInv</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkSuspendedLong</SubtypeId>
+      </Id>
+      <DisplayName>Long Suspended Catwalk</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkSuspendedLong.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkSuspendedLong.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25" />
+        <Component Subtype="Construction" Count="11" />
+        <Component Subtype="SmallTube" Count="23" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+        <MountPoint Side="Left" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+        <MountPoint Side="Right" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkSuspendedLong_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkSuspendedLong</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeSteelCatwalkSuspendedInvLong</SubtypeId>
+      </Id>
+      <DisplayName>Long Suspended Catwalk</DisplayName>
+      <Icon>Textures\Icons\SteelCatwalkSuspendedInvLong.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeSteelCatwalkSuspendedInvLong.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25" />
+        <Component Subtype="Construction" Count="11" />
+        <Component Subtype="SmallTube" Count="23" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+        <MountPoint Side="Left" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.42" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.04" EndX="0.03" EndY="0.42" />
+        <MountPoint Side="Right" StartX="0.97" StartY="0.04" EndX="1.00" EndY="0.42" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkSuspendedInvLong_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SteelCatwalkSuspendedInvLong</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+    </Definition>
+    <!--END New Catwalks -->
+  </CubeBlocks>
+</Definitions>

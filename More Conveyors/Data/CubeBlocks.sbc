@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <Definitions>
   <CubeBlocks>
     <Definition>
@@ -83,8 +84,10 @@
       </MountPoints>
       <AutorotateMode>OppositeDirections</AutorotateMode>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <PCU>10</PCU>
     </Definition>
 
+    <!-- Large Cubes -->
     <!-- Long Tubes -->
     <Definition>
       <Id>
@@ -119,6 +122,7 @@
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <AutorotateMode>OppositeDirections</AutorotateMode>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <PCU>10</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -153,6 +157,7 @@
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <AutorotateMode>OppositeDirections</AutorotateMode>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <PCU>10</PCU>
     </Definition>
 
     <!-- 3 Way Tubes -->
@@ -176,13 +181,13 @@
         <Component Subtype="InteriorPlate" Count="6" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeConveyor3WayTee_Constr1.mwm" />
-			</BuildProgressModels>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeConveyor3WayTee_Constr1.mwm" />
+      </BuildProgressModels>
       <MountPoints>
-				<MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
       </MountPoints>
       <BlockPairName>Conveyor3WayTee</BlockPairName>
       <MirroringX>None</MirroringX>
@@ -191,6 +196,7 @@
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
+      <PCU>10</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -212,13 +218,13 @@
         <Component Subtype="InteriorPlate" Count="6" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeConveyor3WayCorner_Constr1.mwm" />
-			</BuildProgressModels>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeConveyor3WayCorner_Constr1.mwm" />
+      </BuildProgressModels>
       <MountPoints>
-				<MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
       </MountPoints>
       <BlockPairName>Conveyor3WayCorner</BlockPairName>
       <MirroringX>None</MirroringX>
@@ -227,6 +233,7 @@
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
+      <PCU>10</PCU>
     </Definition>
 
     <!-- 4 Way Tubes -->
@@ -251,13 +258,13 @@
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeConveyor4Way_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeConveyor4Way_Constr1.mwm" />
       </BuildProgressModels>
       <MountPoints>
-				<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Right" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
       </MountPoints>
       <BlockPairName>Conveyor4Way</BlockPairName>
       <MirroringX>None</MirroringX>
@@ -266,6 +273,7 @@
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
+      <PCU>10</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -288,13 +296,13 @@
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeConveyor4WayTee_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeConveyor4WayTee_Constr1.mwm" />
       </BuildProgressModels>
       <MountPoints>
-				<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
       </MountPoints>
       <BlockPairName>Conveyor4WayTee</BlockPairName>
       <MirroringX>None</MirroringX>
@@ -303,6 +311,7 @@
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
+      <PCU>10</PCU>
     </Definition>
 
     <!-- Hanging Tubes -->
@@ -326,14 +335,14 @@
         <Component Subtype="InteriorPlate" Count="6" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeConveyorTubeHanging_Constr1.mwm" />
-			</BuildProgressModels>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeConveyorTubeHanging_Constr1.mwm" />
+      </BuildProgressModels>
       <MountPoints>
-				<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Top" StartX="0.10" StartY="0.80" EndX="0.90" EndY="0.90" />
-				<MountPoint Side="Top" StartX="0.10" StartY="0.10" EndX="0.90" EndY="0.20" />
+        <MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Top" StartX="0.10" StartY="0.80" EndX="0.90" EndY="0.90" />
+        <MountPoint Side="Top" StartX="0.10" StartY="0.10" EndX="0.90" EndY="0.20" />
       </MountPoints>
       <BlockPairName>ConveyorTubeHanging</BlockPairName>
       <MirroringX>None</MirroringX>
@@ -342,6 +351,7 @@
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
+      <PCU>10</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -363,12 +373,12 @@
         <Component Subtype="InteriorPlate" Count="6" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\LargeConveyorTubeLongHanging_Constr1.mwm" />
-			</BuildProgressModels>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeConveyorTubeLongHanging_Constr1.mwm" />
+      </BuildProgressModels>
       <MountPoints>
-				<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
-				<MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
       </MountPoints>
       <BlockPairName>ConveyorTubeLongHanging</BlockPairName>
       <MirroringX>None</MirroringX>
@@ -377,8 +387,10 @@
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
+      <PCU>10</PCU>
     </Definition>
-    
+
+    <!-- Small Cubes -->
     <!-- Conveyor Adaptors -->
     <Definition>
       <Id>
@@ -404,15 +416,15 @@
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\SmallConveyorAdaptorTypeA_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SmallConveyorAdaptorTypeA_Constr1.mwm" />
       </BuildProgressModels>
       <MountPoints>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
-				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
       </MountPoints>
       <BlockVariants>
         <BlockVariant>
@@ -426,6 +438,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PCU>10</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -451,15 +464,15 @@
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\SmallConveyorAdaptorTypeB_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SmallConveyorAdaptorTypeB_Constr1.mwm" />
       </BuildProgressModels>
       <MountPoints>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
-				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
       </MountPoints>
       <BlockPairName>ConveyorAdaptorTypeB</BlockPairName>
       <MirroringZ>X</MirroringZ>
@@ -467,6 +480,113 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PCU>10</PCU>
+    </Definition>
+
+    <!-- Add HUB Variant to Medium Connector-->
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>ConveyorTubeMedium</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorTubeMedium</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorTube.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\ConveyorTubeMedium.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="8" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SmallTube" Count="10" />
+        <Component Subtype="Motor" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorTubeMediumConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeMediumConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ConveyorTube</BlockPairName>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>SmallShipConveyorHub</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>ConveyorHubMedium</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>ConveyorConnector</TypeId>
+          <SubtypeId>ConveyorTubeCurvedMedium</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.3" StartY="0.3" EndX="2.7" EndY="0.4" />
+        <MountPoint Side="Left" StartX="0.3" StartY="2.6" EndX="2.7" EndY="2.7" />
+        <MountPoint Side="Left" StartX="0.3" StartY="0.3" EndX="0.4" EndY="2.7" />
+        <MountPoint Side="Left" StartX="2.6" StartY="0.3" EndX="2.7" EndY="2.7" />
+        <MountPoint Side="Right" StartX="0.3" StartY="0.3" EndX="2.7" EndY="0.4" />
+        <MountPoint Side="Right" StartX="0.3" StartY="2.6" EndX="2.7" EndY="2.7" />
+        <MountPoint Side="Right" StartX="0.3" StartY="0.3" EndX="0.4" EndY="2.7" />
+        <MountPoint Side="Right" StartX="2.6" StartY="0.3" EndX="2.7" EndY="2.7" />
+      </MountPoints>
+      <AutorotateMode>OppositeDirections</AutorotateMode>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat2</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>ConveyorHubMedium</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Conveyor</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Conveyor.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <!--<Center x="1" y="1" z="1" />-->
+      <Model>Models\ConveyorHubMedium.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="55" />
+        <Component Subtype="SmallTube" Count="25" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="InteriorPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\ConveyorHubMedium_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\ConveyorHubMedium_Constr2.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0.25" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Bottom" StartX="0.25" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Front" StartX="0.25" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Right" StartX="0.25" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Left" StartX="0.25" StartY="0.25" EndX="2.75" EndY="2.75" />
+      </MountPoints>
+      <BlockPairName>ConveyorHubMedium</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>10</PCU>
     </Definition>
   </CubeBlocks>
 </Definitions>
