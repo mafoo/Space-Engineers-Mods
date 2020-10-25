@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LCDGroupSOTF" />
+      <Icon>Textures\GUI\Icons\Cubes\LCDPanel3x3.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_LCDGroupSOTF</DisplayName>
+      <Description>Description_BlockGroup_LCDGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel5x5" />
+        <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel5x3" />
+        <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel3x3" />
+        <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel2x2" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThinLCDGroup" />
+      <Icon>Textures\Icons\ThinLCDStraight.dds</Icon>
+      <DisplayName>Thin LCDs</DisplayName>
+      <Description>Description_BlockGroup_LCDGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeThinLCDStraight" />
+        <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeThinLCDCurvedInside" />
+        <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeThinLCDCurvedOutside" />
+        <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeThinLCDCurvedOutsideHanging" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LCDButtonPanelGroup" />
+      <Icon>Textures\Icons\LCDButtonPanelStanding.dds</Icon>
+      <DisplayName>LCD Button Panel</DisplayName>
+      <Description>Description_BlockGroup_LCDGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDButtonPanelStanding" />
+        <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDButtonPanelHanging" />
+      </Blocks>
+    </BlockVariantGroup>
+  </BlockVariantGroups>
+
+</Definitions>

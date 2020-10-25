@@ -7,11 +7,30 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>LargeConveyorTubeMedium</string>
+        <string>LargeConveyorTubeLong</string>
+        <string>LargeConveyor3WayTee</string>
+        <string>LargeConveyor3WayCorner</string>
+        <string>LargeConveyor4Way</string>
+        <string>LargeConveyor4WayTee</string>
+        <string>LargeConveyorTubeHanging</string>
+        <string>LargeConveyorTubeLongHanging</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
       <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
       <Name>SmallBlocks</Name>
       <ItemIds>
         <string>Conveyor/SmallConveyorAdaptorTypeA</string>
-        <!--<string>Conveyor/SmallConveyorAdaptorTypeB</string>-->
+        <string>Conveyor/SmallConveyorAdaptorTypeB</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -22,9 +41,19 @@
       <DisplayName>DisplayName_Category_ConveyorBlocks</DisplayName>
       <Name>Conveyors</Name>
       <ItemIds>
+        <string>ConveyorHubMedium</string>
+        <string>LargeConveyorTubeMedium</string>
+        <string>LargeConveyorTubeLong</string>
+        <string>LargeConveyor3WayTee</string>
+        <string>LargeConveyor3WayCorner</string>
+        <string>LargeConveyor4Way</string>
+        <string>LargeConveyor4WayTee</string>
+        <string>LargeConveyorTubeHanging</string>
+        <string>LargeConveyorTubeLongHanging</string>
         <string>Conveyor/SmallConveyorAdaptorTypeA</string>
-        <!--<string>Conveyor/SmallConveyorAdaptorTypeB</string>-->
+        <string>Conveyor/SmallConveyorAdaptorTypeB</string>
       </ItemIds>
     </Category>
+
   </CategoryClasses>
 </Definitions>

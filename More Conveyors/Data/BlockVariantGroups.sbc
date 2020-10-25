@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+        <!-- Logistics -->
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorThickGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
+            <DisplayName>DisplayName_Block_Conveyor</DisplayName>
+            <Description>Description_ConveyorTube</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyor" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorHubMedium" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTube" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeMedium" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeConveyorTubeMedium" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeConveyorTubeLong" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurved" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedMedium" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeConveyor3WayTee" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeConveyor3WayCorner" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeConveyor4Way" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeConveyor4WayTee" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorHangingThickGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
+            <DisplayName>DisplayName_Block_Conveyor</DisplayName>
+            <Description>Description_ConveyorTube</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeConveyorTubeHanging" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeConveyorTubeLongHanging" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorThinGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ConveyorTubeSmall.dds</Icon>
+            <DisplayName>DisplayName_Block_ConveyorTubeSmall</DisplayName>
+            <Description>Description_ConveyorTube</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyor" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmall" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmallCurved" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="SmallBlockConveyorSorter" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+          <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorAdaptor" />
+          <Icon>Textures\Icons\ConveyorAdaptorTypeA.dds</Icon>
+          <DisplayName>Conveyor Adaptors</DisplayName>
+          <Description>Conveyor adaptors to change size</Description>
+          <Blocks>
+            <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallConveyorAdaptorTypeA" />
+            <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallConveyorAdaptorTypeB" />
+          </Blocks>
+        </BlockVariantGroup>
+
+    </BlockVariantGroups>
+</Definitions>

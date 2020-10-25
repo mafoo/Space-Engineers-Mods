@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CatwalkGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\steel_catwalk.dds</Icon>
+      <DisplayName>DisplayName_Block_SteelCatwalk</DisplayName>
+      <Description>Description_SteelCatwalk</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkInvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalk2Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkInv2Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalk3Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkInv3Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkHalf" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkInvHalf" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkPlate" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkInvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalk2Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkInv2Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalk3Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkInv3Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkHalf" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkInvHalf" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkPlate" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkInvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalk2Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkInv2Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalk3Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkInv3Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkHalf" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkInvHalf" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkPlate" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CatwalkGroupSides" />
+      <Icon>Textures\Icons\SteelCatwalkOnlySide.dds</Icon>
+      <DisplayName>Catwalks only side</DisplayName>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkOnlySide" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkOnlyCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkOnly2Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkOnly3Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkOnlyDiagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkOnly2x1Diagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkOnlyMirrored2x1Diagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkOnlyHalf" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkOnlySide" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkOnlyCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkOnly2Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkOnly3Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkOnlyDiagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkOnly2x1Diagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkOnlyMirrored2x1Diagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkOnlyHalf" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkOnlySide" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkOnlyCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkOnly2Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkOnly3Sides" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkOnlyDiagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkOnly2x1Diagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkOnlyMirrored2x1Diagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkOnlyHalf" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CatwalkGroupAngled" />
+      <Icon>Textures\Icons\SteelCatwalkOnlySide.dds</Icon>
+      <DisplayName>Catwalks Angled</DisplayName>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkDiagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkInvDiagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalk2x1DiagonalTip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalk2x1DiagonalBase" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalk2x1InvDiagonalTip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalk2x1InvDiagonalBase" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkMirrored2x1DiagonalTip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkMirrored2x1DiagonalBase" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkMirrored2x1InvDiagonalTip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkMirrored2x1InvDiagonalBase" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkDiagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkInvDiagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalk2x1DiagonalTip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalk2x1DiagonalBase" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalk2x1InvDiagonalTip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalk2x1InvDiagonalBase" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkMirrored2x1DiagonalTip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkMirrored2x1DiagonalBase" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkMirrored2x1InvDiagonalTip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSteelCatwalkMirrored2x1InvDiagonalBase" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkDiagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkInvDiagonal" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalk2x1DiagonalTip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalk2x1DiagonalBase" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalk2x1InvDiagonalTip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalk2x1InvDiagonalBase" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkMirrored2x1DiagonalTip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkMirrored2x1DiagonalBase" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkMirrored2x1InvDiagonalTip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalkMirrored2x1InvDiagonalBase" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StairsGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\stairs.dds</Icon>
+      <DisplayName>DisplayName_Block_Stairs</DisplayName>
+      <Description>Description_Stairs</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRamp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSidedStairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSidedRamp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Large1x1Stairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Large1x1Ramp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSided1x1Stairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSided1x1Ramp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Large1x1StairsSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Large1x1RampSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSided1x1RampSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSided1x1StairsSlope" />
+        <Block Type="MyObjectBuilder_Ladder2" Subtype="" />
+        <Block Type="MyObjectBuilder_Ladder2" Subtype="LadderSmall" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedStairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairs" />
+
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumStairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumRamp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSidedStairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSidedRamp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Medium1x1Stairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Medium1x1Ramp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSided1x1Ramp" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSided1x1Stairs" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Medium1x1StairsSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Medium1x1RampSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSided1x1RampSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MediumSided1x1StairsSlope" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

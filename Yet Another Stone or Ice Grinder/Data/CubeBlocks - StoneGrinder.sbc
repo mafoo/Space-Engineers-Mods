@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>LargeStoneGrinder</SubtypeId>
+      </Id>
+      <DisplayName>Stone Grinder</DisplayName>
+      <Description>Modified Refinery that grinds stone with 0% efficiency</Description>
+      <Icon>Textures\Icons\LargeStoneGrinder.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LargeStoneGrinder.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="180" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="SmallTube" Count="24" />
+        <Component Subtype="LargeTube" Count="12" />
+        <Component Subtype="Motor" Count="20" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="120" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\LargeStoneGrinder_Constr1.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0.03" StartY="0.02" EndX="0.98" EndY="0.94" />
+        <MountPoint Side="Left" StartX="0.03" StartY="0.02" EndX="0.98" EndY="0.94" />
+        <MountPoint Side="Top" StartX="0.02" StartY="0.60" EndX="0.98" EndY="0.98" />
+        <MountPoint Side="Front" StartX="0.02" StartY="0.02" EndX="0.98" EndY="1.98" />
+        <MountPoint Side="Back" StartX="0.03" StartY="0.02" EndX="0.98" EndY="0.94" />
+        <MountPoint Side="Bottom" StartX="0.03" StartY="0.03" EndX="0.98" EndY="0.98" />
+        <MountPoint Side="Right" StartX="0.60" StartY="0.94" EndX="0.98" EndY="1.98" />
+        <MountPoint Side="Left" StartX="0.03" StartY="0.94" EndX="0.40" EndY="1.98" />
+      </MountPoints>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>StoneGrinder</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>50</InventoryMaxVolume>
+      <InventorySize>
+        <X>4</X>
+        <Y>4</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.75</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>StoneDust</Class>
+      </BlueprintClasses>
+      <RefineSpeed>750</RefineSpeed>
+      <MaterialEfficiency>0.02</MaterialEfficiency>
+      <OreAmountPerPullRequest>200000</OreAmountPerPullRequest>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <PCU>75</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>SmallStoneGrinder</SubtypeId>
+      </Id>
+      <DisplayName>Stone Grinder</DisplayName>
+      <Description>Modified Refinery that grinds stone with 0% efficiency</Description>
+      <Icon>Textures\Icons\SmallStoneGrinder.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SmallStoneGrinder.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="12" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\SmallStoneGrinder_Constr1.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.37" EndY="3.00" />
+        <MountPoint Side="Front" StartX="2.62" StartY="0.00" EndX="3.00" EndY="3.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="1.12" EndX="3.00" EndY="2.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.76" />
+        <MountPoint Side="Front" StartX="0.38" StartY="0.75" EndX="0.85" EndY="2.25" />
+        <MountPoint Side="Front" StartX="2.14" StartY="0.75" EndX="2.62" EndY="2.25" />
+      </MountPoints>
+      <Center x="1" y="1" z="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>50</InventoryMaxVolume>
+      <InventorySize>
+        <X>4</X>
+        <Y>4</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.0001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.25</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>ClassStoneCrusher</Class>
+      </BlueprintClasses>
+      <BlockPairName>StoneGrinder</BlockPairName>
+      <RefineSpeed>250</RefineSpeed>
+      <MaterialEfficiency>0.02</MaterialEfficiency>
+      <OreAmountPerPullRequest>200000</OreAmountPerPullRequest>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <PCU>75</PCU>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

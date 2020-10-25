@@ -27,48 +27,6 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorTubeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorTubeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>ConveyorConnector</TypeId>
-          <SubtypeId>ConveyorTubeCurved</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>ConveyorConnector</TypeId>
-          <SubtypeId>LargeConveyorTubeLong</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>ConveyorConnector</TypeId>
-          <SubtypeId>LargeConveyorTubeMedium</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>ConveyorConnector</TypeId>
-          <SubtypeId>LargeConveyorTubeHanging</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>ConveyorConnector</TypeId>
-          <SubtypeId>LargeConveyorTubeLongHanging</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Conveyor</TypeId>
-          <SubtypeId>LargeConveyor3WayTee</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Conveyor</TypeId>
-          <SubtypeId>LargeConveyor3WayCorner</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Conveyor</TypeId>
-          <SubtypeId>LargeConveyor4Way</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Conveyor</TypeId>
-          <SubtypeId>LargeConveyor4WayTee</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Conveyor</TypeId>
-          <SubtypeId>LargeBlockConveyor</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <BlockPairName>ConveyorTube</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
@@ -426,12 +384,6 @@
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
         <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
       </MountPoints>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>Conveyor</TypeId>
-          <SubtypeId>SmallConveyorAdaptorTypeB</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <BlockPairName>ConveyorAdaptorTypeA</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -483,66 +435,6 @@
       <PCU>10</PCU>
     </Definition>
 
-    <!-- Add HUB Variant to Medium Connector-->
-    <Definition>
-      <Id>
-        <TypeId>ConveyorConnector</TypeId>
-        <SubtypeId>ConveyorTubeMedium</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_ConveyorTubeMedium</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\ConveyorTube.dds</Icon>
-      <GuiVisible>false</GuiVisible>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="3" z="3" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\ConveyorTubeMedium.mwm</Model>
-      <Components>
-        <Component Subtype="InteriorPlate" Count="8" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SmallTube" Count="10" />
-        <Component Subtype="Motor" Count="6" />
-      </Components>
-      <CriticalComponent Subtype="SmallTube" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorTubeMediumConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeMediumConstruction_2.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>ConveyorTube</BlockPairName>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>Conveyor</TypeId>
-          <SubtypeId>SmallShipConveyorHub</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Conveyor</TypeId>
-          <SubtypeId>ConveyorHubMedium</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>ConveyorConnector</TypeId>
-          <SubtypeId>ConveyorTubeCurvedMedium</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>7</BuildTimeSeconds>
-      <MountPoints>
-        <MountPoint Side="Left" StartX="0.3" StartY="0.3" EndX="2.7" EndY="0.4" />
-        <MountPoint Side="Left" StartX="0.3" StartY="2.6" EndX="2.7" EndY="2.7" />
-        <MountPoint Side="Left" StartX="0.3" StartY="0.3" EndX="0.4" EndY="2.7" />
-        <MountPoint Side="Left" StartX="2.6" StartY="0.3" EndX="2.7" EndY="2.7" />
-        <MountPoint Side="Right" StartX="0.3" StartY="0.3" EndX="2.7" EndY="0.4" />
-        <MountPoint Side="Right" StartX="0.3" StartY="2.6" EndX="2.7" EndY="2.7" />
-        <MountPoint Side="Right" StartX="0.3" StartY="0.3" EndX="0.4" EndY="2.7" />
-        <MountPoint Side="Right" StartX="2.6" StartY="0.3" EndX="2.7" EndY="2.7" />
-      </MountPoints>
-      <AutorotateMode>OppositeDirections</AutorotateMode>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
-      <DestroySound>PoofExplosionCat2</DestroySound>
-      <PCU>10</PCU>
-    </Definition>
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>

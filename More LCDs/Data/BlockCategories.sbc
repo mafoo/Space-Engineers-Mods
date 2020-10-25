@@ -1,17 +1,59 @@
-<?xml version="1.0"  encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <!--Blueprint Groups-->
   <CategoryClasses>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
+        <SubtypeId />
       </Id>
       <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
       <Name>LargeBlocks</Name>
       <ItemIds>
+        <string>TextPanel/LargeLCDPanel2x2</string>
         <string>TextPanel/LargeLCDButtonPanelStanding</string>
-        <string>TextPanel/LargeLCDButton1x2</string>
+        <string>TextPanel/LargeLCDButtonPanelHanging</string>
+        <string>TextPanel/LargeThinLCDStraight</string>
+        <string>TextPanel/LargeThinLCDCurvedInside</string>
+        <string>TextPanel/LargeThinLCDCurvedOutside</string>
+        <string>TextPanel/LargeThinLCDCurvedOutsideHanging</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId />
+      </Id>
+      <DisplayName>LCDs</DisplayName>
+      <Name>LCDs</Name>
+      <ItemIds>
+        <string>TextPanel/LargeLCDPanelWide</string>
+        <string>TextPanel/LargeLCDPanel</string>
+        
+        <string>TextPanel/SmallLCDPanelWide</string>
+        <string>TextPanel/SmallLCDPanel</string>
+        <string>TextPanel/SmallTextPanel</string>
+
+        <string>TextPanel/TransparentLCDLarge</string>
+        <string>TextPanel/TransparentLCDSmall</string>
+
+        <string>TextPanel/LargeLCDPanel5x5</string>
+        <string>TextPanel/LargeLCDPanel5x3</string>
+        <string>TextPanel/LargeLCDPanel3x3</string>
+        <string>TextPanel/LargeLCDPanel2x2</string>
+
+        <string>TextPanel/TransparentLCDLarge</string>
+        <string>TextPanel/TransparentLCDSmall</string>
+
+        <string>TextPanel/LargeLCDButtonPanelStanding</string>
+        <string>TextPanel/LargeLCDButtonPanelHanging</string>
+        
+        <string>TextPanel/LargeThinLCDStraight</string>
+        <string>TextPanel/LargeThinLCDCurvedInside</string>
+        <string>TextPanel/LargeThinLCDCurvedOutside</string>
+        <string>TextPanel/LargeThinLCDCurvedOutsideHanging</string>
       </ItemIds>
     </Category>
   </CategoryClasses>

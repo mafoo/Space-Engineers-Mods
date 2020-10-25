@@ -1,0 +1,148 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EmissiveColorStatePresets>
+    
+    <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>MK1Color</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="LightYellow" DisplayColorName="White" Emissivity="0.1" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Red" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="MK2Color" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+    <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>MK2Color</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="LightYellow" DisplayColorName="White" Emissivity="0.1" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Red" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="MK3Color" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+    <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>MK3Color</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="LightYellow" DisplayColorName="White" Emissivity="0.1" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Red" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="MK4Color" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+    <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>ADV1Color</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="LightYellow" DisplayColorName="White" Emissivity="0.1" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Red" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="MK5Color" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+    <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>ADV2Color</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="LightYellow" DisplayColorName="White" Emissivity="0.1" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Red" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="MK5Color" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+    <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>ADV3Color</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="LightYellow" DisplayColorName="White" Emissivity="0.1" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Red" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="MK5Color" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+  </EmissiveColorStatePresets>
+
+  <EmissiveColors>
+    
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>MK1Color</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>255</R>
+        <G>255</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>MK2Color</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>255</R>
+        <G>128</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>MK3Color</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>255</R>
+        <G>0</G>
+        <B>204</B>
+        <A>128</A>
+      </ColorDefinition>
+    </EmissiveColor>
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>ADV1Color</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>0</R>
+        <G>155</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>ADV2Color</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>0</R>
+        <G>155</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>ADV3Color</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>0</R>
+        <G>155</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+  </EmissiveColors>
+</Definitions>

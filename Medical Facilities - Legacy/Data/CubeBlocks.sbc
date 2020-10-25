@@ -71,6 +71,12 @@
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PCU>30</PCU>
+      <IsAirTight>false</IsAirTight>
+      <WardrobeCharacterOffset>
+        <X>-0.75</X>
+        <Y>-0.75</Y>
+        <Z>0.75</Z>
+      </WardrobeCharacterOffset> 
     </Definition>
     <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
       <Id>
@@ -128,6 +134,12 @@
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PCU>30</PCU>
+      <IsAirTight>false</IsAirTight>
+      <WardrobeCharacterOffset>
+        <X>-0.75</X>
+        <Y>-0.75</Y>
+        <Z>0.75</Z>
+      </WardrobeCharacterOffset> 
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
@@ -187,6 +199,12 @@
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PCU>30</PCU>
+      <IsAirTight>false</IsAirTight>
+      <WardrobeCharacterOffset>
+        <X>-0.75</X>
+        <Y>-0.75</Y>
+        <Z>0.75</Z>
+      </WardrobeCharacterOffset> 
     </Definition>
     <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
       <Id>
@@ -245,6 +263,12 @@
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PCU>30</PCU>
+      <IsAirTight>false</IsAirTight>
+      <WardrobeCharacterOffset>
+        <X>-0.75</X>
+        <Y>-0.75</Y>
+        <Z>0.75</Z>
+      </WardrobeCharacterOffset> 
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">

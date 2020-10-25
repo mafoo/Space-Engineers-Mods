@@ -35,20 +35,6 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\StairsConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\StairsConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSidedStairs</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeRamp</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSidedRamp</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <BlockPairName>Stairs</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
@@ -190,20 +176,6 @@
         <Model BuildPercentUpperBound="0.67" File="Models\Large1x1Stairs_Constr2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large1x1Stairs_Constr3.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSided1x1Stairs</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>Large1x1Ramp</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSided1x1Ramp</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <BlockPairName>1x1Stairs</BlockPairName>
       <MirroringX>None</MirroringX>
       <MirroringY>Z</MirroringY>
@@ -392,20 +364,6 @@
         <Model BuildPercentUpperBound="0.67" File="Models\Large1x1StairsSlope_Constr2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large1x1StairsSlope_Constr3.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSided1x1StairsSlope</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>Large1x1RampSlope</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSided1x1RampSlope</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <BlockPairName>1x1StairsSlope</BlockPairName>
       <MirroringX>None</MirroringX>
       <MirroringY>Z</MirroringY>
@@ -594,20 +552,6 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\StairsConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\StairsConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSidedStairs</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumRamp</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSidedRamp</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <BlockPairName>Stairs</BlockPairName>
       <MirroringX>None</MirroringX>
       <MirroringY>Z</MirroringY>
@@ -794,20 +738,6 @@
         <Model BuildPercentUpperBound="0.67" File="Models\Large1x1Stairs_Constr2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large1x1Stairs_Constr3.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSided1x1Stairs</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>Medium1x1Ramp</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSided1x1Ramp</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <BlockPairName>1x1Stairs</BlockPairName>
       <MirroringX>None</MirroringX>
       <MirroringY>Z</MirroringY>
@@ -996,20 +926,6 @@
         <Model BuildPercentUpperBound="0.67" File="Models\Large1x1StairsSlope_Constr2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Large1x1StairsSlope_Constr3.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSided1x1StairsSlope</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>Medium1x1RampSlope</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSided1x1RampSlope</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <BlockPairName>1x1StairsSlope</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>

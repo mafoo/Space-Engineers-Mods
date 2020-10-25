@@ -36,6 +36,9 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\LargeBasicAssembler_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>BasicAssembler</BlockPairName>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -95,6 +98,9 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\SmallBasicAssembler_Constr3.mwm" />
       </BuildProgressModels>
       <BlockPairName>BasicAssembler</BlockPairName>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>

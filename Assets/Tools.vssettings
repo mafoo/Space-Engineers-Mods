@@ -1,0 +1,47 @@
+<UserSettings>
+    <ApplicationIdentity version="14.0"/>
+    <Category name="Environment_Group" RegisteredName="Environment_Group">
+        <Category name="Environment_ExternalTools" Category="{E8FAE9E8-FBA2-4474-B134-AB0FFCFB291D}"
+                  Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_ExternalTools"
+                  PackageName="Visual Studio Environment Package">
+            <ExternalTools>
+                <UserCreatedTool>
+                    <Arguments>-File "C:\Users\mafoo\Documents\Visual Studio 2015\Projects\Space Engineers
+                        Mods\Assets\Generate-icons.ps1" -Project "$(ProjectDir)"
+                    </Arguments>
+                    <CloseOnExit>true</CloseOnExit>
+                    <Command>%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe</Command>
+                    <Index>3</Index>
+                    <InitialDirectory>$(SolutionDir)</InitialDirectory>
+                    <IsGUIapp>false</IsGUIapp>
+                    <NameID>0</NameID>
+                    <Package>{00000000-0000-0000-0000-000000000000}</Package>
+                    <PromptForArguments>false</PromptForArguments>
+                    <SaveAllDocs>true</SaveAllDocs>
+                    <Title>[SE] Generate Icons</Title>
+                    <Unicode>false</Unicode>
+                    <UseOutputWindow>true</UseOutputWindow>
+                    <UseTaskList>false</UseTaskList>
+                </UserCreatedTool>
+                <UserCreatedTool>
+                    <Arguments>-File "C:\Users\mafoo\Documents\Visual Studio 2015\Projects\Space Engineers
+                        Mods\Assets\Deploy.ps1" -Project "$(ProjectDir)"
+                    </Arguments>
+                    <CloseOnExit>true</CloseOnExit>
+                    <Command>%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe</Command>
+                    <Index>4</Index>
+                    <InitialDirectory>$(SolutionDir)</InitialDirectory>
+                    <IsGUIapp>false</IsGUIapp>
+                    <NameID>0</NameID>
+                    <Package>{00000000-0000-0000-0000-000000000000}</Package>
+                    <PromptForArguments>false</PromptForArguments>
+                    <SaveAllDocs>true</SaveAllDocs>
+                    <Title>[SE] Deploy to Local Machine</Title>
+                    <Unicode>false</Unicode>
+                    <UseOutputWindow>true</UseOutputWindow>
+                    <UseTaskList>false</UseTaskList>
+                </UserCreatedTool>
+            </ExternalTools>
+        </Category>
+    </Category>
+</UserSettings>

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Yet_Another_Stone_or_Ice_Grinder</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <Compile Remove="Images\**" />
+      <Compile Remove="Models\**" />
+      <Compile Remove="Sources\**" />
+      <Compile Remove="Textures\**" />
+      <EmbeddedResource Remove="Images\**" />
+      <EmbeddedResource Remove="Models\**" />
+      <EmbeddedResource Remove="Sources\**" />
+      <EmbeddedResource Remove="Textures\**" />
+      <None Remove="*.cdr" />
+      <None Remove="*.blend" />
+      <None Remove="*.blend1" />
+      <None Remove="Images\**" />
+      <None Remove="Models\**" />
+      <None Remove="Sources\**" />
+      <None Remove="Textures\**" />
+      <None Remove="modinfo.sbmi" />
+      <None Remove="thumb.*" />
+  </ItemGroup>
+
+</Project>

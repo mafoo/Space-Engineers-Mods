@@ -74,48 +74,6 @@
         <Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalk_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalk</BlockPairName>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkInv</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkCorner</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkInvCorner</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalk2Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkInv2Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalk3Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkInv3Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkHalf</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkInvHalf</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkPlate</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PCU>1</PCU>
@@ -521,36 +479,6 @@
         <Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkOnlySide_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkOnlySide</BlockPairName>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkOnlyCorner</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkOnly2Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkOnly3Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkOnlyDiagonal</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkOnly2x1Diagonal</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkOnlyMirrored2x1Diagonal</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkOnlyHalf</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PCU>1</PCU>
@@ -740,44 +668,6 @@
         <Model BuildPercentUpperBound="1.00" File="Models\LargeSteelCatwalkDiagonal_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkDiagonal</BlockPairName>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkInvDiagonal</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalk2x1DiagonalTip</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalk2x1DiagonalBase</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalk2x1InvDiagonalTip</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalk2x1InvDiagonalBase</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkMirrored2x1DiagonalTip</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkMirrored2x1DiagonalBase</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkMirrored2x1InvDiagonalTip</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeSteelCatwalkMirrored2x1InvDiagonalBase</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PCU>1</PCU>
@@ -1288,48 +1178,6 @@
         <Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalk_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalk</BlockPairName>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkInv</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkCorner</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkInvCorner</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalk2Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkInv2Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalk3Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkInv3Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkHalf</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkInvHalf</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkPlate</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PCU>1</PCU>
@@ -1735,36 +1583,6 @@
         <Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkOnlySide_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkOnlySide</BlockPairName>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkOnlyCorner</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkOnly2Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkOnly3Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkOnlyDiagonal</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkOnly2x1Diagonal</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkOnlyMirrored2x1Diagonal</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkOnlyHalf</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PCU>1</PCU>
@@ -1954,44 +1772,6 @@
         <Model BuildPercentUpperBound="5.00" File="Models\LargeSteelCatwalkDiagonal_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SteelCatwalkDiagonal</BlockPairName>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkInvDiagonal</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalk2x1DiagonalTip</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalk2x1DiagonalBase</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalk2x1InvDiagonalTip</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalk2x1InvDiagonalBase</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkMirrored2x1DiagonalTip</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkMirrored2x1DiagonalBase</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkMirrored2x1InvDiagonalTip</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSteelCatwalkMirrored2x1InvDiagonalBase</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PCU>1</PCU>
@@ -2464,203 +2244,6 @@
     </Definition>
     <!--END Without Plate-->
     <!--END Angled Catwalks-->
-    <!--Stairs\Ramps-->
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>MediumStairs</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_Stairs</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\stairs.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="5" y="5" z="10" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Stairs.mwm</Model>
-      <Components>
-        <Component Subtype="InteriorPlate" Count="40" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="InteriorPlate" Count="10" />
-      </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="3.33" EndY="1" />
-        <MountPoint Side="Left" StartX="3.3" StartY="0" EndX="6.66" EndY="2.75" />
-        <MountPoint Side="Left" StartX="6.66" StartY="0" EndX="10" EndY="4.5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="3.33" EndY="4.5" />
-        <MountPoint Side="Right" StartX="3.33" StartY="0" EndX="6.66" EndY="2.75" />
-        <MountPoint Side="Right" StartX="6.66" StartY="0" EndX="10" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="10" Default="true" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\StairsConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\StairsConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\StairsConstruction_3.mwm" />
-      </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSidedStairs</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumRamp</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>MediumSidedRamp</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
-      <BlockPairName>Stairs</BlockPairName>
-      <MirroringX>None</MirroringX>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>25</BuildTimeSeconds>
-      <PCU>1</PCU>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>MediumSidedRamp</SubtypeId>
-      </Id>
-      <DisplayName>Sided Ramp</DisplayName>
-      <Icon>Textures\Icons\SidedRamp.dds</Icon>
-      <GuiVisible>false</GuiVisible>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="5" y="7" z="10" />
-      <ModelOffset x="0" y="0.8" z="0" />
-      <Model>Models\LargeSidedRamp.mwm</Model>
-      <Components>
-        <Component Subtype="InteriorPlate" Count="80" />
-        <Component Subtype="Construction" Count="24" />
-        <Component Subtype="SmallTube" Count="12" />
-        <Component Subtype="InteriorPlate" Count="14" />
-      </Components>
-      <CriticalComponent Subtype="SmallTube" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.50" EndY="2.25" />
-        <MountPoint Side="Left" StartX="2.50" StartY="0.00" EndX="5.00" EndY="3.50" />
-        <MountPoint Side="Left" StartX="5.00" StartY="0.00" EndX="7.50" EndY="4.50" />
-        <MountPoint Side="Left" StartX="7.50" StartY="0.00" EndX="10.0" EndY="7.25" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.50" EndY="7.25" />
-        <MountPoint Side="Right" StartX="2.50" StartY="0.00" EndX="5.00" EndY="4.50" />
-        <MountPoint Side="Right" StartX="5.00" StartY="0.00" EndX="7.50" EndY="3.50" />
-        <MountPoint Side="Right" StartX="7.50" StartY="0.00" EndX="10.0" EndY="2.25" />
-        <MountPoint Side="Back" StartX="4.80" StartY="5.00" EndX="5.00" EndY="7.25" />
-        <MountPoint Side="Back" StartX="0.00" StartY="5.00" EndX="0.08" EndY="7.25" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.08" EndY="2.25" />
-        <MountPoint Side="Front" StartX="4.80" StartY="0.00" EndX="5.00" EndY="2.25" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" default="true" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\LargeSidedRamp_Constr1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\LargeSidedRamp_Constr2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\LargeSidedRamp_Constr3.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>SidedRamp</BlockPairName>
-      <MirroringX>None</MirroringX>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>20</BuildTimeSeconds>
-      <PCU>1</PCU>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>MediumRamp</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_Ramp</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\ramp.dds</Icon>
-      <GuiVisible>false</GuiVisible>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="5" y="5" z="10" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\Ramp.mwm</Model>
-      <Components>
-        <Component Subtype="InteriorPlate" Count="60" />
-        <Component Subtype="Construction" Count="16" />
-        <Component Subtype="InteriorPlate" Count="10" />
-      </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="3.33" EndY="1" />
-        <MountPoint Side="Left" StartX="3.3" StartY="0" EndX="6.66" EndY="2.75" />
-        <MountPoint Side="Left" StartX="6.66" StartY="0" EndX="10" EndY="4.5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="3.33" EndY="4.5" />
-        <MountPoint Side="Right" StartX="3.33" StartY="0" EndX="6.66" EndY="2.75" />
-        <MountPoint Side="Right" StartX="6.66" StartY="0" EndX="10" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="10" Default="true" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RampConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RampConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RampConstruction_3.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>Ramp</BlockPairName>
-      <MirroringX>None</MirroringX>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>20</BuildTimeSeconds>
-      <PCU>1</PCU>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>MediumSidedStairs</SubtypeId>
-      </Id>
-      <DisplayName>Sided Stairs</DisplayName>
-      <Icon>Textures\Icons\SidedStairs.dds</Icon>
-      <GuiVisible>false</GuiVisible>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="5" y="7" z="10" />
-      <ModelOffset x="0" y="0.8" z="0" />
-      <Model>Models\LargeSidedStairs.mwm</Model>
-      <Components>
-        <Component Subtype="InteriorPlate" Count="80" />
-        <Component Subtype="Construction" Count="24" />
-        <Component Subtype="SmallTube" Count="12" />
-        <Component Subtype="InteriorPlate" Count="14" />
-      </Components>
-      <CriticalComponent Subtype="SmallTube" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.50" EndY="2.25" />
-        <MountPoint Side="Left" StartX="2.50" StartY="0.00" EndX="5.00" EndY="3.50" />
-        <MountPoint Side="Left" StartX="5.00" StartY="0.00" EndX="7.50" EndY="4.50" />
-        <MountPoint Side="Left" StartX="7.50" StartY="0.00" EndX="10.0" EndY="7.25" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.50" EndY="7.25" />
-        <MountPoint Side="Right" StartX="2.50" StartY="0.00" EndX="5.00" EndY="4.50" />
-        <MountPoint Side="Right" StartX="5.00" StartY="0.00" EndX="7.50" EndY="3.50" />
-        <MountPoint Side="Right" StartX="7.50" StartY="0.00" EndX="10.0" EndY="2.25" />
-        <MountPoint Side="Back" StartX="4.80" StartY="5.00" EndX="5.00" EndY="7.25" />
-        <MountPoint Side="Back" StartX="0.00" StartY="5.00" EndX="0.08" EndY="7.25" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00" />
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.08" EndY="2.25" />
-        <MountPoint Side="Front" StartX="4.80" StartY="0.00" EndX="5.00" EndY="2.25" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="2.00" default="true" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\LargeSidedStairs_Constr1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\LargeSidedStairs_Constr2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\LargeSidedStairs_Constr3.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>SidedStairs</BlockPairName>
-      <MirroringX>None</MirroringX>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>20</BuildTimeSeconds>
-      <PCU>1</PCU>
-    </Definition>
-    <!--END Stairs\Ramps-->
     <!--END Medium Blocks-->
     <!--Blocks-->
     <!--Regular Catwalks-->
@@ -2698,48 +2281,6 @@
         <Model BuildPercentUpperBound="1.00" File="Models\SmallSteelCatwalk_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SmallSteelCatwalk</BlockPairName>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkInv</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkCorner</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkInvCorner</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalk2Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkInv2Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalk3Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkInv3Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkHalf</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkInvHalf</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkPlate</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PCU>1</PCU>
@@ -3145,36 +2686,6 @@
         <Model BuildPercentUpperBound="1.00" File="Models\SmallSteelCatwalkOnlySide_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SmallSteelCatwalkOnlySide</BlockPairName>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkOnlyCorner</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkOnly2Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkOnly3Sides</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkOnlyDiagonal</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkOnly2x1Diagonal</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkOnlyMirrored2x1Diagonal</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkOnlyHalf</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PCU>1</PCU>
@@ -3364,44 +2875,6 @@
         <Model BuildPercentUpperBound="1.00" File="Models\SmallSteelCatwalkDiagonal_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>SmallSteelCatwalkDiagonal</BlockPairName>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkInvDiagonal</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalk2x1DiagonalTip</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalk2x1DiagonalBase</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalk2x1InvDiagonalTip</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalk2x1InvDiagonalBase</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkMirrored2x1DiagonalTip</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkMirrored2x1DiagonalBase</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkMirrored2x1InvDiagonalTip</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>SmallSteelCatwalkMirrored2x1InvDiagonalBase</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PCU>1</PCU>
