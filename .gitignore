@@ -254,5 +254,13 @@ ModelManifest.xml
 /*/thumb.jpg
 /*/thumb.png
 *.blend1
+/Legacy/*/Sources/*.png
+/Legacy/*/Sources/*.gif
+/Legacy/*/Images/*.png
+/Legacy/*/Images/*.gif
+/Legacy/*/Textures/*
+/Legacy/*/Models/*
+/Legacy/*/thumb.jpg
+/Legacy/*/thumb.png
 Backup_of_*.cdr
 *.7z

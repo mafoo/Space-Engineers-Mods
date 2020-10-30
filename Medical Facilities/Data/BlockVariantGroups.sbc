@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MedicalGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\medical_room.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_MedicalGroup</DisplayName>
+      <Description>Description_BlockGroup_MedicalGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeMedicalRoomInv" />
+        <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeMedicalRoomTypeB" />
+        <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeMedicalRoomTypeC" />
+        <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeCryoPodTypeB" />
+        <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeCryoPodTypeC" />
+        <Block Type="MyObjectBuilder_MedicalRoom" Subtype="SmallCryoPodTypeC" />
+      </Blocks>
+    </BlockVariantGroup>
+  </BlockVariantGroups>
+</Definitions>

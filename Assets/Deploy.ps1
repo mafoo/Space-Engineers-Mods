@@ -3,6 +3,10 @@
 	[String]
 	$project
 )
+function Get-TimeStamp {
+    return "[{0:MM/dd/yy} {0:HH:mm:ss}]" -f (Get-Date)   
+}
+
 $wshell = New-Object -ComObject Wscript.Shell
 $title = "Space Engineers Deploy Mod v1.2"
 
@@ -71,4 +75,4 @@ Catch
     $wshell.Popup("Copy Failed: $ErrorMessage", 0, $title, 0x0)
     exit 1
 }
-Write-Output "Deployment complete"
+Write-Output "$(Get-TimeStamp) Deployment complete"

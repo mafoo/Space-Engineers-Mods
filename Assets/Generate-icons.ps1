@@ -9,6 +9,10 @@
 	[Bool]
 	$use_extra_overlays=$false
 )
+function Get-TimeStamp {
+    return "[{0:MM/dd/yy} {0:HH:mm:ss}]" -f (Get-Date)   
+}
+
 $wshell = New-Object -ComObject Wscript.Shell
 $title = "Space Engineers Generate Icons v1.4"
 
@@ -89,7 +93,7 @@ Try{
 	$tmp_dir = [System.IO.Path]::GetTempFileName()
 	$null = Remove-Item -Path $tmp_dir -Force
 	$tmp_dir = New-Item -Path $tmp_dir -ItemType Directory
-	"Going to use this working Dir: " + $tmp_dir
+	Write-Output "$(Get-TimeStamp) Going to use this working Dir: $tmp_dir"
 
     foreach ($icon in Get-ChildItem -Path $src_path.FullName *.png){
 		if($icon.BaseName -notlike '*_overlay'){
@@ -136,4 +140,4 @@ Catch
 	Write-Error $ErrorMessage
     exit 1
 }
-Write-Output "Icon Generation complete"
+Write-Output "$(Get-TimeStamp) Icon Generation complete"
