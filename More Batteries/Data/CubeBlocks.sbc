@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <!-- Region BatteryBlock-->
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>LargeBlockGiantBattery</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Battery</DisplayName>
+      <Icon>Textures\Icons\LargeGiantBattery.dds</Icon>
+      <Description>Description_Battery</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\GiantBattery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="320" />
+        <Component Subtype="BS" Count="160" />
+        <Component Subtype="PowerCell" Count="320">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="400" />
+        <Component Subtype="BS" Count="32" />
+        <Component Subtype="SteelPlate" Count="960" />
+      </Components>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Large\GiantBattery_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Large\GiantBattery_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Large\GiantBattery_BS3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GiantBatteryBlock</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>180</BuildTimeSeconds>
+      
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>230</MaxPowerOutput>
+      
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>230</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>60</MaxStoredPower>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>true</IsAirTight>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockGiantBattery</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Battery</DisplayName>
+      <Icon>Textures\Icons\SmallGiantBattery.dds</Icon>
+      <Description>Description_Battery</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="8" y="8" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Small\BatterySmall.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="75" />
+        <Component Subtype="BS" Count="30" />
+        <Component Subtype="PowerCell" Count="300">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="BS" Count="45" />
+        <Component Subtype="SteelPlate" Count="300" />
+      </Components>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Small\GiantBattery_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Small\GiantBattery_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Small\GiantBattery_BS3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>GiantBatteryBlock</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>150</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>60</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>60</RequiredPowerInput>
+      <MaxStoredPower>20</MaxStoredPower>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>false</IsAirTight>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

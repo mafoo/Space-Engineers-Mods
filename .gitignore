@@ -246,6 +246,7 @@ ModelManifest.xml
 
 # Custom
 /*/Sources/*.png
+/*/Sources/*/*.png
 /*/Sources/*.gif
 /*/Images/*.png
 /*/Images/*.gif
