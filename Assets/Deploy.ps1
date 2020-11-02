@@ -46,9 +46,24 @@ Try{
     $dir = [String]::Concat($project_path, "\Models")
 	if(Get-Item -Path $dir -ErrorAction SilentlyContinue){
 		New-Item -Path $mod_path -Name "Models" -ItemType Directory -ErrorAction SilentlyContinue
-		$src = [String]::Concat($project_path, "\Models\*.mwm")
+        $src = [String]::Concat($project_path, "\Models\*.mwm")
 		$dst = [String]::Concat($mod_path, "\Models\")
-		Copy-item -Path $src -Destination $dst -Recurse -Force
+		Copy-item -Path $src -Destination $dst -Force
+
+        $subDir = [String]::Concat($project_path, "\Models\Large")
+    	if(Get-Item -Path $subDir -ErrorAction SilentlyContinue){
+		    New-Item -Path $dst -Name "Large" -ItemType Directory -ErrorAction SilentlyContinue
+            $src = [String]::Concat($subDir, "\*.mwm")
+		    $dstSub = [String]::Concat($dst, "\Large\")
+		    Copy-item -Path $src -Destination $dstSub -Force
+        }
+        $subDir = [String]::Concat($project_path, "\Models\Small")
+    	if(Get-Item -Path $subDir -ErrorAction SilentlyContinue){
+		    New-Item -Path $dst -Name "Small" -ItemType Directory -ErrorAction SilentlyContinue
+            $src = [String]::Concat($subDir, "\*.mwm")
+		    $dstSub = [String]::Concat($dst, "\Small\")
+		    Copy-item -Path $src -Destination $dstSub -Force
+        }
 	}
 	$dir = [String]::Concat($project_path, "\Textures")
 		if(Get-Item -Path $dir -ErrorAction SilentlyContinue){

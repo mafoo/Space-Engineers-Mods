@@ -51,7 +51,6 @@ if(-not $texconv)
     exit 1
 }
 
-
 $asset_path  = Get-ChildItem -Path $project_path.Parent.FullName Assets
 if(-not $asset_path)
 {
@@ -95,19 +94,22 @@ Try{
 	$tmp_dir = New-Item -Path $tmp_dir -ItemType Directory
 	Write-Output "$(Get-TimeStamp) Going to use this working Dir: $tmp_dir"
 
+    foreach($icon in Get-ChildItem -Path $src_path.FullName Large\*.png){
+	        $dst_file = $icon.BaseName
+			$dst_file = $src_path.FullName + "\Large" + ($dst_file -replace "(.*)\d+",'$1') + ".png"
+        Copy-Item -Path $icon.FullName -Destination $dst_file
+    }
+    foreach($icon in Get-ChildItem -Path $src_path.FullName Small\*.png){
+	        $dst_file = $icon.BaseName
+			$dst_file = $src_path.FullName + "\Small" + ($dst_file -replace "(.*)\d+",'$1') + ".png"
+        Copy-Item -Path $icon.FullName -Destination $dst_file
+    }
+
     foreach ($icon in Get-ChildItem -Path $src_path.FullName *.png){
 		if($icon.BaseName -notlike '*_overlay'){
 	        $dst_file = $icon.BaseName
 			$dst_file = $tmp_dir.FullName + "\" + ($dst_file -replace "(.*)\d+",'$1') + ".png"
 			Copy-Item -Path $icon.FullName -Destination $dst_file
-
-			#& $im_convert.FullName $icon.FullName -background none -colorspace gray -sigmoidal-contrast 10,50% -fill blue -tint 50 $dst_file
-			#& $im_convert.FullName $icon.FullName -alpha off -fill blue -colorize 10% -alpha on $dst_file
-			
-			if($LastExitCode){
-			  throw "Failed to execute "+$im_convert.FullName.ToLower()+" "+$icon.FullName+" -fill blue -tint 100 $dst_file";
-			}
-
 
 			if($use_extra_overlays -and $icon.BaseName -like "SteelCatwalk*" -and $icon.BaseName -notlike "*Only*"){
 				if($icon.BaseName -like "*Inv*"){
@@ -127,7 +129,7 @@ Try{
 	if($LastExitCode){
 		throw "Failed to execute "+$texconv.FullName+" -y -f BC3_UNORM -ft dds -o "+$dst_dir.FullName+" $icon_src";
 	}
-	#Remove-Item -Path $tmp_dir -Force -Recurse
+	Remove-Item -Path $tmp_dir -Force -Recurse
     foreach ($icon in Get-ChildItem -Path $dst_dir.FullName *.DDS){
 	    $dst_file = $icon.BaseName + ".dds"
 		Rename-Item -Force -Path $icon.FullName -NewName $dst_file
