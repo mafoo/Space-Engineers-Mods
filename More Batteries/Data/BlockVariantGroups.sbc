@@ -11,6 +11,8 @@
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockLargeBatteryBlock" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockLargeBatteryBlock" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockGiantBatteryBlock" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockGiantBatteryBlock" />
             </Blocks>

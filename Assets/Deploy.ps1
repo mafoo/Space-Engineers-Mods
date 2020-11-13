@@ -72,6 +72,9 @@ Try{
 		$dst = [String]::Concat($mod_path, "\Textures\")
 		Copy-item -Path $src -Destination $dst -Recurse -Force
 	}
+	$src = [String]::Concat($project_path, "\metadata.mod")
+	Copy-item -Exclude "Backup" -Path $src -Destination $mod_path
+
 	$src = [String]::Concat($project_path, "\modinfo.sbmi")
 	Copy-item -Exclude "Backup" -Path $src -Destination $mod_path
 
