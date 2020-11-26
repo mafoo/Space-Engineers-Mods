@@ -6,44 +6,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="ProtoBuf.Net">
-      <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\ProtoBuf.Net.dll</HintPath>
-    </Reference>
+    <None Remove="Models\*.mwm" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="Sandbox.Common">
       <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\Sandbox.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Sandbox.Game">
-      <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\Sandbox.Game.dll</HintPath>
-    </Reference>
-    <Reference Include="Sandbox.Graphics">
-      <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\Sandbox.Graphics.dll</HintPath>
-    </Reference>
-    <Reference Include="SpaceEngineers.Game">
-      <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\SpaceEngineers.Game.dll</HintPath>
-    </Reference>
-    <Reference Include="SpaceEngineers.ObjectBuilders">
-      <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\SpaceEngineers.ObjectBuilders.dll</HintPath>
     </Reference>
     <Reference Include="VRage">
       <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\VRage.dll</HintPath>
     </Reference>
-    <Reference Include="VRage.Audio">
-      <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\VRage.Audio.dll</HintPath>
-    </Reference>
     <Reference Include="VRage.Game">
       <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\VRage.Game.dll</HintPath>
-    </Reference>
-    <Reference Include="VRage.Library">
-      <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\VRage.Library.dll</HintPath>
-    </Reference>
-    <Reference Include="VRage.Math">
-      <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\VRage.Math.dll</HintPath>
-    </Reference>
-    <Reference Include="VRage.Render">
-      <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\VRage.Render.dll</HintPath>
-    </Reference>
-    <Reference Include="VRage.Scripting">
-      <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\VRage.Scripting.dll</HintPath>
     </Reference>
   </ItemGroup>
 

@@ -2,6 +2,45 @@
 
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
+
+    <!-- #region Upgrades -->
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>Mafoo_Small_ReactorUpgradeSmall</SubtypeId>
+      </Id>
+      <DisplayName>Reactor Upgrade Small</DisplayName>
+      <Icon>Textures\Icons\Mafoo_Small_ReactorUpgradeSmall.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Mafoo_Small_ReactorUpgradeSmall.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Mafoo_Small_ReactorUpgradeSmall_BS1.mwm"/>
+        <Model BuildPercentUpperBound="0.66" File="Models\Mafoo_Small_ReactorUpgradeSmall_BS2.mwm"/>
+        <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Small_ReactorUpgradeSmall_BS3.mwm"/>
+      </BuildProgressModels>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <BlockPairName>Mafoo_ReactorUpgradeSmall</BlockPairName>
+      <MirroringX>None</MirroringX>
+      <MirroringY>None</MirroringY>
+      <MirroringZ>None</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Upgrades>
+        <MyUpgradeModuleInfo>
+          <UpgradeType>Power</UpgradeType>
+          <Modifier>0.25</Modifier>
+          <ModifierType>Additive</ModifierType>
+        </MyUpgradeModuleInfo>
+      </Upgrades>
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
@@ -11,7 +50,7 @@
       <Icon>Textures\Icons\Mafoo_Small_ReactorUpgradeMedium.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="3" z="3" />
+      <Size x="1" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Mafoo_Small_ReactorUpgradeMedium.mwm</Model>
       <Components>
@@ -19,10 +58,11 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Mafoo_Small_ReactorUpgradeMedium.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Mafoo_Small_ReactorUpgradeMedium_BS1.mwm"/>
+        <Model BuildPercentUpperBound="0.66" File="Models\Mafoo_Small_ReactorUpgradeMedium_BS2.mwm"/>
+        <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Small_ReactorUpgradeMedium_BS3.mwm"/>
       </BuildProgressModels>
       <BuildTimeSeconds>8</BuildTimeSeconds>
-
       <BlockPairName>Mafoo_ReactorUpgradeMedium</BlockPairName>
       <MirroringX>None</MirroringX>
       <MirroringY>None</MirroringY>
@@ -31,12 +71,13 @@
       <Upgrades>
         <MyUpgradeModuleInfo>
           <UpgradeType>Power</UpgradeType>
-          <Modifier>0.25</Modifier>
+          <Modifier>0.33</Modifier>
           <ModifierType>Additive</ModifierType>
         </MyUpgradeModuleInfo>
       </Upgrades>
       <DamageEffectId>214</DamageEffectId>
     </Definition>
+
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
@@ -46,7 +87,7 @@
       <Icon>Textures\Icons\Mafoo_Small_ReactorUpgradeLarge.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="3" z="3" />
+      <Size x="1" y="3" z="2" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Mafoo_Small_ReactorUpgradeLarge.mwm</Model>
       <Components>
@@ -54,10 +95,11 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Mafoo_Small_ReactorUpgradeLarge.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Mafoo_Small_ReactorUpgradeLarge_BS1.mwm"/>
+        <Model BuildPercentUpperBound="0.66" File="Models\Mafoo_Small_ReactorUpgradeLarge_BS2.mwm"/>
+        <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Small_ReactorUpgradeLarge_BS3.mwm"/>
       </BuildProgressModels>
       <BuildTimeSeconds>8</BuildTimeSeconds>
-
       <BlockPairName>Mafoo_ReactorUpgradeLarge</BlockPairName>
       <MirroringX>None</MirroringX>
       <MirroringY>None</MirroringY>
@@ -66,65 +108,53 @@
       <Upgrades>
         <MyUpgradeModuleInfo>
           <UpgradeType>Power</UpgradeType>
-          <Modifier>0.25</Modifier>
+          <Modifier>1</Modifier>
           <ModifierType>Additive</ModifierType>
         </MyUpgradeModuleInfo>
       </Upgrades>
       <DamageEffectId>214</DamageEffectId>
     </Definition>
+    <!-- #endregion -->
 
+    <!-- #region Reactors -->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
-        <SubtypeId>Mafoo_Small_ModularReactorLarge</SubtypeId>
+        <SubtypeId>Mafoo_Small_ModularReactorMedium</SubtypeId>
       </Id>
-      <DisplayName>Modular Reactor Large</DisplayName>g
-      <Icon>Textures\Icons\Mafoo_Small_ModularReactorLarge.dds</Icon>
+      <DisplayName>Modular Reactor Medium</DisplayName>g
+      <Icon>Textures\Icons\Mafoo_Small_ModularReactorMedium.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="3" z="3" />
+      <Size x="1" y="2" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Mafoo_Small_ModularReactorLarge.mwm</Model>
+      <Model>Models\Mafoo_Small_ModularReactorMedium.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Mafoo_Small_ModularReactorLarge.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Mafoo_Small_ModularReactorLarge.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Mafoo_Small_ModularReactorMedium_BS1.mwm"/>
+        <Model BuildPercentUpperBound="0.66" File="Models\Mafoo_Small_ModularReactorMedium_BS2.mwm"/>
+        <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Small_ModularReactorMedium_BS3.mwm"/>
       </BuildProgressModels>
-      <BlockPairName>Mafoo_ModularReactorLarge</BlockPairName>
+      <BlockPairName>Mafoo_ModularReactorMedium</BlockPairName>
       <MirroringX>None</MirroringX>
       <MirroringY>None</MirroringY>
       <MirroringZ>None</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <MaxPowerOutput>14.75</MaxPowerOutput>
-
+      <MaxPowerOutput>2</MaxPowerOutput>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
         <Z>1</Z>
       </InventorySize>
-
-      <!-- 
-                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
-                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
-                Warning: Changing these values will affect performance.
-            -->
       <InventoryFillFactorMin>0.0005</InventoryFillFactorMin>
       <InventoryFillFactorMax>0.001</InventoryFillFactorMax>
-
-      <!-- 
-                This is how much of fuel is pulled from conveyor system in one tick.
-                It's in minutes, means that it will pull X minutes of fuel in one tick.
-                Warning: Changing this value will affect performance.
-            -->
       <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
-
       <FuelInfos>
         <FuelInfo>
           <Id>
@@ -146,6 +176,68 @@
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-  </CubeBlocks>
 
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>Mafoo_Small_ModularReactorLarge</SubtypeId>
+      </Id>
+      <DisplayName>Modular Reactor Large</DisplayName>
+      <Icon>Textures\Icons\Mafoo_Small_ModularReactorLarge.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Mafoo_Small_ModularReactorLarge.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Mafoo_Small_ModularReactorLarge_BS1.mwm"/>
+        <Model BuildPercentUpperBound="0.66" File="Models\Mafoo_Small_ModularReactorLarge_BS2.mwm"/>
+        <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Small_ModularReactorLarge_BS3.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>Mafoo_ModularReactorLarge</BlockPairName>
+      <MirroringX>None</MirroringX>
+      <MirroringY>None</MirroringY>
+      <MirroringZ>None</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>28</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>10</MaxPowerOutput>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <InventoryFillFactorMin>0.0005</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.001</InventoryFillFactorMax>
+      <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Uranium</SubtypeId>
+          </Id>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipSmNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <TieredUpdateTimes>
+        <unsignedInt>900</unsignedInt>
+        <unsignedInt>1800</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+      </TieredUpdateTimes>
+    </Definition>
+    <!-- #endregion -->
+
+
+  </CubeBlocks>
 </Definitions>
