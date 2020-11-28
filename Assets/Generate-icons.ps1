@@ -14,7 +14,7 @@ function Get-TimeStamp {
 }
 
 $wshell = New-Object -ComObject Wscript.Shell
-$title = "Space Engineers Generate Icons v1.4"
+$title = "Space Engineers Generate Icons v1.5"
 
 #Setup
 $errorAction = "SilentlyContinue"
@@ -86,6 +86,9 @@ $regular_overlay = Get-Item -Path $regular_overlay
 $inverted_overlay = $asset_src_path.FullName + "\inverted_overlay.png"
 $inverted_overlay = Get-Item -Path $inverted_overlay
 
+$experimental_overlay = $asset_src_path.FullName + "\experimental_overlay.png"
+$experimental_overlay = Get-Item -Path $experimental_overlay
+
 $errorAction = "Stop"
 
 Try{
@@ -94,23 +97,14 @@ Try{
 	$tmp_dir = New-Item -Path $tmp_dir -ItemType Directory
 	Write-Output "$(Get-TimeStamp) Going to use this working Dir: $tmp_dir"
 
-    foreach($icon in Get-ChildItem -Path $src_path.FullName Large\*.png){
-	        $dst_file = $icon.BaseName
-			$dst_file = $src_path.FullName + "\Large" + ($dst_file -replace "(.*)\d+",'$1') + ".png"
-        Copy-Item -Path $icon.FullName -Destination $dst_file
-    }
-    foreach($icon in Get-ChildItem -Path $src_path.FullName Small\*.png){
-	        $dst_file = $icon.BaseName
-			$dst_file = $src_path.FullName + "\Small" + ($dst_file -replace "(.*)\d+",'$1') + ".png"
-        Copy-Item -Path $icon.FullName -Destination $dst_file
-    }
-
     foreach ($icon in Get-ChildItem -Path $src_path.FullName *.png){
 		if($icon.BaseName -notlike '*_overlay'){
 	        $dst_file = $icon.BaseName
-			$dst_file = $tmp_dir.FullName + "\" + ($dst_file -replace "(.*)\d+",'$1') + ".png"
+			$dst_file = $tmp_dir.FullName + "\" + $dst_file + ".png"
 			Copy-Item -Path $icon.FullName -Destination $dst_file
-
+            if($project_path.BaseName -eq "Experimental"){
+					& $im_composite.FullName -gravity SouthEast $experimental_overlay.FullName $icon.FullName $dst_file
+            }
 			if($use_extra_overlays -and $icon.BaseName -like "SteelCatwalk*" -and $icon.BaseName -notlike "*Only*"){
 				if($icon.BaseName -like "*Inv*"){
 					& $im_composite.FullName $inverted_overlay.FullName $icon.FullName $dst_file
@@ -119,7 +113,7 @@ Try{
 				}
 			}
 			if($use_overlays -and $icon.BaseName -like "SteelCatwalk*" -and $icon.BaseName -notlike "*Suspended*"){
-				$dst_small_overlay_file = $tmp_dir.FullName + "\small_" + ($icon.BaseName -replace "(.*)\d+",'$1') + ".png"
+				$dst_small_overlay_file = $tmp_dir.FullName + "\small_" + $icon.BaseName + ".png"
 				& $im_composite.FullName $small_overlay.FullName $dst_file $dst_small_overlay_file
 			}
 		}

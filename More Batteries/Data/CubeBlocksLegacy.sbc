@@ -6,8 +6,9 @@
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>Mafoo_Large_LargeBattery</SubtypeId>
+        <SubtypeId>LargeBlockLargeBatteryBlock</SubtypeId>
       </Id>
+      <Public>false</Public>
       <DisplayName>Large Battery</DisplayName>
       <Icon>Textures\Icons\Mafoo_Large_LargeBattery.dds</Icon>
       <Description>Description_Battery</Description>
@@ -37,7 +38,7 @@
         <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Large_LargeBattery_BS3.mwm"/>
       </BuildProgressModels>
 
-      <BlockPairName>Mafoo_LargeBattery</BlockPairName>
+      <BlockPairName>Mafoo_Legacy_LargeBattery</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>90</BuildTimeSeconds>
 
@@ -63,8 +64,9 @@
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>Mafoo_Large_GiantBattery</SubtypeId>
+        <SubtypeId>LargeBlockGiantBatteryBlock</SubtypeId>
       </Id>
+      <Public>false</Public>
       <DisplayName>Giant Battery</DisplayName>
       <Icon>Textures\Icons\Mafoo_Large_GiantBattery.dds</Icon>
       <Description>Description_Battery</Description>
@@ -94,7 +96,7 @@
         <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Large_GiantBattery_BS3.mwm"/>
       </BuildProgressModels>
 
-      <BlockPairName>Mafoo_GiantBattery</BlockPairName>
+      <BlockPairName>Mafoo_Legacy_GiantBattery</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>180</BuildTimeSeconds>
 
@@ -120,8 +122,9 @@
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>Mafoo_Small_LargeBattery</SubtypeId>
+        <SubtypeId>SmallBlockLargeBatteryBlock</SubtypeId>
       </Id>
+      <Public>false</Public>
       <DisplayName>Large Battery</DisplayName>
       <Icon>Textures\Icons\Mafoo_Small_LargeBattery.dds</Icon>
       <Description>Description_Battery</Description>
@@ -149,7 +152,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Mafoo_Small_LargeBattery_BS2.mwm"/>
         <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Small_LargeBattery_BS3.mwm"/>
       </BuildProgressModels>
-      <BlockPairName>Mafoo_LargeBattery</BlockPairName>
+      <BlockPairName>Mafoo_Legacy_LargeBattery</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>150</BuildTimeSeconds>
 
@@ -173,8 +176,9 @@
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>Mafoo_Small_GiantBattery</SubtypeId>
+        <SubtypeId>SmallBlockGiantBatteryBlock</SubtypeId>
       </Id>
+      <Public>false</Public>
       <DisplayName>Giant Battery</DisplayName>
       <Icon>Textures\Icons\Mafoo_Small_GiantBattery.dds</Icon>
       <Description>Description_Battery</Description>
@@ -202,7 +206,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Mafoo_Small_GiantBattery_BS2.mwm"/>
         <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Small_GiantBattery_BS3.mwm"/>
       </BuildProgressModels>
-      <BlockPairName>Mafoo_GiantBattery</BlockPairName>
+      <BlockPairName>Mafoo_Legacy_GiantBattery</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>150</BuildTimeSeconds>
 

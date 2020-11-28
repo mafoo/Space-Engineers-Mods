@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <BlockVariantGroups>
+  <BlockVariantGroups>
 
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BatteryGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
-            <DisplayName>DisplayName_Block_Battery</DisplayName>
-            <Description>Description_Battery</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockLargeBatteryBlock" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockLargeBatteryBlock" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockGiantBatteryBlock" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockGiantBatteryBlock" />
-            </Blocks>
-        </BlockVariantGroup>
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BatteryGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <DisplayName>DisplayName_Block_Battery</DisplayName>
+      <Description>Description_Battery</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="Mafoo_Large_GiantBattery" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="Mafoo_Small_GiantBattery" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="Mafoo_Large_LargeBattery" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="Mafoo_Small_LargeBattery" />
+        <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock" />
+      </Blocks>
+    </BlockVariantGroup>
 
-    </BlockVariantGroups>
+  </BlockVariantGroups>
 </Definitions>
