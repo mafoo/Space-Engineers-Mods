@@ -16,6 +16,7 @@
                 <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeMedium" />
                 <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeConveyorTubeMedium" />
                 <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeConveyorTubeLong" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Mafoo_Large_AngledConveyorTube" />
                 <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
                 <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurved" />
                 <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedMedium" />
@@ -25,6 +26,19 @@
                 <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeConveyor4WayTee" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Mafoo_CoveredConveyorTubeGroup" />
+            <Icon>Textures\Icons\Mafoo_Large_CoveredConveyorTube.dds</Icon>
+            <DisplayName>DisplayName_Block_Conveyor</DisplayName>
+            <Description>Description_Mafoo_ConveyorTube</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Mafoo_Large_CoveredConveyorTube" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Mafoo_Large_CoveredConveyorTubeMedium" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Mafoo_Large_GratedConveyorTube" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="Mafoo_Large_GratedConveyorTubeMedium" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -43,7 +57,7 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorThinGroup" />
             <Icon>Textures\GUI\Icons\Cubes\ConveyorTubeSmall.dds</Icon>
             <DisplayName>DisplayName_Block_ConveyorTubeSmall</DisplayName>
-            <Description>Description_ConveyorTube</Description>
+            <Description>Description_Mafoo_ConveyorTube</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyor" />
                 <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmall" />
@@ -56,7 +70,7 @@
           <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorAdaptor" />
           <Icon>Textures\Icons\ConveyorAdaptorTypeA.dds</Icon>
           <DisplayName>Conveyor Adaptors</DisplayName>
-          <Description>Conveyor adaptors to change size</Description>
+          <Description>Description_Mafoo_ConveyorTube</Description>
           <Blocks>
             <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallConveyorAdaptorTypeA" />
             <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallConveyorAdaptorTypeB" />

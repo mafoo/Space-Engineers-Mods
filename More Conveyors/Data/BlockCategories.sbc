@@ -11,6 +11,7 @@
       <Name>LargeBlocks</Name>
       <StrictSearch>true</StrictSearch>
       <ItemIds>
+        <string>Mafoo_Large_AngledConveyorTube</string>
         <string>LargeConveyorTubeMedium</string>
         <string>LargeConveyorTubeLong</string>
         <string>LargeConveyor3WayTee</string>
@@ -19,6 +20,8 @@
         <string>LargeConveyor4WayTee</string>
         <string>LargeConveyorTubeHanging</string>
         <string>LargeConveyorTubeLongHanging</string>
+        <string>Mafoo_Large_CoveredConveyorTube</string>
+        <string>Mafoo_Large_CoveredConveyorTubeMedium</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -42,6 +45,7 @@
       <Name>Conveyors</Name>
       <ItemIds>
         <string>ConveyorHubMedium</string>
+        <string>Mafoo_Large_AngledConveyorTube</string>
         <string>LargeConveyorTubeMedium</string>
         <string>LargeConveyorTubeLong</string>
         <string>LargeConveyor3WayTee</string>
@@ -52,6 +56,8 @@
         <string>LargeConveyorTubeLongHanging</string>
         <string>Conveyor/SmallConveyorAdaptorTypeA</string>
         <string>Conveyor/SmallConveyorAdaptorTypeB</string>
+        <string>Mafoo_Large_CoveredConveyorTube</string>
+        <string>Mafoo_Large_CoveredConveyorTubeMedium</string>
       </ItemIds>
     </Category>
 

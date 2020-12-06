@@ -2,51 +2,8 @@
 
 <Definitions>
   <CubeBlocks>
-    <Definition>
-      <Id>
-        <TypeId>ConveyorConnector</TypeId>
-        <SubtypeId>ConveyorTube</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_ConveyorTube</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\ConveyorTube.dds</Icon>
-      <GuiVisible>true</GuiVisible>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\ConveyorTube.mwm</Model>
-      <Components>
-        <Component Subtype="InteriorPlate" Count="10" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SmallTube" Count="12" />
-        <Component Subtype="Motor" Count="6" />
-        <Component Subtype="InteriorPlate" Count="4" />
-      </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorTubeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorTubeConstruction_2.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>ConveyorTube</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>7</BuildTimeSeconds>
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true" />
-        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
-        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
-        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
-        <MountPoint Side="Top" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Top" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
-        <MountPoint Side="Top" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
-      </MountPoints>
-      <AutorotateMode>OppositeDirections</AutorotateMode>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <PCU>10</PCU>
-    </Definition>
-
-    <!-- Large Cubes -->
-    <!-- Long Tubes -->
+    <!-- #region Large Cubes -->
+    <!-- #region Long Tubes -->
     <Definition>
       <Id>
         <TypeId>ConveyorConnector</TypeId>
@@ -54,7 +11,7 @@
       </Id>
       <DisplayName>Long Conveyor Tube</DisplayName>
       <Icon>Textures\Icons\ConveyorTubeLong.dds</Icon>
-      <GuiVisible>false</GuiVisible>
+      <Description>Description_Mafoo_ConveyorTube</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="10" />
@@ -65,6 +22,7 @@
         <Component Subtype="Construction" Count="200" />
         <Component Subtype="SmallTube" Count="120" />
         <Component Subtype="Motor" Count="60" />
+        <Component Subtype="Construction" Count="100" />
         <Component Subtype="InteriorPlate" Count="40" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -89,7 +47,7 @@
       </Id>
       <DisplayName>Medium Conveyor Tube</DisplayName>
       <Icon>Textures\Icons\ConveyorTubeMedium.dds</Icon>
-      <GuiVisible>false</GuiVisible>
+      <Description>Description_Mafoo_ConveyorTube</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="5" />
@@ -100,6 +58,7 @@
         <Component Subtype="Construction" Count="100" />
         <Component Subtype="SmallTube" Count="60" />
         <Component Subtype="Motor" Count="30" />
+        <Component Subtype="Construction" Count="50" />
         <Component Subtype="InteriorPlate" Count="20" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -117,8 +76,266 @@
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <PCU>10</PCU>
     </Definition>
+    <!-- #endregion -->
 
-    <!-- 3 Way Tubes -->
+    <!-- #region Covered Tubes -->
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>Mafoo_Large_CoveredConveyorTube</SubtypeId>
+      </Id>
+      <DisplayName>Covered Conveyor Tube</DisplayName>
+      <Icon>Textures\Icons\Mafoo_Large_CoveredConveyorTube.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Mafoo_Large_CoveredConveyorTube.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SmallTube" Count="40" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="InteriorPlate" Count="17" />
+        <Component Subtype="Girder" Count="12" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Large_CoveredConveyorTube_BS1.mwm"/>
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.11"/>
+        <MountPoint Side="Front" StartX="0.0" StartY="0.89" EndX="1.0" EndY="1.0"/>
+        <MountPoint Side="Front" StartX="0.92" StartY="0.11" EndX="1" EndY="0.89"/>
+        <MountPoint Side="Front" StartX="0.0" StartY="0.11" EndX="0.08" EndY="0.89"/>
+        <MountPoint Side="Front" StartX="0.23" StartY="0.23" EndX="0.77" EndY="0.77"/>
+        <MountPoint Side="Back" StartX="0.0" StartY="0.89" EndX="1.0" EndY="0.99"/>
+        <MountPoint Side="Back" StartX="0.0" StartY="0.11" EndX="0.08" EndY="0.89"/>
+        <MountPoint Side="Back" StartX="0.92" StartY="0.11" EndX="1.0" EndY="0.89"/>
+        <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.11"/>
+        <MountPoint Side="Back" StartX="0.23" StartY="0.23" EndX="0.77" EndY="0.77" Default="true"/>
+        <MountPoint Side="Left" StartX="0.0" StartY="0.11" EndX="0.08" EndY="0.89"/>
+        <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.11"/>
+        <MountPoint Side="Left" StartX="0.0" StartY="0.89" EndX="1.0" EndY="1.0"/>
+        <MountPoint Side="Left" StartX="0.92" StartY="0.11" EndX="1.0" EndY="0.89"/>
+        <MountPoint Side="Right" StartX="0.0" StartY="0.89" EndX="1.0" EndY="1.0"/>
+        <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.11"/>
+        <MountPoint Side="Right" StartX="0.92" StartY="0.11" EndX="1.0" EndY="0.89"/>
+        <MountPoint Side="Right" StartX="0.0" StartY="0.11" EndX="0.08" EndY="0.89"/>
+        <MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" PressurizedWhenOpen="true"/>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.89" EndX="1.0" EndY="1.0"/>
+        <MountPoint Side="Bottom" StartX="0.92" StartY="0.11" EndX="1.0" EndY="0.89"/>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.11"/>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.11" EndX="0.08" EndY="0.89"/>
+      </MountPoints>
+      <BlockPairName>Mafoo_CoveredConveyorTube</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <PCU>10</PCU>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>Mafoo_Large_CoveredConveyorTubeMedium</SubtypeId>
+      </Id>
+      <DisplayName>Covered Conveyor Tube</DisplayName>
+      <Icon>Textures\Icons\Mafoo_Large_CoveredConveyorTubeMedium.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Mafoo_Large_CoveredConveyorTubeMedium.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="150" />
+        <Component Subtype="Construction" Count="125" />
+        <Component Subtype="SmallTube" Count="160" />
+        <Component Subtype="Motor" Count="30" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="InteriorPlate" Count="50" />
+        <Component Subtype="Girder" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Large_CoveredConveyorTubeMedium_BS1.mwm"/>
+      </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.92" StartY="0.11" EndX="1" EndY="0.89"/>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.11" EndX="0.08" EndY="0.89"/>
+				<MountPoint Side="Front" StartX="0.23" StartY="0.23" EndX="0.77" EndY="0.77"/>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.89" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.11"/>
+				<MountPoint Side="Back" StartX="0.23" StartY="0.23" EndX="0.77" EndY="0.77" Default="true"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.89" EndX="1.0" EndY="0.99"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.11" EndX="0.08" EndY="0.89"/>
+				<MountPoint Side="Back" StartX="0.92" StartY="0.11" EndX="1.0" EndY="0.89"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.11"/>
+				<MountPoint Side="Left" StartX="3.95" StartY="0.06" EndX="4.09" EndY="0.9"/>
+				<MountPoint Side="Left" StartX="2.95" StartY="0.06" EndX="3.09" EndY="0.9"/>
+				<MountPoint Side="Left" StartX="1.95" StartY="0.06" EndX="2.09" EndY="0.9"/>
+				<MountPoint Side="Left" StartX="0.95" StartY="0.06" EndX="1.09" EndY="0.9"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="4.98" EndY="0.06"/>
+				<MountPoint Side="Left" StartX="4.87" StartY="0.06" EndX="4.98" EndY="0.9"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.06" EndX="0.08" EndY="0.9"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.9" EndX="4.98" EndY="0.98"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.06" EndX="0.08" EndY="0.9"/>
+				<MountPoint Side="Right" StartX="3.95" StartY="0.06" EndX="4.09" EndY="0.9"/>
+				<MountPoint Side="Right" StartX="2.95" StartY="0.06" EndX="3.09" EndY="0.9"/>
+				<MountPoint Side="Right" StartX="1.95" StartY="0.06" EndX="2.09" EndY="0.9"/>
+				<MountPoint Side="Right" StartX="0.95" StartY="0.06" EndX="1.09" EndY="0.9"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="4.98" EndY="0.06"/>
+				<MountPoint Side="Right" StartX="4.87" StartY="0.06" EndX="4.98" EndY="0.9"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.9" EndX="4.98" EndY="0.98"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0" PressurizedWhenOpen="true"/>
+				<MountPoint Side="Bottom" StartX="0.08" StartY="1.89" EndX="0.92" EndY="2.03"/>
+				<MountPoint Side="Bottom" StartX="0.08" StartY="2.89" EndX="0.92" EndY="3.03"/>
+				<MountPoint Side="Bottom" StartX="0.08" StartY="3.89" EndX="0.92" EndY="4.03"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="0.08" EndY="5"/>
+				<MountPoint Side="Bottom" StartX="0.08" StartY="0.0" EndX="0.92" EndY="0.11"/>
+				<MountPoint Side="Bottom" StartX="0.08" StartY="4.9" EndX="0.92" EndY="5"/>
+				<MountPoint Side="Bottom" StartX="0.08" StartY="0.89" EndX="0.92" EndY="1.03"/>
+				<MountPoint Side="Bottom" StartX="0.92" StartY="0.0" EndX="1.0" EndY="5.0"/>
+			</MountPoints>
+      <BlockPairName>Mafoo_CoveredConveyorTubeMedium</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <PCU>10</PCU>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>Mafoo_Large_GratedConveyorTube</SubtypeId>
+      </Id>
+      <DisplayName>Grated Conveyor Tube</DisplayName>
+      <Icon>Textures\Icons\Mafoo_Large_GratedConveyorTube.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Mafoo_Large_GratedConveyorTube.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="15" />
+        <Component Subtype="Construction" Count="28" />
+        <Component Subtype="SmallTube" Count="43" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Construction" Count="16" />
+        <Component Subtype="InteriorPlate" Count="9" />
+        <Component Subtype="Girder" Count="16" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Large_GratedConveyorTube_BS1.mwm"/>
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.11"/>
+        <MountPoint Side="Front" StartX="0.0" StartY="0.89" EndX="1.0" EndY="1.0"/>
+        <MountPoint Side="Front" StartX="0.92" StartY="0.11" EndX="1" EndY="0.89"/>
+        <MountPoint Side="Front" StartX="0.0" StartY="0.11" EndX="0.08" EndY="0.89"/>
+        <MountPoint Side="Front" StartX="0.23" StartY="0.23" EndX="0.77" EndY="0.77"/>
+        <MountPoint Side="Back" StartX="0.0" StartY="0.89" EndX="1.0" EndY="0.99"/>
+        <MountPoint Side="Back" StartX="0.0" StartY="0.11" EndX="0.08" EndY="0.89"/>
+        <MountPoint Side="Back" StartX="0.92" StartY="0.11" EndX="1.0" EndY="0.89"/>
+        <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.11"/>
+        <MountPoint Side="Back" StartX="0.23" StartY="0.23" EndX="0.77" EndY="0.77" Default="true"/>
+        <MountPoint Side="Left" StartX="0.0" StartY="0.11" EndX="0.08" EndY="0.89"/>
+        <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.11"/>
+        <MountPoint Side="Left" StartX="0.0" StartY="0.89" EndX="1.0" EndY="1.0"/>
+        <MountPoint Side="Left" StartX="0.92" StartY="0.11" EndX="1.0" EndY="0.89"/>
+        <MountPoint Side="Right" StartX="0.0" StartY="0.89" EndX="1.0" EndY="1.0"/>
+        <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.11"/>
+        <MountPoint Side="Right" StartX="0.92" StartY="0.11" EndX="1.0" EndY="0.89"/>
+        <MountPoint Side="Right" StartX="0.0" StartY="0.11" EndX="0.08" EndY="0.89"/>
+        <MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" PressurizedWhenOpen="true"/>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.89" EndX="1.0" EndY="1.0"/>
+        <MountPoint Side="Bottom" StartX="0.92" StartY="0.11" EndX="1.0" EndY="0.89"/>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.11"/>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.11" EndX="0.08" EndY="0.89"/>
+      </MountPoints>
+      <BlockPairName>Mafoo_GratedConveyorTube</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <PCU>10</PCU>
+      <DLC>DecorativeBlocks2</DLC>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>Mafoo_Large_GratedConveyorTubeMedium</SubtypeId>
+      </Id>
+      <DisplayName>Grated Conveyor Tube</DisplayName>
+      <Icon>Textures\Icons\Mafoo_Large_GratedConveyorTubeMedium.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Mafoo_Large_GratedConveyorTubeMedium.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="75" />
+        <Component Subtype="Construction" Count="140" />
+        <Component Subtype="SmallTube" Count="215" />
+        <Component Subtype="Motor" Count="30" />
+        <Component Subtype="Construction" Count="80" />
+        <Component Subtype="InteriorPlate" Count="45" />
+        <Component Subtype="Girder" Count="80" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Large_GratedConveyorTubeMedium_BS1.mwm"/>
+      </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.92" StartY="0.11" EndX="1" EndY="0.89"/>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.11" EndX="0.08" EndY="0.89"/>
+				<MountPoint Side="Front" StartX="0.23" StartY="0.23" EndX="0.77" EndY="0.77"/>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.89" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.11"/>
+				<MountPoint Side="Back" StartX="0.23" StartY="0.23" EndX="0.77" EndY="0.77" Default="true"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.89" EndX="1.0" EndY="0.99"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.11" EndX="0.08" EndY="0.89"/>
+				<MountPoint Side="Back" StartX="0.92" StartY="0.11" EndX="1.0" EndY="0.89"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.11"/>
+				<MountPoint Side="Left" StartX="3.95" StartY="0.06" EndX="4.09" EndY="0.9"/>
+				<MountPoint Side="Left" StartX="2.95" StartY="0.06" EndX="3.09" EndY="0.9"/>
+				<MountPoint Side="Left" StartX="1.95" StartY="0.06" EndX="2.09" EndY="0.9"/>
+				<MountPoint Side="Left" StartX="0.95" StartY="0.06" EndX="1.09" EndY="0.9"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="4.98" EndY="0.06"/>
+				<MountPoint Side="Left" StartX="4.87" StartY="0.06" EndX="4.98" EndY="0.9"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.06" EndX="0.08" EndY="0.9"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.9" EndX="4.98" EndY="0.98"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.06" EndX="0.08" EndY="0.9"/>
+				<MountPoint Side="Right" StartX="3.95" StartY="0.06" EndX="4.09" EndY="0.9"/>
+				<MountPoint Side="Right" StartX="2.95" StartY="0.06" EndX="3.09" EndY="0.9"/>
+				<MountPoint Side="Right" StartX="1.95" StartY="0.06" EndX="2.09" EndY="0.9"/>
+				<MountPoint Side="Right" StartX="0.95" StartY="0.06" EndX="1.09" EndY="0.9"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="4.98" EndY="0.06"/>
+				<MountPoint Side="Right" StartX="4.87" StartY="0.06" EndX="4.98" EndY="0.9"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.9" EndX="4.98" EndY="0.98"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0" PressurizedWhenOpen="true"/>
+				<MountPoint Side="Bottom" StartX="0.08" StartY="1.89" EndX="0.92" EndY="2.03"/>
+				<MountPoint Side="Bottom" StartX="0.08" StartY="2.89" EndX="0.92" EndY="3.03"/>
+				<MountPoint Side="Bottom" StartX="0.08" StartY="3.89" EndX="0.92" EndY="4.03"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="0.08" EndY="5"/>
+				<MountPoint Side="Bottom" StartX="0.08" StartY="0.0" EndX="0.92" EndY="0.11"/>
+				<MountPoint Side="Bottom" StartX="0.08" StartY="4.9" EndX="0.92" EndY="5"/>
+				<MountPoint Side="Bottom" StartX="0.08" StartY="0.89" EndX="0.92" EndY="1.03"/>
+				<MountPoint Side="Bottom" StartX="0.92" StartY="0.0" EndX="1.0" EndY="5.0"/>
+			</MountPoints>
+      <BlockPairName>Mafoo_GratedConveyorTubeMedium</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <PCU>10</PCU>
+      <DLC>DecorativeBlocks2</DLC>
+    </Definition>
+    <!-- #endregion -->
+
+    <!-- #region 3 Way Tubes -->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -126,6 +343,7 @@
       </Id>
       <DisplayName>Conveyor 3 Way Tee</DisplayName>
       <Icon>Textures\Icons\Conveyor3WayTee.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -163,6 +381,7 @@
       </Id>
       <DisplayName>Conveyor 3 Way Corner</DisplayName>
       <Icon>Textures\Icons\Conveyor3WayCorner.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -193,8 +412,9 @@
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <PCU>10</PCU>
     </Definition>
+    <!-- #endregion -->
 
-    <!-- 4 Way Tubes -->
+    <!-- #region 4 Way Tubes -->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -202,6 +422,7 @@
       </Id>
       <DisplayName>Conveyor 4 Way</DisplayName>
       <Icon>Textures\Icons\Conveyor4Way.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -240,6 +461,7 @@
       </Id>
       <DisplayName>Conveyor 4 Way Tee</DisplayName>
       <Icon>Textures\Icons\Conveyor4WayTee.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -271,8 +493,9 @@
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <PCU>10</PCU>
     </Definition>
+    <!-- #endregion -->
 
-    <!-- Hanging Tubes -->
+    <!-- #region Hanging Tubes -->
     <Definition>
       <Id>
         <TypeId>ConveyorConnector</TypeId>
@@ -280,6 +503,7 @@
       </Id>
       <DisplayName>Conveyor Tube Hanging</DisplayName>
       <Icon>Textures\Icons\ConveyorTubeHanging.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -318,6 +542,7 @@
       </Id>
       <DisplayName>Conveyor Tube Long Hanging</DisplayName>
       <Icon>Textures\Icons\ConveyorTubeLongHanging.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -347,9 +572,56 @@
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <PCU>10</PCU>
     </Definition>
+    <!-- #endregion -->
 
-    <!-- Small Cubes -->
-    <!-- Conveyor Adaptors -->
+    <!-- #region Angled Tubes -->
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Mafoo_Large_AngledConveyorTube</SubtypeId>
+      </Id>
+      <DisplayName>Conveyor Angled</DisplayName>
+      <Icon>Textures\Icons\Mafoo_Large_AngledConveyorTube.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Mafoo_Large_AngledConveyorTube.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="SmallTube" Count="24" />
+        <Component Subtype="Motor" Count="12" />
+        <Component Subtype="InteriorPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Large_AngledConveyorTube_BS1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Mafoo_AngledConveyorTube</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Top" StartX="1.2" StartY="0.2" EndX="1.8" EndY="0.3" />
+        <MountPoint Side="Top" StartX="1.2" StartY="0.7" EndX="1.8" EndY="0.8" />
+        <MountPoint Side="Top" StartX="1.2" StartY="0.3" EndX="1.3" EndY="0.7" />
+        <MountPoint Side="Top" StartX="1.7" StartY="0.3" EndX="1.8" EndY="0.7" />
+      </MountPoints>
+      <AutorotateMode>OppositeDirections</AutorotateMode>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <PCU>10</PCU>
+    </Definition>
+    <!-- #endregion -->
+
+    <!-- #endregion -->
+
+    <!-- #region Small Cubes -->
+    <!-- #region Conveyor Adaptors -->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -357,12 +629,11 @@
       </Id>
       <DisplayName>Conveyor Adaptor Type A</DisplayName>
       <Icon>Textures\Icons\ConveyorAdaptorTypeA.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
       <CubeSize>Small</CubeSize>
-      <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <!--<Center x="1" y="1" z="1" />-->
       <Model>Models\SmallConveyorAdaptorTypeA.mwm</Model>
       <Components>
         <Component Subtype="InteriorPlate" Count="15" />
@@ -399,12 +670,11 @@
       </Id>
       <DisplayName>Conveyor Adaptor Type B</DisplayName>
       <Icon>Textures\Icons\ConveyorAdaptorTypeB.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
       <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <!--<Center x="1" y="1" z="1" />-->
       <Model>Models\SmallConveyorAdaptorTypeB.mwm</Model>
       <Components>
         <Component Subtype="InteriorPlate" Count="15" />
@@ -434,20 +704,21 @@
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <PCU>10</PCU>
     </Definition>
+    <!-- #endregion -->
 
+    <!-- #region Conveyor Hubs -->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>ConveyorHubMedium</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Conveyor</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Conveyor.dds</Icon>
+      <Icon>Textures\Icons\ConveyorHubMedium.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
       <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <!--<Center x="1" y="1" z="1" />-->
       <Model>Models\ConveyorHubMedium.mwm</Model>
       <Components>
         <Component Subtype="InteriorPlate" Count="20" />
@@ -480,5 +751,7 @@
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>10</PCU>
     </Definition>
+    <!-- #endregion -->
+    <!-- #endregion -->
   </CubeBlocks>
 </Definitions>
