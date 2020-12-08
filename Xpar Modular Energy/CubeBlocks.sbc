@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<CubeBlocks>
+<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>XPAR_Reactor_Upgrade_Light_Small</SubtypeId>
+      </Id>
+      <DisplayName>Reactor Upgrade Light</DisplayName>
+      <Icon>Textures\Icons\XPAR_Reactor_Upgrade_Light.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Reactor_Upgrade_Light_Small.mwm</Model>
+      <Components>
+        <Component Subtype="SmallTube" Count="4" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="PowerCell" Count="25" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="LargeTube" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Reactor_Upgrade_Light_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Reactor_Upgrade_Light_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Reactor_Upgrade_Light_Small_Constr3.mwm" />
+			</BuildProgressModels>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      
+      <BlockPairName>XPAR_Reactor_Upgrade_Light</BlockPairName>
+      <MirroringX>None</MirroringX>
+			<MirroringY>None</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Upgrades>
+        <MyUpgradeModuleInfo>
+          <UpgradeType>Power</UpgradeType>
+          <Modifier>0.25</Modifier>
+          <ModifierType>Additive</ModifierType>
+        </MyUpgradeModuleInfo>
+      </Upgrades>
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>XPAR_Reactor_Upgrade_Light_Large</SubtypeId>
+      </Id>
+      <DisplayName>Reactor Upgrade Light</DisplayName>
+      <Icon>Textures\Icons\XPAR_Reactor_Upgrade_Light.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Reactor_Upgrade_Light_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="Display" Count="4" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SmallTube" Count="100" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="PowerCell" Count="100" />
+        <Component Subtype="SteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="LargeTube" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Reactor_Upgrade_Light_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Reactor_Upgrade_Light_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Reactor_Upgrade_Light_Large_Constr3.mwm" />
+			</BuildProgressModels>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      
+      <BlockPairName>XPAR_Reactor_Upgrade_Light</BlockPairName>
+      <MirroringX>None</MirroringX>
+			<MirroringY>None</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Upgrades>
+        <MyUpgradeModuleInfo>
+          <UpgradeType>Power</UpgradeType>
+          <Modifier>0.25</Modifier>
+          <ModifierType>Additive</ModifierType>
+        </MyUpgradeModuleInfo>
+      </Upgrades>
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+
+<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>XPAR_Reactor_Upgrade_Medium_Small</SubtypeId>
+      </Id>
+      <DisplayName>Reactor Upgrade Medium</DisplayName>
+      <Icon>Textures\Icons\XPAR_Reactor_Upgrade_Medium.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Reactor_Upgrade_Medium_Small.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Detector" Count="4" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="4" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SmallTube" Count="14" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Reactor_Upgrade_Medium_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Reactor_Upgrade_Medium_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Reactor_Upgrade_Medium_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.30" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+      <BlockPairName>XPAR_Reactor_Upgrade_Medium</BlockPairName>
+      <BuildTimeSeconds>16</BuildTimeSeconds>
+      
+      <MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Upgrades>
+        <MyUpgradeModuleInfo>
+          <UpgradeType>Power</UpgradeType>
+          <Modifier>0.33</Modifier>
+          <ModifierType>Additive</ModifierType>
+        </MyUpgradeModuleInfo>
+      </Upgrades>
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>XPAR_Reactor_Upgrade_Medium_Large</SubtypeId>
+      </Id>
+      <DisplayName>Reactor Upgrade Medium</DisplayName>
+      <Icon>Textures\Icons\XPAR_Reactor_Upgrade_Medium.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Reactor_Upgrade_Medium_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="175" /> 
+        <Component Subtype="Display" Count="4" />
+        <Component Subtype="Detector" Count="20" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="SmallTube" Count="100" />
+        <Component Subtype="LargeTube" Count="30" />
+        <Component Subtype="MetalGrid" Count="100" />
+        <Component Subtype="SteelPlate" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Reactor_Upgrade_Medium_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Reactor_Upgrade_Medium_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Reactor_Upgrade_Medium_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.30" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+      <BlockPairName>XPAR_Reactor_Upgrade_Medium</BlockPairName>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      
+      <MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Upgrades>
+        <MyUpgradeModuleInfo>
+          <UpgradeType>Power</UpgradeType>
+          <Modifier>0.33</Modifier>
+          <ModifierType>Additive</ModifierType>
+        </MyUpgradeModuleInfo>
+      </Upgrades>
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+
+
+<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>XPAR_Reactor_Upgrade_Heavy_Small</SubtypeId>
+      </Id>
+      <DisplayName>Reactor Upgrade Heavy</DisplayName>
+      <Icon>Textures\Icons\XPAR_Reactor_Upgrade_Heavy.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Reactor_Upgrade_Heavy_Small.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="4" />
+        <Component Subtype="GravityGenerator" Count="1" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="LargeTube" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Reactor_Upgrade_Heavy_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Reactor_Upgrade_Heavy_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Reactor_Upgrade_Heavy_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="1.50" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+			</MountPoints>
+      <BlockPairName>XPAR_Reactor_Upgrade_Heavy</BlockPairName>
+      <BuildTimeSeconds>16</BuildTimeSeconds>
+      
+      <MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Center x="0" y="1" z="0" />
+      <Upgrades>
+        <MyUpgradeModuleInfo>
+          <UpgradeType>Power</UpgradeType>
+          <Modifier>1</Modifier>
+          <ModifierType>Additive</ModifierType>
+        </MyUpgradeModuleInfo>
+      </Upgrades>
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>XPAR_Reactor_Upgrade_Heavy_Large</SubtypeId>
+      </Id>
+      <DisplayName>Reactor Upgrade Heavy</DisplayName>
+      <Icon>Textures\Icons\XPAR_Reactor_Upgrade_Heavy.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Reactor_Upgrade_Heavy_Large.mwm</Model>
+      <Components>
+	<Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="4" />
+        <Component Subtype="GravityGenerator" Count="10" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="MetalGrid" Count="1" />	
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="LargeTube" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Reactor_Upgrade_Heavy_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Reactor_Upgrade_Heavy_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Reactor_Upgrade_Heavy_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="1.50" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+			</MountPoints>
+      <BlockPairName>XPAR_Reactor_Upgrade_Heavy</BlockPairName>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      
+      <MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Center x="0" y="1" z="0" />
+      
+      <Upgrades>
+        <MyUpgradeModuleInfo>
+          <UpgradeType>Power</UpgradeType>
+          <Modifier>0.6</Modifier>
+          <ModifierType>Additive</ModifierType>
+        </MyUpgradeModuleInfo>
+      </Upgrades>
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+
+
+     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>XPAR_Reactor_Light_Small</SubtypeId>
+      </Id>
+      <DisplayName>Light Reactor</DisplayName>
+      <Icon>Textures\Icons\XPAR_Reactor_Light.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Reactor_Light_Small.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="MetalGrid" Count="1" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Reactor" Count="1" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Reactor_Light_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Reactor_Light_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Reactor_Light_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>XPAR_Reactor_Light</BlockPairName>
+			<MirroringX>None</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <MaxPowerOutput>0.3</MaxPowerOutput>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipSmNuclearSm</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>XPAR_Reactor_Light_Large</SubtypeId>
+      </Id>
+      <DisplayName>Light Reactor</DisplayName>
+      <Icon>Textures\Icons\XPAR_Reactor_Light.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Reactor_Light_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="MetalGrid" Count="4" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="Reactor" Count="100" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="SteelPlate" Count="30" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Reactor_Light_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Reactor_Light_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Reactor_Light_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.50" EndX="1.00" EndY="2.00" />
+			</MountPoints>
+      <BlockPairName>XPAR_Reactor_Light</BlockPairName>
+			<MirroringX>None</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <MaxPowerOutput>15</MaxPowerOutput>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>XPAR_Reactor_Medium_Small</SubtypeId>
+      </Id>
+      <DisplayName>Medium Reactor</DisplayName>
+      <Icon>Textures\Icons\XPAR_Reactor_Medium.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Reactor_Medium_Small.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="MetalGrid" Count="7" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Reactor" Count="5" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Reactor_Medium_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Reactor_Medium_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Reactor_Medium_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>XPAR_Reactor_Medium</BlockPairName>
+			<MirroringX>None</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <MaxPowerOutput>1.5</MaxPowerOutput>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipSmNuclearSm</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>XPAR_Reactor_Medium_Large</SubtypeId>
+      </Id>
+      <DisplayName>Medium Reactor</DisplayName>
+      <Icon>Textures\Icons\XPAR_Reactor_Medium.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Reactor_Medium_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="90" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="MetalGrid" Count="18" />
+        <Component Subtype="LargeTube" Count="18" />
+        <Component Subtype="Reactor" Count="350" />
+        <Component Subtype="Motor" Count="10" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Reactor_Medium_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Reactor_Medium_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Reactor_Medium_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Left" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="1.00" EndX="1.00" EndY="2.00" />
+			</MountPoints>
+      <BlockPairName>XPAR_Reactor_Medium</BlockPairName>
+			<MirroringX>None</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <MaxPowerOutput>45</MaxPowerOutput>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>XPAR_Reactor_Heavy_Small</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Reactor</DisplayName>
+      <Icon>Textures\Icons\XPAR_Reactor_Heavy.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="4" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Reactor_Heavy_Small.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="Reactor" Count="15" />
+        <Component Subtype="Motor" Count="10" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Reactor_Heavy_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Reactor_Heavy_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Reactor_Heavy_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>XPAR_Reactor_Heavy</BlockPairName>
+			<MirroringX>None</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Center x="0" y="0" z="3" />
+      
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <MaxPowerOutput>6</MaxPowerOutput>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>XPAR_Reactor_Heavy_Large</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Reactor</DisplayName>
+      <Icon>Textures\Icons\XPAR_Reactor_Heavy.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="4" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Reactor_Heavy_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="370" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="MetalGrid" Count="40" />
+        <Component Subtype="LargeTube" Count="35" />
+        <Component Subtype="Reactor" Count="800" />
+        <Component Subtype="Motor" Count="20" />
+        <Component Subtype="Computer" Count="75" />
+        <Component Subtype="SteelPlate" Count="30" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Reactor_Heavy_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Reactor_Heavy_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Reactor_Heavy_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="1.00" StartY="1.00" EndX="4.00" EndY="3.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="1.00" EndX="3.00" EndY="3.00" />
+				<MountPoint Side="Left" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="3.00" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BlockPairName>XPAR_Reactor_Heavy</BlockPairName>
+			<MirroringX>None</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Center x="0" y="0" z="3" />
+      
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <MaxPowerOutput>150</MaxPowerOutput>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+    </Definition>
+
+    
+<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+          <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>XPAR_Battery_Small</SubtypeId>
+      </Id>
+      <DisplayName>XPAR Battery</DisplayName>
+      <Icon>Textures\Icons\XPAR_Battery.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Battery_Small.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="PowerCell" Count="6" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="SteelPlate" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Battery_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Battery_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Battery_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>XPAR_Battery</BlockPairName>
+			<MirroringX>None</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>None</MirroringZ>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <MaxPowerOutput>0.4</MaxPowerOutput>
+      <RequiredPowerInput>0.4</RequiredPowerInput>
+      <MaxStoredPower>0.2</MaxStoredPower>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+          <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>XPAR_Battery_Large</SubtypeId>
+      </Id>
+      <DisplayName>Basic Battery</DisplayName>
+      <Icon>Textures\Icons\XPAR_Battery.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Battery_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="MetalGrid" Count="5" />
+        <Component Subtype="PowerCell" Count="120" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Battery_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Battery_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Battery_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>XPAR_Battery</BlockPairName>
+			<MirroringX>None</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>None</MirroringZ>
+      <EdgeType>Light</EdgeType>
+     <BuildTimeSeconds>45</BuildTimeSeconds>
+      <MaxPowerOutput>6</MaxPowerOutput>
+      <RequiredPowerInput>6</RequiredPowerInput>
+      <MaxStoredPower>6</MaxStoredPower>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+    
+    
+<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+          <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>XPAR_Capacitor_Small</SubtypeId>
+      </Id>
+      <DisplayName>Capacitor</DisplayName>
+      <Icon>Textures\Icons\XPAR_Capacitor.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Capacitor_Small.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="MetalGrid" Count="6" />
+        <Component Subtype="Explosives" Count="20" />
+        <Component Subtype="Detector" Count="2" />
+        <Component Subtype="PowerCell" Count="10" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Capacitor_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Capacitor_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Capacitor_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.60" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.60" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.60" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.60" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+			</MountPoints>
+			<BlockPairName>XPAR_Capacitor</BlockPairName>
+			<MirroringX>None</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>None</MirroringZ>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <MaxPowerOutput>4</MaxPowerOutput>
+      <RequiredPowerInput>4</RequiredPowerInput>
+      <MaxStoredPower>0.05</MaxStoredPower>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+          <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>XPAR_Capacitor_Large</SubtypeId>
+      </Id>
+      <DisplayName>Capacitor</DisplayName>
+      <Icon>Textures\Icons\XPAR_Capacitor.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Capacitor_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="60" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="MetalGrid" Count="50" />
+        <Component Subtype="Explosives" Count="200" />
+        <Component Subtype="Detector" Count="20" />
+        <Component Subtype="PowerCell" Count="400" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="SteelPlate" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Capacitor_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Capacitor_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Capacitor_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.60" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.60" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.60" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.60" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+			</MountPoints>
+			<BlockPairName>XPAR_Capacitor</BlockPairName>
+			<MirroringX>None</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>None</MirroringZ>
+      <EdgeType>Light</EdgeType>
+     <BuildTimeSeconds>45</BuildTimeSeconds>
+      <MaxPowerOutput>80</MaxPowerOutput>
+      <RequiredPowerInput>80</RequiredPowerInput>
+      <MaxStoredPower>0.5</MaxStoredPower>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+    
+    
+    
+<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+          <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>XPAR_Fuel_Cell_Small</SubtypeId>
+      </Id>
+      <DisplayName>Fuel Cell</DisplayName>
+      <Icon>Textures\Icons\XPAR_Fuel_Cell.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Fuel_Cell_Small.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="PowerCell" Count="15" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Fuel_Cell_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Fuel_Cell_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Fuel_Cell_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+				<MountPoint Side="Top" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+				<MountPoint Side="Front" StartX="2.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="2.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
+				<MountPoint Side="Top" StartX="2.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="2.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="2.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="2.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+			</MountPoints>
+			<BlockPairName>XPAR_Fuel_Cell</BlockPairName>
+			<MirroringX>None</MirroringX>
+      <MirroringY>None</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <MaxPowerOutput>0.2</MaxPowerOutput>
+      <RequiredPowerInput>1</RequiredPowerInput>
+      <MaxStoredPower>4</MaxStoredPower>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+          <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>XPAR_Fuel_Cell_Large</SubtypeId>
+      </Id>
+      <DisplayName>Fuel Cell</DisplayName>
+      <Icon>Textures\Icons\XPAR_Fuel_Cell.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\XPAR\XPAR_Fuel_Cell_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="60" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="MetalGrid" Count="50" />
+        <Component Subtype="PowerCell" Count="500" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="Construction" Count="400" />
+        <Component Subtype="SteelPlate" Count="1200" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\XPAR\XPAR_Fuel_Cell_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\XPAR\XPAR_Fuel_Cell_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\XPAR\XPAR_Fuel_Cell_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+				<MountPoint Side="Top" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+				<MountPoint Side="Front" StartX="2.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="2.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
+				<MountPoint Side="Top" StartX="2.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="2.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="2.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="2.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+			</MountPoints>
+			<BlockPairName>XPAR_Fuel_Cell</BlockPairName>
+			<MirroringX>None</MirroringX>
+      <MirroringY>None</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+     <BuildTimeSeconds>45</BuildTimeSeconds>
+      <MaxPowerOutput>10</MaxPowerOutput>
+      <RequiredPowerInput>40</RequiredPowerInput>
+      <MaxStoredPower>60</MaxStoredPower>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+    
+</CubeBlocks>
+	
+ </Definitions>

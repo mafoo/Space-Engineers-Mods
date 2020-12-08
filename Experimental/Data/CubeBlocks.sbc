@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Definitions>
+  <CubeBlocks>
+    <!-- #region Angled Tubes -->
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>Mafoo_Experimental_Large_AngledConveyorTube</SubtypeId>
+      </Id>
+      <DisplayName>Conveyor Angled</DisplayName>
+      <Icon>Textures\Icons\Mafoo_Large_AngledConveyorTube.dds</Icon>
+      <Description>Description_Mafoo_ConveyorTube</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Mafoo_Large_AngledConveyorTube.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="SmallTube" Count="24" />
+        <Component Subtype="Motor" Count="12" />
+        <Component Subtype="InteriorPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.0" File="Models\Mafoo_Large_AngledConveyorTube_BS1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Mafoo_AngledConveyorTube</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Top" StartX="1.2" StartY="0.2" EndX="1.8" EndY="0.3" />
+        <MountPoint Side="Top" StartX="1.2" StartY="0.7" EndX="1.8" EndY="0.8" />
+        <MountPoint Side="Top" StartX="1.2" StartY="0.3" EndX="1.3" EndY="0.7" />
+        <MountPoint Side="Top" StartX="1.7" StartY="0.3" EndX="1.8" EndY="0.7" />
+      </MountPoints>
+      <AutorotateMode>OppositeDirections</AutorotateMode>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <PCU>10</PCU>
+    </Definition>
+    <!-- #endregion -->
+
+  </CubeBlocks>
+</Definitions>

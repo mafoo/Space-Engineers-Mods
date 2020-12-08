@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+      <Id>
+        <TypeId>OreDetector</TypeId>
+        <SubtypeId>SmallBlockOreDetector</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OreDetector</DisplayName>
+      <Icon>Textures\Icons\Mafoo_Small_OreDetectorMedium.dds</Icon>
+      <Description>Description_Mafoo_OreDetector</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Mafoo_Small_OreDetectorMedium.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Detector" Count="1" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Detector" Index="0" />
+      <Center x="0" y="0" z="1" />
+      <!-- <MountPoints> -->
+      <!--   <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" /> -->
+      <!--   <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" /> -->
+      <!--   <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" /> -->
+      <!--   <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" /> -->
+      <!--   <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" /> -->
+      <!-- </MountPoints> -->
+      <!-- <BuildProgressModels> -->
+      <!--   <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorConstruction_1.mwm" /> -->
+      <!--   <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorConstruction_2.mwm" /> -->
+      <!-- </BuildProgressModels> -->
+      <BlockPairName>Mafoo_OreDetector</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <MaximumRange>150</MaximumRange>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>40</PCU>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

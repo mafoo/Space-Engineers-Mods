@@ -45,9 +45,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colourable Scaffolding Bloc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic Assemblers", "Basic Assemblers\Basic Assemblers.csproj", "{07017A02-7A0C-47B7-A538-A8B3245ABAE8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xpar Modular Energy", "Xpar Modular Energy\Xpar Modular Energy.csproj", "{C1405F19-666F-40A8-BF9C-7A9034F97EE4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "More Batteries", "More Batteries\More Batteries.csproj", "{4F3AE106-3687-4D8A-8BB8-B0FB9126AE49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modular Reactors", "Modular Reactors\Modular Reactors.csproj", "{21AE917D-9A5B-4353-B19D-0C93B5BCCF2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpar Modular Energy", "Xpar Modular Energy\Xpar Modular Energy.csproj", "{8D1383D0-0E3D-4733-B61B-900F4CBFAEB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Experimental", "Experimental\Experimental.csproj", "{DEA7E060-5FC8-476A-9209-0ADB45D1E9C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -128,18 +132,30 @@ Global
 		{07017A02-7A0C-47B7-A538-A8B3245ABAE8}.Deploy Build|Any CPU.Build.0 = Debug|Any CPU
 		{07017A02-7A0C-47B7-A538-A8B3245ABAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07017A02-7A0C-47B7-A538-A8B3245ABAE8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C1405F19-666F-40A8-BF9C-7A9034F97EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1405F19-666F-40A8-BF9C-7A9034F97EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C1405F19-666F-40A8-BF9C-7A9034F97EE4}.Deploy Build|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1405F19-666F-40A8-BF9C-7A9034F97EE4}.Deploy Build|Any CPU.Build.0 = Debug|Any CPU
-		{C1405F19-666F-40A8-BF9C-7A9034F97EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C1405F19-666F-40A8-BF9C-7A9034F97EE4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4F3AE106-3687-4D8A-8BB8-B0FB9126AE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F3AE106-3687-4D8A-8BB8-B0FB9126AE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F3AE106-3687-4D8A-8BB8-B0FB9126AE49}.Deploy Build|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F3AE106-3687-4D8A-8BB8-B0FB9126AE49}.Deploy Build|Any CPU.Build.0 = Debug|Any CPU
 		{4F3AE106-3687-4D8A-8BB8-B0FB9126AE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F3AE106-3687-4D8A-8BB8-B0FB9126AE49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21AE917D-9A5B-4353-B19D-0C93B5BCCF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21AE917D-9A5B-4353-B19D-0C93B5BCCF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21AE917D-9A5B-4353-B19D-0C93B5BCCF2A}.Deploy Build|Any CPU.ActiveCfg = Debug|Any CPU
+		{21AE917D-9A5B-4353-B19D-0C93B5BCCF2A}.Deploy Build|Any CPU.Build.0 = Debug|Any CPU
+		{21AE917D-9A5B-4353-B19D-0C93B5BCCF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21AE917D-9A5B-4353-B19D-0C93B5BCCF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1383D0-0E3D-4733-B61B-900F4CBFAEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1383D0-0E3D-4733-B61B-900F4CBFAEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1383D0-0E3D-4733-B61B-900F4CBFAEB0}.Deploy Build|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1383D0-0E3D-4733-B61B-900F4CBFAEB0}.Deploy Build|Any CPU.Build.0 = Debug|Any CPU
+		{8D1383D0-0E3D-4733-B61B-900F4CBFAEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1383D0-0E3D-4733-B61B-900F4CBFAEB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA7E060-5FC8-476A-9209-0ADB45D1E9C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA7E060-5FC8-476A-9209-0ADB45D1E9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA7E060-5FC8-476A-9209-0ADB45D1E9C3}.Deploy Build|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA7E060-5FC8-476A-9209-0ADB45D1E9C3}.Deploy Build|Any CPU.Build.0 = Debug|Any CPU
+		{DEA7E060-5FC8-476A-9209-0ADB45D1E9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA7E060-5FC8-476A-9209-0ADB45D1E9C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,7 +163,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F3B3E06D-6421-486F-9C08-8C1D09719EE0} = {210C121F-1FD3-4945-BB4C-116E142BFD23}
 		{403043D6-20D7-4C31-80C5-3CD67C1FF625} = {210C121F-1FD3-4945-BB4C-116E142BFD23}
-		{C1405F19-666F-40A8-BF9C-7A9034F97EE4} = {210C121F-1FD3-4945-BB4C-116E142BFD23}
+		{8D1383D0-0E3D-4733-B61B-900F4CBFAEB0} = {210C121F-1FD3-4945-BB4C-116E142BFD23}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1336803C-9F89-46A6-B168-DF1723C2F7DB}

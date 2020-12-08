@@ -1,0 +1,49 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses> 
+     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Power</DisplayName>
+      <Name>Power</Name>
+      <ItemIds>
+          <string>XPAR_Battery_Large</string>
+	<string>XPAR_Fuel_Cell_Large</string>
+	<string>XPAR_Capacitor_Large</string>
+	
+	<string>XPAR_Reactor_Light_Large</string>
+	<string>XPAR_Reactor_Medium_Large</string>
+	<string>XPAR_Reactor_Heavy_Large</string>
+	
+	<string>XPAR_Reactor_Upgrade_Light_Large</string>
+	<string>XPAR_Reactor_Upgrade_Medium_Large</string>
+	<string>XPAR_Reactor_Upgrade_Heavy_Large</string>
+		
+      </ItemIds>
+    </Category>
+     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>XPAR</DisplayName>
+      <Name>XPAR</Name>
+      <ItemIds>
+          <string>XPAR_Battery_Large</string>
+	<string>XPAR_Fuel_Cell_Large</string>
+	<string>XPAR_Capacitor_Large</string>
+	
+	<string>XPAR_Reactor_Light_Large</string>
+	<string>XPAR_Reactor_Medium_Large</string>
+	<string>XPAR_Reactor_Heavy_Large</string>
+	
+	<string>XPAR_Reactor_Upgrade_Light_Large</string>
+	<string>XPAR_Reactor_Upgrade_Medium_Large</string>
+	<string>XPAR_Reactor_Upgrade_Heavy_Large</string>
+		
+      </ItemIds>
+    </Category>
+</CategoryClasses>
+</Definitions>

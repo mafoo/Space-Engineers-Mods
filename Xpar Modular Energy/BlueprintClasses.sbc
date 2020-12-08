@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClasses>
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+		
+<Entry Class="SmallBlocks" BlueprintSubtypeId="UpgradeModule/XPAR_Reactor_Upgrade_Light_Small" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/XPAR_Reactor_Upgrade_Light_Large" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="UpgradeModule/XPAR_Reactor_Upgrade_Medium_Small" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/XPAR_Reactor_Upgrade_Medium_Large" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="UpgradeModule/XPAR_Reactor_Upgrade_Heavy_Small" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/XPAR_Reactor_Upgrade_Heavy_Large" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/XPAR_Reactor_Light_Small" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/XPAR_Reactor_Light_Large" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/XPAR_Reactor_Medium_Small" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/XPAR_Reactor_Medium_Large" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/XPAR_Reactor_Heavy_Small" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/XPAR_Reactor_Heavy_Large" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/XPAR_Battery_Small" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/XPAR_Battery_Large" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/XPAR_Capacitor_Small" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/XPAR_Capacitor_Large" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/XPAR_Fuel_Cell_Small" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/XPAR_Fuel_Cell_Large" />
+
+
+	</BlueprintClassEntries>
+</Definitions>
