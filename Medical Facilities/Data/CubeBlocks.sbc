@@ -65,6 +65,13 @@
         <Y>-0.75</Y>
         <Z>0.75</Z>
       </WardrobeCharacterOffset> 
+      <RespawnAllowed>true</RespawnAllowed>      <!--enables spawning in the block-->
+      <HealingAllowed>true</HealingAllowed>      <!--enables healing in the block-->
+      <RefuelAllowed>true</RefuelAllowed>      <!--enables refuelling in the block-->
+      <SuitChangeAllowed>true</SuitChangeAllowed>      <!--enables changing suits in the block-->
+      <CustomWardrobesEnabled>false</CustomWardrobesEnabled>      <!--When enabled, you can only use suits listed in <CustomWardRobeNames> section-->
+      <ForceSuitChangeOnRespawn>false</ForceSuitChangeOnRespawn>      <!--When enabled, players no longer respawn in their suit, they respawn in a suit you set for them-->
+      <SpawnWithoutOxygenEnabled>true</SpawnWithoutOxygenEnabled>      <!--When disabled, respawn will only work in pressurized medical rooms-->
     </Definition>
     <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
       <Id>
@@ -130,11 +137,18 @@ z        <MountPoint Side="Bottom" StartX="0.20" StartY="0.00" EndX="0.80" EndY=
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PCU>30</PCU>
       <IsAirTight>false</IsAirTight>
-      <!-- <WardrobeCharacterOffset> -->
-      <!--   <X>-0.75</X> -->
-      <!--   <Y>-0.75</Y> -->
-      <!--   <Z>0.75</Z> -->
-      <!-- </WardrobeCharacterOffset>  -->
+      <WardrobeCharacterOffset>
+        <X>-0.75</X>
+        <Y>-0.75</Y>
+        <Z>0.75</Z>
+      </WardrobeCharacterOffset>
+      <RespawnAllowed>true</RespawnAllowed>      <!--enables spawning in the block-->
+      <HealingAllowed>true</HealingAllowed>      <!--enables healing in the block-->
+      <RefuelAllowed>true</RefuelAllowed>      <!--enables refuelling in the block-->
+      <SuitChangeAllowed>true</SuitChangeAllowed>      <!--enables changing suits in the block-->
+      <CustomWardrobesEnabled>false</CustomWardrobesEnabled>      <!--When enabled, you can only use suits listed in <CustomWardRobeNames> section-->
+      <ForceSuitChangeOnRespawn>false</ForceSuitChangeOnRespawn>      <!--When enabled, players no longer respawn in their suit, they respawn in a suit you set for them-->
+      <SpawnWithoutOxygenEnabled>true</SpawnWithoutOxygenEnabled>      <!--When disabled, respawn will only work in pressurized medical rooms-->
     </Definition>
     <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
       <Id>
@@ -205,6 +219,13 @@ z        <MountPoint Side="Bottom" StartX="0.20" StartY="0.00" EndX="0.80" EndY=
         <Y>-0.75</Y>
         <Z>0.75</Z>
       </WardrobeCharacterOffset>
+      <RespawnAllowed>true</RespawnAllowed>      <!--enables spawning in the block-->
+      <HealingAllowed>true</HealingAllowed>      <!--enables healing in the block-->
+      <RefuelAllowed>true</RefuelAllowed>      <!--enables refuelling in the block-->
+      <SuitChangeAllowed>true</SuitChangeAllowed>      <!--enables changing suits in the block-->
+      <CustomWardrobesEnabled>false</CustomWardrobesEnabled>      <!--When enabled, you can only use suits listed in <CustomWardRobeNames> section-->
+      <ForceSuitChangeOnRespawn>false</ForceSuitChangeOnRespawn>      <!--When enabled, players no longer respawn in their suit, they respawn in a suit you set for them-->
+      <SpawnWithoutOxygenEnabled>true</SpawnWithoutOxygenEnabled>      <!--When disabled, respawn will only work in pressurized medical rooms-->
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
