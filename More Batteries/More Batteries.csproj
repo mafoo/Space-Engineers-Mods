@@ -25,4 +25,10 @@
       <None Remove="thumb.*" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Update="Data\Localization\MyTexts.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

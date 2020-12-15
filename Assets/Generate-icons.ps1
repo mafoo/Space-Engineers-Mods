@@ -103,7 +103,7 @@ Try{
 			$dst_file = $tmp_dir.FullName + "\" + $dst_file + ".png"
 			Copy-Item -Path $icon.FullName -Destination $dst_file
             if($project_path.BaseName -eq "Experimental"){
-					& $im_composite.FullName -gravity SouthEast $experimental_overlay.FullName $icon.FullName $dst_file
+					& $im_composite.FullName -gravity SouthWest $experimental_overlay.FullName $icon.FullName $dst_file
             }
 			if($use_extra_overlays -and $icon.BaseName -like "SteelCatwalk*" -and $icon.BaseName -notlike "*Only*"){
 				if($icon.BaseName -like "*Inv*"){

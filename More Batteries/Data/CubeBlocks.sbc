@@ -10,7 +10,7 @@
       </Id>
       <DisplayName>Large Battery</DisplayName>
       <Icon>Textures\Icons\Mafoo_Large_LargeBattery.dds</Icon>
-      <Description>Description_Battery</Description>
+      <Description>Description_Mafoo_Battery</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="1" z="3" />
@@ -67,7 +67,7 @@
       </Id>
       <DisplayName>Giant Battery</DisplayName>
       <Icon>Textures\Icons\Mafoo_Large_GiantBattery.dds</Icon>
-      <Description>Description_Battery</Description>
+      <Description>Description_Mafoo_Battery</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="2" z="3" />
@@ -124,7 +124,7 @@
       </Id>
       <DisplayName>Large Battery</DisplayName>
       <Icon>Textures\Icons\Mafoo_Small_LargeBattery.dds</Icon>
-      <Description>Description_Battery</Description>
+      <Description>Description_Mafoo_Battery</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="2" z="6" />
@@ -177,7 +177,7 @@
       </Id>
       <DisplayName>Giant Battery</DisplayName>
       <Icon>Textures\Icons\Mafoo_Small_GiantBattery.dds</Icon>
-      <Description>Description_Battery</Description>
+      <Description>Description_Mafoo_Battery</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="8" y="5" z="8" />

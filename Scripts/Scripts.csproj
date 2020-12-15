@@ -69,7 +69,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Configurable Automatic LCDs 2.cs" />
+    <Compile Include="ConfigurableAutomaticLCDs2.cs" />
     <Compile Include="Hanger Control.cs" />
     <Compile Include="LCDs.cs" />
     <Compile Include="Power Diagnostics.cs" />
