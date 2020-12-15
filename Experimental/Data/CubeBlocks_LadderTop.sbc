@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Mafoo_Large_PlatedLadderTop</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Mafoo_PlatedLadderTop</DisplayName>
+      <Description>Description_Mafoo_Large_LadderTop</Description>
+      <Icon>Textures\Icons\Mafoo_Large_PlatedLadderTop.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Mafoo_Large_PlatedLadderTop.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="21" />
+        <Component Subtype="Construction" Count="9" />
+        <Component Subtype="SmallTube" Count="41" />
+        <Component Subtype="Construction" Count="17" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.50" EndX="1.00" EndY="0.50"/>
+        <MountPoint Side="Bottom" StartX="0.30" StartY="0.40" EndX="0.70" EndY="0.60" Default="true"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Mafoo_Large_PlatedLadderTop_BS1.mwm"/>
+        <Model BuildPercentUpperBound="0.66" File="Models\Mafoo_Large_PlatedLadderTop_BS2.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\Mafoo_Large_PlatedLadderTop_BS3.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>Mafoo_PlatedLadderTop</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <HasInventory>false</HasInventory>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>Mafoo_Large_GratedLadderTop</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Mafoo_GratedLadderTop</DisplayName>
+			<Description>Description_Mafoo_Large_LadderTop</Description>
+			<Icon>Textures\Icons\Mafoo_Large_GratedLadderTop.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Mafoo_Large_GratedLadderTop.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="21" />
+        <Component Subtype="Construction" Count="9" />
+        <Component Subtype="SmallTube" Count="41" />
+        <Component Subtype="Construction" Count="17" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.50" EndX="1.00" EndY="0.50"/>
+        <MountPoint Side="Bottom" StartX="0.30" StartY="0.40" EndX="0.70" EndY="0.60" Default="true"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Mafoo_Large_GratedLadderTop_BS1.mwm"/>
+        <Model BuildPercentUpperBound="0.66" File="Models\Mafoo_Large_GratedLadderTop_BS2.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\Mafoo_Large_GratedLadderTop_BS3.mwm"/>
+      </BuildProgressModels>
+			<BlockPairName>Mafoo_GratedLadderTop</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <HasInventory>false</HasInventory>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <DLC>DecorativeBlocks2</DLC>
+      <IsAirTight>false</IsAirTight>
+		</Definition>	
+	</CubeBlocks>
+</Definitions>

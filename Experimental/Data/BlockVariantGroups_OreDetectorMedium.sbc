@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OreDetectorGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
+      <DisplayName>DisplayName_Block_OreDetector</DisplayName>
+      <Description>Description_OreDetector</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector" />
+        <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector" />
+        <Block Type="MyObjectBuilder_OreDetector" Subtype="Mafoo_Small_OreDetectorMedium" />
+        <!-- <Block Type="MyObjectBuilder_OreDetector" Subtype="Mafoo_Large_OreDetectorMedium" /> -->
+      </Blocks>
+    </BlockVariantGroup>
+  </BlockVariantGroups>
+</Definitions>

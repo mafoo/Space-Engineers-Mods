@@ -118,8 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Description_Mafoo_ConveyorTube" xml:space="preserve">
-    <value>[Warning] This is a experimental Item and may cause unexpected problems
-
+    <value>{LOCG:Description_Mafoo_Warning}
 {LOCG:Description_ConveyorTube}
 {LOCG:Description_Mafoo_Tagline}</value>
   </data>
@@ -127,9 +126,13 @@
     <value>[[MAD]] Experimental</value>
   </data>
   <data name="Description_Mafoo_OreDetector" xml:space="preserve">
-    <value>[Warning] This is a experimental Item and may cause unexpected problems
-
+    <value>{LOCG:Description_Mafoo_Warning}
 {LOCG:Description_OreDetector}
+{LOCG:Description_Mafoo_Tagline}</value>
+  </data>
+  <data name="Description_Mafoo_PlatedLadderTop" xml:space="preserve">
+    <value>{LOCG:Description_Mafoo_Warning}
+{LOCG:Description_Ladder}
 {LOCG:Description_Mafoo_Tagline}</value>
   </data>
   <data name="Description_Mafoo_Tagline" xml:space="preserve">
@@ -137,9 +140,18 @@
 © by [Mafoo Aerospace Design]
 • from[ {LOCG:Description_Mafoo_Modname}]</value>
   </data>
-  <data name="DisplayName_Mafoo_Large_Bridge_End" xml:space="preserve">
+  <data name="Description_Mafoo_Warning" xml:space="preserve">
     <value>[Warning] This is a experimental Item and may cause unexpected problems
-
+</value>
+  </data>
+  <data name="DisplayName_Mafoo_GratedLadderTop" xml:space="preserve">
+    <value>{LOCG:DisplayName_Ladder} with Grated Side</value>
+  </data>
+  <data name="DisplayName_Mafoo_Large_Bridge_End" xml:space="preserve">
+    <value>{LOCG:Description_Mafoo_Warning}
 {LOCG:Description_Mafoo_Tagline}</value>
+  </data>
+  <data name="DisplayName_Mafoo_PlatedLadderTop" xml:space="preserve">
+    <value>{LOCG:DisplayName_Ladder} with Plated Side</value>
   </data>
 </root>
