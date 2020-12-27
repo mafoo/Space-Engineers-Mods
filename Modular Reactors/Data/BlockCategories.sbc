@@ -10,8 +10,10 @@
       <DisplayName>DisplayName_Category_Power</DisplayName>
       <Name>Power</Name>
       <ItemIds>
+        <string>Mafoo_Small_ReactorUpgradeSmall</string>
         <string>Mafoo_Small_ReactorUpgradeMedium</string>
         <string>Mafoo_Small_ReactorUpgradeLarge</string>
+        <string>Mafoo_Small_ModularReactorMedium</string>
         <string>Mafoo_Small_ModularReactorLarge</string>
       </ItemIds>
     </Category>

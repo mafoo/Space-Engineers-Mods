@@ -13,6 +13,9 @@
     <Reference Include="Sandbox.Common">
       <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\Sandbox.Common.dll</HintPath>
     </Reference>
+    <Reference Include="SpaceEngineers.ObjectBuilders">
+      <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineers\Bin64\SpaceEngineers.ObjectBuilders.dll</HintPath>
+    </Reference>
     <Reference Include="VRage">
       <HintPath>..\..\..\Games\Steam\steamapps\common\SpaceEngineersModSDK\Bin64_Profile\VRage.dll</HintPath>
     </Reference>
